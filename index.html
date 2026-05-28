@@ -1,16 +1,347 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet" />
-    <title>Daily HCI - 每日 HCI 論文日報</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daily HCI Papers · 每日 HCI 論文</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Noto+Sans+TC:wght@400;500;600&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: { extend: { fontFamily: { sans: ['Inter', 'Noto Sans TC', 'sans-serif'] } } }
+    }
+    if (localStorage.theme === 'dark' || (!localStorage.theme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      document.documentElement.classList.add('dark')
+    }
+  </script>
+  <style>
+    [v-cloak] { display: none }
+    body { font-family: Inter, 'Noto Sans TC', sans-serif; }
+    ::-webkit-scrollbar { width: 5px; }
+    ::-webkit-scrollbar-thumb { border-radius: 3px; background: #cbd5e1; }
+    .dark ::-webkit-scrollbar-thumb { background: #475569; }
+  </style>
+</head>
+<body class="bg-gray-50 dark:bg-gray-950 text-gray-900 dark:text-gray-100 min-h-screen">
+
+<div id="app" v-cloak>
+  <!-- HEADER -->
+  <header class="sticky top-0 z-10 border-b border-gray-200 dark:border-gray-800 bg-white/90 dark:bg-gray-950/90 backdrop-blur-sm">
+    <div class="mx-auto max-w-4xl px-4 py-2.5 flex items-center justify-between">
+      <div>
+        <h1 class="text-sm font-semibold tracking-tight">Daily HCI Papers</h1>
+        <p v-if="papers.length" class="text-[11px] text-gray-400 dark:text-gray-500">
+          {{ papers.length }} 篇 · 最近 7 天
+        </p>
+      </div>
+      <button @click="toggleDark"
+        class="rounded-md p-1.5 text-base text-gray-500 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+        :title="isDark ? '切換淺色' : '切換深色'">{{ isDark ? '☀' : '☾' }}</button>
+    </div>
+  </header>
+
+  <main class="mx-auto max-w-4xl px-4 py-4">
+    <!-- LOADING -->
+    <div v-if="loading" class="py-20 text-center text-sm text-gray-400">載入中…</div>
+
+    <!-- ERROR -->
+    <div v-else-if="loadError"
+      class="rounded-lg bg-red-50 dark:bg-red-950 border border-red-200 dark:border-red-800 p-4 text-sm text-red-600 dark:text-red-400">
+      ⚠ 載入失敗：{{ loadError }}
+    </div>
+
+    <!-- CONTENT -->
+    <template v-else>
+      <!-- CONTROLS -->
+      <div class="mb-4 space-y-2">
+        <!-- search + sort + buttons -->
+        <div class="flex gap-2">
+          <input v-model="query" type="search" placeholder="搜尋標題、作者、摘要…"
+            class="min-w-0 flex-1 rounded-md border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 px-3 py-1.5 text-sm placeholder-gray-400 dark:placeholder-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500" />
+          <select v-model="sortBy"
+            class="rounded-md border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 px-2 py-1.5 text-sm text-gray-700 dark:text-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500">
+            <option value="date">最新</option>
+            <option value="citations">引用數</option>
+            <option value="title">標題</option>
+          </select>
+          <button @click="showFilters = !showFilters"
+            class="rounded-md border px-3 py-1.5 text-sm transition-colors"
+            :class="showFilters ? 'border-blue-500 bg-blue-50 dark:bg-blue-950 text-blue-600 dark:text-blue-400' : 'border-gray-200 dark:border-gray-700 text-gray-600 dark:text-gray-300 hover:border-gray-400'">篩選</button>
+          <button v-if="hasActiveFilters" @click="clearFilters"
+            class="rounded-md border border-gray-200 dark:border-gray-700 px-3 py-1.5 text-sm text-gray-500 hover:text-gray-800 dark:hover:text-gray-100 transition-colors">清除</button>
+        </div>
+
+        <!-- filter panel -->
+        <div v-if="showFilters"
+          class="rounded-md border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 p-3 space-y-3">
+          <!-- Sources -->
+          <div>
+            <p class="mb-1.5 text-[11px] font-semibold uppercase tracking-wide text-gray-400">來源</p>
+            <div class="flex flex-wrap gap-1.5">
+              <label v-for="src in KNOWN_SOURCES" :key="src"
+                class="flex cursor-pointer items-center gap-1 rounded-full border px-2.5 py-0.5 text-xs transition-colors select-none"
+                :class="selectedSources.includes(src) ? 'border-blue-500 bg-blue-50 dark:bg-blue-950 text-blue-700 dark:text-blue-300' : 'border-gray-200 dark:border-gray-700 text-gray-500 hover:border-gray-400'">
+                <input type="checkbox" :value="src" v-model="selectedSources" class="sr-only" />
+                {{ srcLabel(src) }}
+              </label>
+            </div>
+          </div>
+          <!-- Tags -->
+          <div v-if="allTags.length">
+            <p class="mb-1.5 text-[11px] font-semibold uppercase tracking-wide text-gray-400">標籤</p>
+            <div class="flex flex-wrap gap-1">
+              <button v-for="tag in allTags" :key="tag" @click="toggleTag(tag)"
+                class="rounded px-1.5 py-0.5 text-[10px] font-medium transition-colors"
+                :class="selectedTags.includes(tag) ? 'bg-blue-600 text-white' : 'bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700'">{{ tag }}</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- result count -->
+        <p class="text-[11px] text-gray-400 dark:text-gray-500">
+          顯示 {{ filteredPapers.length }} / {{ papers.length }} 篇
+          <template v-if="selectedTags.length">
+            · 標籤：<span v-for="(t, i) in selectedTags" :key="t" class="font-medium">{{ i > 0 ? '、' : '' }}{{ t }}</span>
+          </template>
+        </p>
+      </div>
+
+      <!-- EMPTY STATE -->
+      <div v-if="filteredPapers.length === 0" class="py-12 text-center text-sm text-gray-400">
+        沒有符合條件的論文
+      </div>
+
+      <!-- PAPER LIST -->
+      <div v-else class="space-y-5">
+        <section v-for="[dateKey, group] in displayGroups" :key="dateKey || 'all'">
+          <!-- date header (only when grouped by date) -->
+          <div v-if="dateKey" class="mb-2 flex items-center gap-2">
+            <h2 class="text-[11px] font-semibold uppercase tracking-wide text-gray-400 dark:text-gray-500 whitespace-nowrap">
+              {{ formatDateHeader(dateKey) }}
+            </h2>
+            <span class="rounded-full bg-gray-100 dark:bg-gray-800 px-1.5 py-px text-[10px] text-gray-400">{{ group.length }}</span>
+            <div class="h-px flex-1 bg-gray-200 dark:bg-gray-800"></div>
+          </div>
+
+          <!-- cards -->
+          <div class="space-y-2">
+            <article v-for="paper in group" :key="paper.id"
+              class="rounded-md border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 px-4 py-3 transition-colors hover:border-blue-300 dark:hover:border-blue-700">
+
+              <!-- row 1: source + title + bookmark -->
+              <div class="flex items-start gap-2">
+                <span class="mt-0.5 shrink-0 rounded px-1.5 py-px text-[10px] font-bold text-white"
+                  :style="{ backgroundColor: srcColor(paper.source) }">{{ srcLabel(paper.source) }}</span>
+                <a :href="paper.url" target="_blank" rel="noopener"
+                  class="min-w-0 flex-1 text-sm font-semibold leading-snug text-gray-900 dark:text-gray-100 hover:text-blue-600 dark:hover:text-blue-400 hover:underline underline-offset-2 decoration-1">
+                  {{ paper.title }}
+                </a>
+                <button @click="toggleBookmark(paper.id)"
+                  class="shrink-0 text-sm leading-none mt-0.5 transition-opacity"
+                  :class="bookmarked[paper.id] ? 'opacity-100 text-amber-400' : 'opacity-25 hover:opacity-60'"
+                  title="收藏">{{ bookmarked[paper.id] ? '★' : '☆' }}</button>
+              </div>
+
+              <!-- row 2: meta -->
+              <div class="mt-1 flex flex-wrap items-center gap-x-1.5 text-[11px] text-gray-400 dark:text-gray-500">
+                <span>{{ fmtDate(paper.date) }}</span>
+                <span v-if="paper.venue" class="max-w-xs truncate">· {{ paper.venue }}</span>
+                <span v-if="paper.citationCount > 0">· {{ paper.citationCount }} cites</span>
+                <span class="max-w-xs truncate">· {{ fmtAuthors(paper.authors) }}</span>
+              </div>
+
+              <!-- TLDR -->
+              <p v-if="paper.tldr"
+                class="mt-1.5 rounded bg-blue-50 dark:bg-blue-950/50 px-2 py-1 text-xs leading-relaxed text-blue-700 dark:text-blue-300">
+                {{ paper.tldr }}
+              </p>
+
+              <!-- abstract -->
+              <div v-if="paper.abstract" class="mt-1.5">
+                <p class="text-xs leading-relaxed text-gray-500 dark:text-gray-400">
+                  {{ expandedAbs[paper.id] ? paper.abstract : truncate(paper.abstract) }}
+                </p>
+                <button v-if="paper.abstract.length > 180" @click="toggleExpand(paper.id)"
+                  class="mt-0.5 text-[11px] font-medium text-blue-500 hover:underline">
+                  {{ expandedAbs[paper.id] ? '收起' : '更多' }}
+                </button>
+              </div>
+
+              <!-- tags + links -->
+              <div class="mt-2 flex items-center justify-between gap-2">
+                <div v-if="paper.tags && paper.tags.length" class="flex flex-wrap gap-1">
+                  <button v-for="tag in paper.tags.slice(0, 5)" :key="tag" @click="addTag(tag)"
+                    class="rounded px-1.5 py-px text-[10px] font-medium bg-gray-100 dark:bg-gray-800 text-gray-500 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-blue-900 hover:text-blue-700 dark:hover:text-blue-300 transition-colors">{{ tag }}</button>
+                  <span v-if="paper.tags.length > 5" class="text-[10px] text-gray-400">+{{ paper.tags.length - 5 }}</span>
+                </div>
+                <div v-else class="flex-1"></div>
+                <div class="flex shrink-0 gap-2 text-[11px]">
+                  <a v-if="paper.pdfUrl" :href="paper.pdfUrl" target="_blank" rel="noopener"
+                    class="font-medium text-blue-500 hover:underline">PDF</a>
+                  <a :href="paper.url" target="_blank" rel="noopener"
+                    class="font-medium text-blue-500 hover:underline">原文</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+      </div>
+    </template>
+  </main>
+
+  <footer class="mt-8 border-t border-gray-200 dark:border-gray-800 py-4 text-center text-xs text-gray-400 dark:text-gray-600">
+    Daily HCI Papers · 資料來源：arXiv · DBLP · Semantic Scholar · OpenAlex
+  </footer>
+</div>
+
+<script src="https://unpkg.com/vue@3.5.13/dist/vue.global.prod.js"></script>
+<script>
+  const { createApp, ref, computed, reactive, onMounted } = Vue
+  const KNOWN_SOURCES = ['arxiv', 'dblp', 'semantic-scholar', 'openalex']
+  const SRC_LABELS = { arxiv: 'arXiv', dblp: 'DBLP', 'semantic-scholar': 'S2', openalex: 'OpenAlex' }
+  const SRC_COLORS = { arxiv: '#b31b1b', dblp: '#004f9f', 'semantic-scholar': '#1857b6', openalex: '#e36209' }
+
+  createApp({
+    setup() {
+      const papers      = ref([])
+      const loading     = ref(true)
+      const loadError   = ref(null)
+      const query       = ref('')
+      const selectedSources = ref([...KNOWN_SOURCES])
+      const selectedTags    = ref([])
+      const sortBy      = ref('date')
+      const showFilters = ref(false)
+      const isDark      = ref(document.documentElement.classList.contains('dark'))
+      const bookmarked  = reactive({})
+      const expandedAbs = reactive({})
+
+      try {
+        JSON.parse(localStorage.getItem('hci-bookmarks') || '[]').forEach(id => { bookmarked[id] = true })
+      } catch {}
+
+      onMounted(async () => {
+        try {
+          const res = await fetch('./data/latest.json')
+          if (!res.ok) throw new Error('HTTP ' + res.status)
+          const data = await res.json()
+          papers.value = Array.isArray(data) ? data : (data.papers || [])
+        } catch (e) {
+          loadError.value = e.message
+        } finally {
+          loading.value = false
+        }
+      })
+
+      const allTags = computed(() => {
+        const s = new Set()
+        papers.value.forEach(p => (p.tags || []).forEach(t => s.add(t)))
+        return [...s].sort()
+      })
+
+      const filteredPapers = computed(() => {
+        let r = papers.value
+        r = r.filter(p => selectedSources.value.includes(p.source))
+        if (selectedTags.value.length)
+          r = r.filter(p => selectedTags.value.every(t => (p.tags || []).includes(t)))
+        if (query.value.trim()) {
+          const q = query.value.trim().toLowerCase()
+          r = r.filter(p =>
+            p.title?.toLowerCase().includes(q) ||
+            p.abstract?.toLowerCase().includes(q) ||
+            (p.authors || []).some(a => a.toLowerCase().includes(q))
+          )
+        }
+        if (sortBy.value === 'citations')
+          r = [...r].sort((a, b) => (b.citationCount || 0) - (a.citationCount || 0))
+        else if (sortBy.value === 'title')
+          r = [...r].sort((a, b) => a.title.localeCompare(b.title))
+        else
+          r = [...r].sort((a, b) => (b.date || '').localeCompare(a.date || ''))
+        return r
+      })
+
+      const displayGroups = computed(() => {
+        if (sortBy.value !== 'date') return [['', filteredPapers.value]]
+        const m = new Map()
+        filteredPapers.value.forEach(p => {
+          const k = (p.date || '').slice(0, 10)
+          if (!m.has(k)) m.set(k, [])
+          m.get(k).push(p)
+        })
+        return [...m.entries()].sort((a, b) => b[0].localeCompare(a[0]))
+      })
+
+      const hasActiveFilters = computed(() =>
+        query.value ||
+        selectedSources.value.length < KNOWN_SOURCES.length ||
+        selectedTags.value.length > 0 ||
+        sortBy.value !== 'date'
+      )
+
+      function toggleDark() {
+        isDark.value = !isDark.value
+        document.documentElement.classList.toggle('dark', isDark.value)
+        localStorage.theme = isDark.value ? 'dark' : 'light'
+      }
+      function toggleBookmark(id) {
+        if (bookmarked[id]) delete bookmarked[id]
+        else bookmarked[id] = true
+        localStorage.setItem('hci-bookmarks', JSON.stringify(Object.keys(bookmarked)))
+      }
+      function toggleExpand(id) {
+        if (expandedAbs[id]) delete expandedAbs[id]
+        else expandedAbs[id] = true
+      }
+      function toggleTag(tag) {
+        const i = selectedTags.value.indexOf(tag)
+        if (i >= 0) selectedTags.value.splice(i, 1)
+        else selectedTags.value.push(tag)
+      }
+      function addTag(tag) {
+        if (!selectedTags.value.includes(tag)) selectedTags.value.push(tag)
+      }
+      function clearFilters() {
+        query.value = ''; selectedSources.value = [...KNOWN_SOURCES]
+        selectedTags.value = []; sortBy.value = 'date'
+      }
+
+      const srcLabel = src => SRC_LABELS[src] || src
+      const srcColor = src => SRC_COLORS[src] || '#6366f1'
+      const truncate  = abs => !abs ? '' : abs.length > 180 ? abs.slice(0, 180) + '…' : abs
+
+      function fmtDate(d) {
+        try {
+          return new Date((d || '').length === 10 ? d + 'T00:00:00' : d)
+            .toLocaleDateString('zh-TW', { month: 'numeric', day: 'numeric' })
+        } catch { return d }
+      }
+      function formatDateHeader(d) {
+        try {
+          const dt = new Date(d + 'T00:00:00')
+          const diff = Math.floor((Date.now() - dt) / 86400000)
+          const lbl = dt.toLocaleDateString('zh-TW', { month: 'long', day: 'numeric', weekday: 'short' })
+          return diff === 0 ? '今天 · ' + lbl : diff === 1 ? '昨天 · ' + lbl : lbl
+        } catch { return d }
+      }
+      function fmtAuthors(authors) {
+        if (!authors?.length) return ''
+        const show = authors.slice(0, 3).join(', ')
+        return authors.length > 3 ? show + ' +' + (authors.length - 3) : show
+      }
+
+      return {
+        papers, loading, loadError, query, selectedSources, selectedTags,
+        sortBy, showFilters, isDark, bookmarked, expandedAbs,
+        allTags, filteredPapers, displayGroups, hasActiveFilters, KNOWN_SOURCES,
+        toggleDark, toggleBookmark, toggleExpand, toggleTag, addTag, clearFilters,
+        srcLabel, srcColor, truncate, fmtDate, formatDateHeader, fmtAuthors,
+      }
+    }
+  }).mount('#app')
+</script>
+
+</body>
 </html>
