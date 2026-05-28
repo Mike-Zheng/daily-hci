@@ -1,0 +1,26 @@
+{
+  "name": "daily-hci",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "fetch": "tsx scripts/fetch-papers.ts"
+  },
+  "dependencies": {
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.3",
+    "typescript": "~5.7.2",
+    "vite": "^6.3.5",
+    "vue-tsc": "^2.2.8",
+    "tailwindcss": "^4.1.7",
+    "@tailwindcss/vite": "^4.1.7",
+    "tsx": "^4.19.4",
+    "fast-xml-parser": "^5.2.3",
+    "date-fns": "^4.1.0"
+  }
+}

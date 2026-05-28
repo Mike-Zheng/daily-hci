@@ -1,0 +1,1 @@
+{"root":["./src/env.d.ts","./src/main.ts","./src/types/index.ts","./src/types/paper.ts","./src/app.vue","./src/components/papercard.vue","./src/components/paperlist.vue","./src/components/searchbar.vue","./src/components/themetoggle.vue"],"version":"5.7.3"}
