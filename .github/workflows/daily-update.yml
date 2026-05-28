@@ -1,6 +1,9 @@
 name: Daily HCI Paper Fetch & Deploy
 
 on:
+  push:
+    branches:
+      - main
   schedule:
     # 週一到週五 UTC 00:00 (台灣早上 08:00)
     - cron: '0 0 * * 1-5'
