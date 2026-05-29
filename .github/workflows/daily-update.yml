@@ -1,9 +1,6 @@
 name: Daily HCI Paper Fetch & Deploy
 
 on:
-  push:
-    branches:
-      - main
   schedule:
     # 週一到週五 UTC 00:00 (台灣早上 08:00)
     - cron: '0 0 * * 1-5'
@@ -54,6 +51,39 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
+
+      - name: Discord notification
+        if: always() && secrets.DISCORD_WEBHOOK_URL != ''
+        run: |
+          STATUS="${{ job.status }}"
+          if [ "$STATUS" = "success" ]; then
+            COLOR=3066993
+            EMOJI="✅"
+          else
+            COLOR=15158332
+            EMOJI="❌"
+          fi
+
+          PAPER_COUNT=$(jq '.papers | length' public/data/latest.json 2>/dev/null || echo "0")
+          TODAY=$(date +%Y-%m-%d)
+
+          PAYLOAD=$(cat <<EOF
+          {
+            "embeds": [{
+              "title": "${EMOJI} Daily HCI Papers — ${TODAY}",
+              "description": "抓取完成：共 **${PAPER_COUNT}** 篇論文\n狀態：**${STATUS}**",
+              "color": ${COLOR},
+              "url": "https://mike-zheng.github.io/daily-hci/",
+              "footer": { "text": "Daily HCI · GitHub Actions" },
+              "timestamp": "$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            }]
+          }
+          EOF
+          )
+
+          curl -s -H "Content-Type: application/json" -d "$PAYLOAD" "$DISCORD_WEBHOOK_URL"
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
 
   deploy:
     needs: fetch-and-commit
