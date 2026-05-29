@@ -53,8 +53,13 @@ jobs:
           path: ./public
 
       - name: Discord notification
-        if: always() && secrets.DISCORD_WEBHOOK_URL != ''
+        if: always()
         run: |
+          if [ -z "$DISCORD_WEBHOOK_URL" ]; then
+            echo "DISCORD_WEBHOOK_URL not set, skipping notification"
+            exit 0
+          fi
+
           STATUS="${{ job.status }}"
           if [ "$STATUS" = "success" ]; then
             COLOR=3066993
