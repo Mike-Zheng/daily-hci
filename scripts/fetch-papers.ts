@@ -59,7 +59,8 @@ async function main() {
     papers: filtered,
   }
 
-  const todayStr = new Date().toISOString().slice(0, 10)
+  const now2 = new Date()
+  const todayStr = `${now2.getFullYear()}-${String(now2.getMonth() + 1).padStart(2, '0')}-${String(now2.getDate()).padStart(2, '0')}`
   const latestPath = join(OUTPUT_DIR, 'latest.json')
   const dailyPath = join(OUTPUT_DIR, `papers-${todayStr}.json`)
 
