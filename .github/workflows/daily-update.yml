@@ -2,8 +2,8 @@ name: Daily HCI Paper Fetch & Deploy
 
 on:
   schedule:
-    # 週一到週五 UTC 00:00 (台灣早上 08:00)
-    - cron: '0 0 * * 1-5'
+    # 每天 UTC 00:00 (台灣早上 08:00)
+    - cron: '0 0 * * *'
   workflow_dispatch: # 手動觸發
 
 permissions:
@@ -15,6 +15,9 @@ concurrency:
   group: pages
   cancel-in-progress: false
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   fetch-and-commit:
     runs-on: ubuntu-latest
@@ -22,12 +25,12 @@ jobs:
       TZ: Asia/Taipei
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
-          node-version: '20'
+          node-version: '24'
           cache: 'npm'
 
       - name: Install dependencies
@@ -48,7 +51,7 @@ jobs:
           git push
 
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: ./public
 
@@ -99,4 +102,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5

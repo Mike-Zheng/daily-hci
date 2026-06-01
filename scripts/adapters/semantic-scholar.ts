@@ -71,13 +71,17 @@ export async function fetchSemanticScholar(): Promise<Paper[]> {
   console.log('[Semantic Scholar] Fetching HCI papers...')
   const allPapers: Paper[] = []
 
+  const currentYear = new Date().getFullYear()
+  const yearFilter = `${currentYear - 1}-${currentYear}`
+
   for (const query of HCI_QUERIES) {
-    const url = `${API_BASE}/paper/search?query=${encodeURIComponent(query)}&limit=30&fields=${FIELDS}&year=2025-2026`
+    const url = `${API_BASE}/paper/search?query=${encodeURIComponent(query)}&limit=30&fields=${FIELDS}&year=${yearFilter}`
 
     try {
       const res = await fetch(url, { headers: getHeaders() })
       if (!res.ok) {
         console.warn(`[Semantic Scholar] Query "${query}" failed: ${res.status}`)
+        await sleep(API_KEY ? 1000 : 5000) // back off on error
         continue
       }
       const data = await res.json()
@@ -91,7 +95,7 @@ export async function fetchSemanticScholar(): Promise<Paper[]> {
     }
 
     // Respect rate limit: 1 RPS without key, be generous
-    await sleep(API_KEY ? 300 : 3000)
+    await sleep(API_KEY ? 500 : 5000)
   }
 
   // Deduplicate within results

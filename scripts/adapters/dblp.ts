@@ -58,12 +58,28 @@ function parseHit(hit: DblpHit): Paper | null {
   }
 }
 
+const DBLP_HEADERS = {
+  'User-Agent': 'daily-hci/1.0 (research aggregator; https://github.com/Mike-Zheng/daily-hci)',
+}
+
+async function fetchWithRetry(url: string, retries = 3): Promise<Response> {
+  for (let i = 0; i < retries; i++) {
+    try {
+      return await fetch(url, { headers: DBLP_HEADERS })
+    } catch (e) {
+      if (i === retries - 1) throw e
+      await sleep(1000 * (i + 1))
+    }
+  }
+  throw new Error('unreachable')
+}
+
 async function searchVenue(venue: string, year: number): Promise<Paper[]> {
   const query = `${venue} ${year}`
   const url = `${API_BASE}?q=${encodeURIComponent(query)}&format=json&h=30`
 
   try {
-    const res = await fetch(url)
+    const res = await fetchWithRetry(url)
     if (!res.ok) return []
     const data = await res.json()
     const hits = data?.result?.hits?.hit
@@ -91,7 +107,7 @@ export async function fetchDblp(): Promise<Paper[]> {
     for (const year of [currentYear, currentYear - 1]) {
       const result = await searchVenue(venue, year)
       papers.push(...result)
-      await sleep(300) // be polite to DBLP
+      await sleep(20000) // be polite to DBLP
     }
   }
 

@@ -33,15 +33,15 @@ async function main() {
   const unique = dedup(allPapers)
   console.log(`Total after dedup:  ${unique.length}`)
 
-  // Filter: only keep papers from the last 7 days (and not future)
+  // Filter: only keep papers from the last 30 days (and not future)
   const now = new Date()
   const today = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1) // end of today
-  const sevenDaysAgo = new Date(today.getTime() - 7 * 24 * 60 * 60 * 1000)
+  const thirtyDaysAgo = new Date(today.getTime() - 30 * 24 * 60 * 60 * 1000)
   const filtered = unique.filter((p) => {
     const d = new Date(p.date)
-    return d <= today && d >= sevenDaysAgo
+    return d <= today && d >= thirtyDaysAgo
   })
-  console.log(`Filtered to last 7 days: ${filtered.length} kept, ${unique.length - filtered.length} removed`)
+  console.log(`Filtered to last 30 days: ${filtered.length} kept, ${unique.length - filtered.length} removed`)
 
   // Auto-tag
   tagAllPapers(filtered)

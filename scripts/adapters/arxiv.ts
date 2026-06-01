@@ -21,15 +21,19 @@ function cleanLatex(text: string): string {
     .trim()
 }
 
-function parseRssItem(item: any): Paper | null {
-  const categories: string[] = []
+function parseRssItem(item: any, feedCategory: string): Paper | null {
+  // Seed categories with the feed category (RDF RSS items have no per-item <category> tags)
+  const categories: string[] = feedCategory ? [feedCategory] : []
   if (item.category) {
     const cats = Array.isArray(item.category) ? item.category : [item.category]
-    cats.forEach((c: string) => categories.push(c))
+    cats.forEach((c: any) => {
+      const term = typeof c === 'string' ? c : (c?.['@_term'] ?? '')
+      if (term && !categories.includes(term)) categories.push(term)
+    })
   }
 
-  // Only include if cs.HC is among the categories
-  if (!categories.some((c) => c === 'cs.HC')) return null
+  // Include if this is a cs.HC feed or if cs.HC appears in item categories
+  if (feedCategory !== 'cs.HC' && !categories.some((c) => c === 'cs.HC')) return null
 
   const link = item.link || ''
   const arxivId = link.replace('https://arxiv.org/abs/', '')
@@ -64,17 +68,23 @@ async function fetchRss(): Promise<Paper[]> {
   const papers: Paper[] = []
 
   for (const feedUrl of RSS_FEEDS) {
+    // Extract category from URL, e.g. 'cs.HC' from '.../rss/cs.HC'
+    const feedCategory = feedUrl.split('/').pop() || ''
+
     try {
-      const res = await fetch(feedUrl)
+      const res = await fetch(feedUrl, {
+        headers: { 'User-Agent': 'daily-hci/1.0 (research aggregator; https://github.com/Mike-Zheng/daily-hci)' },
+      })
       if (!res.ok) continue
       const xml = await res.text()
       const parsed = parser.parse(xml)
-      const items = parsed?.rss?.channel?.item
+      // arXiv RSS uses RDF 1.0 (root: rdf:RDF, items at top-level), not RSS 2.0
+      const items = parsed?.['rdf:RDF']?.item ?? parsed?.rss?.channel?.item
       if (!items) continue
 
       const itemList = Array.isArray(items) ? items : [items]
       for (const item of itemList) {
-        const paper = parseRssItem(item)
+        const paper = parseRssItem(item, feedCategory)
         if (paper) papers.push(paper)
       }
     } catch (e) {

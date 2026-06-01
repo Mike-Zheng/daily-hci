@@ -80,10 +80,13 @@ export async function fetchOpenAlex(): Promise<Paper[]> {
 
   const mailTo = API_KEY || 'daily-hci@example.com'
 
+  const thirtyDaysAgo = new Date(Date.now() - 30 * 24 * 60 * 60 * 1000)
+  const fromDate = thirtyDaysAgo.toISOString().split('T')[0]
+
   for (const keyword of HCI_KEYWORDS) {
     const params = new URLSearchParams({
       search: keyword,
-      filter: 'from_publication_date:2025-01-01,type:article',
+      filter: `from_publication_date:${fromDate},type:article`,
       sort: 'publication_date:desc',
       per_page: '25',
       mailto: mailTo,
