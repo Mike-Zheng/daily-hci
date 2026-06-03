@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-03T03:48:45.935Z",
+  "fetchedAt": "2026-06-03T03:55:22.271Z",
   "papers": [
     {
       "id": "2606.00001",
@@ -3676,23 +3676,6 @@
       "tags": [],
       "citationCount": 0,
       "venue": "ORBi (University of Liège)"
-    },
-    {
-      "id": "10.1016/J.ASOC.2025.114393",
-      "title": "UIStore: A secure encryption framework for underwater images based on hybrid chaotic dynamics and metaheuristic optimization",
-      "authors": [
-        "Prateek Khokhar",
-        "Jatin Bedi",
-        "Shalini Batra"
-      ],
-      "abstract": "",
-      "date": "2026-01-01T00:00:00Z",
-      "source": "dblp",
-      "url": "https://doi.org/10.1016/j.asoc.2025.114393",
-      "doi": "10.1016/J.ASOC.2025.114393",
-      "categories": [],
-      "tags": [],
-      "venue": "Appl. Soft Comput."
     }
   ]
 }
