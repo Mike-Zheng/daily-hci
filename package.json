@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "npx serve public -l 3000",
+    "dev": "npx serve . -l 3000",
     "fetch": "tsx scripts/fetch-papers.ts"
   },
   "dependencies": {

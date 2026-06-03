@@ -1,4 +1,4 @@
-name: Daily HCI Paper Fetch & Deploy
+name: Daily HCI Paper Fetch
 
 on:
   schedule:
@@ -8,12 +8,6 @@ on:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
-
-concurrency:
-  group: pages
-  cancel-in-progress: false
 
 jobs:
   fetch-and-commit:
@@ -43,14 +37,9 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add public/
+          git add data/
           git diff --cached --quiet || git commit -m "chore: update papers $(date +%Y-%m-%d)"
           git push
-
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v5
-        with:
-          path: ./public
 
       - name: Discord notification
         if: always()
@@ -69,7 +58,7 @@ jobs:
             EMOJI="❌"
           fi
 
-          PAPER_COUNT=$(jq '.papers | length' public/data/latest.json 2>/dev/null || echo "0")
+          PAPER_COUNT=$(jq '.papers | length' data/latest.json 2>/dev/null || echo "0")
           TODAY=$(date +%Y-%m-%d)
 
           PAYLOAD=$(cat <<EOF
@@ -89,14 +78,3 @@ jobs:
           curl -s -H "Content-Type: application/json" -d "$PAYLOAD" "$DISCORD_WEBHOOK_URL"
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-
-  deploy:
-    needs: fetch-and-commit
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v5

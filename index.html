@@ -218,7 +218,7 @@
 
       onMounted(async () => {
         try {
-          const res = await fetch('./data/latest.json?t=' + Date.now())
+          const res = await fetch('https://raw.githubusercontent.com/mike-zheng/daily-hci/main/data/latest.json?t=' + Date.now())
           if (!res.ok) throw new Error('HTTP ' + res.status)
           const data = await res.json()
           papers.value = Array.isArray(data) ? data : (data.papers || [])

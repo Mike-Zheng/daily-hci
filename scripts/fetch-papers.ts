@@ -5,7 +5,7 @@ import { dedup } from './utils/dedup'
 import { tagAllPapers } from './utils/tagger'
 import type { DailyData } from '../src/types/paper'
 
-const OUTPUT_DIR = join(import.meta.dirname, '..', 'public', 'data')
+const OUTPUT_DIR = join(import.meta.dirname, '..', 'data')
 const DAILY_RAW_DIR = join(OUTPUT_DIR, 'daily')
 
 function formatDateStr(d: Date): string {
