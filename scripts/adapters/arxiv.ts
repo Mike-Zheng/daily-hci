@@ -95,10 +95,19 @@ async function fetchRss(): Promise<Paper[]> {
   return papers
 }
 
+function toArxivDate(d: Date, endOfDay = false): string {
+  const y = d.getFullYear()
+  const m = String(d.getMonth() + 1).padStart(2, '0')
+  const day = String(d.getDate()).padStart(2, '0')
+  return endOfDay ? `${y}${m}${day}235959` : `${y}${m}${day}000000`
+}
+
 async function fetchApi(): Promise<Paper[]> {
   const papers: Paper[] = []
-  const query = 'cat:cs.HC'
-  const url = `${API_BASE}?search_query=${encodeURIComponent(query)}&sortBy=submittedDate&sortOrder=descending&start=0&max_results=50`
+  const now = new Date()
+  const sevenDaysAgo = new Date(now.getTime() - 7 * 24 * 60 * 60 * 1000)
+  const query = `cat:cs.HC AND submittedDate:[${toArxivDate(sevenDaysAgo)} TO ${toArxivDate(now, true)}]`
+  const url = `${API_BASE}?search_query=${encodeURIComponent(query)}&sortBy=submittedDate&sortOrder=descending&start=0&max_results=200`
 
   try {
     const res = await fetch(url)
@@ -152,14 +161,18 @@ export async function fetchArxiv(): Promise<Paper[]> {
   console.log('[arXiv] Fetching from RSS feeds and API...')
   const [rssPapers, apiPapers] = await Promise.all([fetchRss(), fetchApi()])
 
-  // Merge: prefer RSS (more recent), add API papers not already in RSS
-  const seen = new Set(rssPapers.map((p) => p.id))
-  const merged = [...rssPapers]
+  // Merge: use RSS metadata but overwrite date with API's `published` (actual submission date).
+  // RSS pubDate is the announcement date — all papers in one batch share the same day.
+  // API entry.published is the real submission date, spreading papers across multiple days.
+  const apiById = new Map(apiPapers.map((p) => [p.id, p]))
+  const merged: Paper[] = rssPapers.map((p) => {
+    const api = apiById.get(p.id)
+    return api ? { ...p, date: api.date } : p
+  })
+  // Add API-only papers (not yet in RSS, e.g. very recent or cross-listed)
+  const rssIds = new Set(rssPapers.map((p) => p.id))
   for (const p of apiPapers) {
-    if (!seen.has(p.id)) {
-      merged.push(p)
-      seen.add(p.id)
-    }
+    if (!rssIds.has(p.id)) merged.push(p)
   }
 
   console.log(`[arXiv] Fetched ${merged.length} papers (RSS: ${rssPapers.length}, API: ${apiPapers.length})`)

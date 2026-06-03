@@ -97,18 +97,24 @@ async function sleep(ms: number) {
   return new Promise((resolve) => setTimeout(resolve, ms))
 }
 
+const DBLP_CONCURRENCY = 5
+
 export async function fetchDblp(): Promise<Paper[]> {
   console.log('[DBLP] Fetching from venue searches...')
   const currentYear = new Date().getFullYear()
 
-  // Serialize requests to avoid connection flooding
+  // Build task list: all venue × year combos
+  const tasks = HCI_VENUES.flatMap((venue) =>
+    [currentYear, currentYear - 1].map((year) => ({ venue, year }))
+  )
+
+  // Run in batches of DBLP_CONCURRENCY; DBLP allows 30 req/sec — 1s between batches is conservative
   const papers: Paper[] = []
-  for (const venue of HCI_VENUES) {
-    for (const year of [currentYear, currentYear - 1]) {
-      const result = await searchVenue(venue, year)
-      papers.push(...result)
-      await sleep(20000) // be polite to DBLP
-    }
+  for (let i = 0; i < tasks.length; i += DBLP_CONCURRENCY) {
+    const batch = tasks.slice(i, i + DBLP_CONCURRENCY)
+    const results = await Promise.all(batch.map(({ venue, year }) => searchVenue(venue, year)))
+    for (const result of results) papers.push(...result)
+    if (i + DBLP_CONCURRENCY < tasks.length) await sleep(5000)
   }
 
   // Deduplicate within DBLP results
