@@ -40,10 +40,7 @@
       "categories": [
         "cs.HC"
       ],
-      "tags": [
-        "Visualization",
-        "Health"
-      ]
+      "tags": []
     },
     {
       "id": "2606.30879",
@@ -67,9 +64,7 @@
       "categories": [
         "cs.HC"
       ],
-      "tags": [
-        "Education"
-      ]
+      "tags": []
     },
     {
       "id": "2606.30884",
@@ -88,10 +83,7 @@
       "categories": [
         "cs.HC"
       ],
-      "tags": [
-        "Visualization",
-        "Design Tools"
-      ]
+      "tags": []
     },
     {
       "id": "2606.30942",
@@ -112,13 +104,7 @@
         "cs.HC",
         "cs.CY"
       ],
-      "tags": [
-        "LLM",
-        "Health",
-        "Chatbot",
-        "Emotion",
-        "Trust"
-      ]
+      "tags": []
     },
     {
       "id": "2606.30980",
@@ -139,11 +125,7 @@
       "categories": [
         "cs.HC"
       ],
-      "tags": [
-        "LLM",
-        "GPT",
-        "Privacy"
-      ]
+      "tags": []
     },
     {
       "id": "2606.31012",
@@ -162,11 +144,7 @@
       "categories": [
         "cs.HC"
       ],
-      "tags": [
-        "LLM",
-        "Collaboration",
-        "Education"
-      ]
+      "tags": []
     },
     {
       "id": "2606.31311",
@@ -186,9 +164,7 @@
         "cs.AI",
         "cs.LG"
       ],
-      "tags": [
-        "Accessibility"
-      ]
+      "tags": []
     },
     {
       "id": "2606.31762",
@@ -209,10 +185,7 @@
       "categories": [
         "cs.HC"
       ],
-      "tags": [
-        "LLM",
-        "Emotion"
-      ]
+      "tags": []
     },
     {
       "id": "2606.30660",
@@ -252,10 +225,7 @@
         "econ.GN",
         "q-fin.EC"
       ],
-      "tags": [
-        "LLM",
-        "Trust"
-      ]
+      "tags": []
     },
     {
       "id": "2606.31069",
@@ -279,9 +249,7 @@
         "cs.DL",
         "cs.IR"
       ],
-      "tags": [
-        "Education"
-      ]
+      "tags": []
     },
     {
       "id": "2606.31112",
@@ -301,9 +269,7 @@
         "cs.HC",
         "cs.CL"
       ],
-      "tags": [
-        "Voice"
-      ]
+      "tags": []
     },
     {
       "id": "2606.31211",
@@ -326,9 +292,7 @@
         "cs.HC",
         "cs.CV"
       ],
-      "tags": [
-        "Education"
-      ]
+      "tags": []
     },
     {
       "id": "2508.02376",
@@ -347,13 +311,7 @@
       "categories": [
         "cs.HC"
       ],
-      "tags": [
-        "LLM",
-        "Voice",
-        "UX",
-        "Chatbot",
-        "Emotion"
-      ]
+      "tags": []
     },
     {
       "id": "2509.19957",
@@ -392,9 +350,7 @@
         "cs.HC",
         "cs.SI"
       ],
-      "tags": [
-        "Education"
-      ]
+      "tags": []
     },
     {
       "id": "2605.04306",
@@ -440,11 +396,7 @@
         "cs.AI",
         "cs.CV"
       ],
-      "tags": [
-        "Accessibility",
-        "Education",
-        "Health"
-      ]
+      "tags": []
     },
     {
       "id": "2511.00810",
@@ -471,9 +423,7 @@
         "cs.CL",
         "cs.LG"
       ],
-      "tags": [
-        "LLM"
-      ]
+      "tags": []
     },
     {
       "id": "2606.28968",
@@ -501,10 +451,7 @@
         "cs.HC",
         "cs.CR"
       ],
-      "tags": [
-        "UX",
-        "Emotion"
-      ]
+      "tags": []
     },
     {
       "id": "2606.30035",
@@ -525,437 +472,6 @@
         "cs.HC",
         "cs.CV",
         "cs.LG"
-      ],
-      "tags": [
-        "Education"
-      ]
-    },
-    {
-      "id": "2601.11541",
-      "title": "A Comparative Study of Student Perspectives on Technical Writing Feedback Quality: Evaluating LLMs, SLMs, and Humans in Computer Science Topics",
-      "authors": [
-        "Suqing Liu",
-        "Runlong Ye",
-        "Christopher Eaton",
-        "Bogdan Simion",
-        "Michael Liut"
-      ],
-      "abstract": "To address the scalability of feedback in computer science while mitigating the privacy and cost limitations of commercial Large Language Models (LLMs), this study evaluates a locally hosted Small Language Model (SLM). We deployed a quantized Llama-3.1, GPT-4, and human instructors across introductory programming (N=176), operating systems (N=80), and a writing seminar (N=7). Mixed-methods analysis of student perceptions reveals that while the local SLM matched commercial LLMs and was rated higher by students for readability and actionability in technical courses, human feedback remained more favoured for highly specialized writing tasks. We demonstrate that local SLMs offer a privacy-preserving, zero-marginal-cost alternative for foundational feedback, supporting a tiered pedagogical framework where AI handles structural guidance while instructors focus on high-level conceptual scaffolding.",
-      "date": "2026-06-30T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2601.11541",
-      "pdfUrl": "https://arxiv.org/pdf/2601.11541.pdf",
-      "arxivId": "2601.11541",
-      "categories": [
-        "cs.HC",
-        "cs.AI",
-        "cs.CY"
-      ],
-      "tags": [
-        "LLM",
-        "GPT",
-        "Privacy"
-      ]
-    },
-    {
-      "id": "2604.01495",
-      "title": "The Weak Signal Cultivation Model: A Human-Centric Framework for Frontline Risk Detection, Signal Tracking, and Proactive Organizational Resilience",
-      "authors": [
-        "Maurice Codourey",
-        "Emmanuel A. Gonzalez"
-      ],
-      "abstract": "This white paper introduces the Weak Signal Cultivation Model (WSCM). WSCM is a human-centric framework for detecting, structuring, and tracking weak risk signals as observed by frontline staff. The model centers on a continuous [0,10] x [0,10] coordinate field--the Weak Signal Cultivation Field, in which each identified signal is positioned as a node on two independent dimensions: its current Risk Intensity (x) and its Risk Growth Potential (y). Represented as a risk locus, nodes move across the field over time as new team assessments or measurements arrive. The locus reflects the signal's trajectory across four possible regions: Question Marks, Lit Fuses, Sleeping Cats, and Owls. Through this graphical approach, bridging risk communication from the frontline experience to management decision-making is made through a single organizational vocabulary. The model introduced in this document is designed to serve as a practitioner tool and a conceptual foundation for AI-supported analytics.",
-      "date": "2026-06-30T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2604.01495",
-      "pdfUrl": "https://arxiv.org/pdf/2604.01495.pdf",
-      "arxivId": "2604.01495",
-      "categories": [
-        "cs.HC",
-        "cs.CY"
-      ],
-      "tags": []
-    },
-    {
-      "id": "2604.05381",
-      "title": "WSCM-Lite: A Practitioner-Ready Implementation of the Weak Signal Cultivation Model",
-      "authors": [
-        "Maurice Codourey",
-        "Emmanuel A. Gonzalez"
-      ],
-      "abstract": "The Weak Signal Cultivation Model (WSCM) provides a mathematically rigorous framework for tracking frontline risk signals across a two-dimensional coordinate field using 15 equations and 16 tunable parameters. While this specification is designed for eventual software implementation, its computational requirements create an adoption barrier for organizations whose available infrastructure is a spreadsheet. This paper introduces WSCM-Lite, a lookup-table implementation that reproduces the full WSCM's coordinate trajectories within 0.01 field units while eliminating all exponential functions, state-dependent tracking, and free parameters. The simplification replaces continuous recency weighting with a four-row lookup table and removes consensus momentum and reversal amplification entirely, reducing the specification to seven formulas and five hardcoded constants. A 26-session worked example using the Gas Fumes signal from the parent paper demonstrates that WSCM-Lite traverses the same four-region path (Question Marks --> Lit Fuses --> Owls --> Sleeping Cats --> Question Marks) and triggers SMS escalation within two sessions of the full model. Five additional scenarios validate boundary behavior, and a sensitivity analysis confirms stability under +/-30% gap threshold variation. An accompanying Excel simulator and supplementary materials are publicly available at https://github.com/emmgonai/wscm-lite.",
-      "date": "2026-06-30T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2604.05381",
-      "pdfUrl": "https://arxiv.org/pdf/2604.05381.pdf",
-      "arxivId": "2604.05381",
-      "categories": [
-        "cs.HC",
-        "cs.SE"
-      ],
-      "tags": []
-    },
-    {
-      "id": "2604.19971",
-      "title": "Semantic Prompting: Agentic Incremental Narrative Refinement through Spatial Semantic Interaction",
-      "authors": [
-        "Xuxin Tang",
-        "Ibrahim Tahmid",
-        "Eric Krokos",
-        "Kirsten Whitley",
-        "Xuan Wang",
-        "Chris North"
-      ],
-      "abstract": "Interactive spatial layouts empower users to synthesize information and organize findings for sensemaking. While Large Language Models (LLMs) can automate narrative generation from spatial layouts, current collage-based and re-generation methods struggle to support the incremental spatial refinements inherent to the sensemaking process. We identify three critical gaps in existing spatial-textual generation: interaction-revision misalignment, human-LLM intent misalignment, and lack of granular customization. To address these, we introduce Semantic Prompting, a framework for spatial refinement that perceives semantic interactions, reasons about refinement intent, and performs targeted positional revisions. We implemented S-PRISM to realize this framework. The empirical evaluation demonstrated that S-PRISM effectively enhanced the precision of interaction-revision refinement. A user study ($N=14$) highlighted how participants leveraged S-PRISM for incremental formalization through interactive steering. Results showed that users valued its efficient, adaptable, and trustworthy support, which effectively strengthens human-LLM intent alignment.",
-      "date": "2026-06-30T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2604.19971",
-      "pdfUrl": "https://arxiv.org/pdf/2604.19971.pdf",
-      "arxivId": "2604.19971",
-      "categories": [
-        "cs.HC",
-        "cs.AI"
-      ],
-      "tags": [
-        "LLM"
-      ]
-    },
-    {
-      "id": "2604.23772",
-      "title": "PageGuide: Browser extension to assist users in navigating a webpage and locating information",
-      "authors": [
-        "Tin Nguyen",
-        "Thang T. Truong",
-        "Runtao Zhou",
-        "Trung Bui",
-        "Chirag Agarwal",
-        "Anh Totti Nguyen"
-      ],
-      "abstract": "Users browsing the web daily struggle to quickly locate relevant information in cluttered pages, complete unfamiliar multi-step tasks, and stay focused amid distracting content. State-of-the-art AI assistants (e.g., ChatGPT, Gemini, Claude) and browser agents (e.g., OpenAI Operator, Browser Use) can answer questions and automate actions, yet they return answers without showing where the information comes from on the page, forcing users to manually verify results and blindly trust every automated steps. We present PageGuide, a browser extension that grounds LLM answers directly in the HTML DOM via visual overlays, addressing three core user needs: (a) Find-locating and highlighting relevant evidence in-situ so users can instantly verify answers on the page; (b) Guide-showing step-by-step instructions (e.g. how to change password) one at a time so users can follow and perform actions by themselves; and (c) Hide-hiding distracting content-giving users a chance to decide to hide an element or not. In a user study (N=94), PageGuide outperform unaided browsing across all modes: Hide accuracy improve by 26 percentage points (86.7% relative gain) and task completion time drops by 70%; Guide completion rate increases by 30 percentage points; and Find reduces manual search effort, with Ctrl+F usage falling by 80% and task time decreasing by 19%. Code and demo is at: pageguide.github.io.",
-      "date": "2026-06-30T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2604.23772",
-      "pdfUrl": "https://arxiv.org/pdf/2604.23772.pdf",
-      "arxivId": "2604.23772",
-      "categories": [
-        "cs.HC"
-      ],
-      "tags": [
-        "LLM",
-        "GPT",
-        "Trust"
-      ]
-    },
-    {
-      "id": "2606.09832",
-      "title": "Agentic Social Affordance Framework (ASAF): Agent Identity Design as a Collaboration Interface in Multi-Agent Systems",
-      "authors": [
-        "Meng-Han Lee"
-      ],
-      "abstract": "As AI systems evolve from single agents to multi-agent architectures, a critical design dimension has been overlooked: how the social identity of individual agents shapes human behavior within the collaboration. This paper introduces the Agentic Social Affordance Framework (ASAF), a theoretical framework extending Social Affordance theory to multi-agent AI systems. We propose that agent identity design functions as a collaboration interface--structuring how users perceive and engage with each agent, and thereby influencing Human-Agent collaboration outcomes. ASAF adopts the analytical separability of the social affordance layer and the engineering orchestration layer as a framing assumption--an organizing distinction that structures design analysis--rather than a testable claim about effect-independence. ASAF comprises three mechanisms: Identity Signaling, Behavioral Priming, and Collaborative Governance, and specifies their boundary conditions through a four-tier Identity Signal Fidelity Spectrum and an individual-difference moderating variable (anthropomorphizing vs. instrumentalizing cognitive style). We situate ASAF relative to affordance theory (Hutchby, 2001), the CASA paradigm (Gambino et al., 2020), and classical multi-agent systems research (Wooldridge & Jennings, 1995), identifying a directional reversal: where classical MAS used roles, norms, and coordination to constrain autonomous agents, ASAF applies the same organizational vocabulary to structure the cognition and oversight of human operators who remain in the loop. ASAF positions social affordance design as a first-class design responsibility that engineering orchestration cannot subsume. We outline directions for empirical validation, including a factorial design characterizing the empirical interaction surface between the social affordance and engineering orchestration layers.",
-      "date": "2026-06-30T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2606.09832",
-      "pdfUrl": "https://arxiv.org/pdf/2606.09832.pdf",
-      "arxivId": "2606.09832",
-      "categories": [
-        "cs.HC",
-        "cs.AI"
-      ],
-      "tags": [
-        "Collaboration"
-      ]
-    },
-    {
-      "id": "2606.17512",
-      "title": "MedEasy: Designing AI Standardized Patients for Clinical Consultation Training",
-      "authors": [
-        "Zhiqi Gao",
-        "Huarui Luo",
-        "Guo Zhu",
-        "Bingquan Zhang",
-        "Dongyijie Primo Pan",
-        "Yizhan Feng",
-        "Jiahuan Pei",
-        "Jie Li",
-        "Benyou Wang"
-      ],
-      "abstract": "AI standardized patients are becoming a setting for professional training in clinical consultation. This paper presents MedEasy, a multi-agent system that organizes virtual-patient practice through patient dialogue, clinical actions, decision submission, documentation, and feedback. We first conducted a formative study with 12 clinical-year medical students through interviews and three co-design workshops. The findings informed a staged workflow, structured case records, action-contingent findings, and trajectory-based review. We then conducted an evaluative user study with a separate cohort of 12 clinical-year medical students, with each participant completing two counterbalanced cases. Learners interpreted MedEasy as a connected consultation environment. They used patient responses, examination findings, available actions, and feedback together to judge whether the represented case remained coherent. They valued repeatable practice and recorded review, while questioning missing actions and feedback criteria. The paper contributes design implications for AI-supported professional training systems that use case-specific standards to connect situated practice.",
-      "date": "2026-06-30T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2606.17512",
-      "pdfUrl": "https://arxiv.org/pdf/2606.17512.pdf",
-      "arxivId": "2606.17512",
-      "categories": [
-        "cs.HC"
-      ],
-      "tags": [
-        "Education",
-        "Health"
-      ]
-    },
-    {
-      "id": "2411.10109",
-      "title": "LLM Agents Grounded in Self-Reports Enable General-Purpose Simulation of Individuals",
-      "authors": [
-        "Joon Sung Park",
-        "Carolyn Q. Zou",
-        "Jonne Kamphorst",
-        "Niles Egan",
-        "Aaron Shaw",
-        "Benjamin Mako Hill",
-        "Carrie Cai",
-        "Meredith Ringel Morris",
-        "Percy Liang",
-        "Robb Willer",
-        "Michael S. Bernstein"
-      ],
-      "abstract": "Machine learning can predict human behavior well when substantial structured data are available for well-defined outcomes. Such models are typically outcome-specific, however, requiring training data for each target outcome, limiting their applicability to new domains. We test whether large language models (LLMs) can relax these requirements by using self-report data to build attitudinal and behavioral simulations, or \"generative agents,\" that can predict responses across outcomes without outcome-specific training data. Using data from a diverse national sample of 1,052 Americans, we built agents from (i) two-hour, semi-structured interviews elicited using the American Voices Project interview schedule, (ii) structured surveys including General Social Survey items and the Big Five personality inventory, or (iii) both sources combined. On held-out General Social Survey items, interview-only, survey-only, and combined agents achieved accuracies equal to 83%, 82%, and 86% of participants' own two-week test-retest consistency benchmark, respectively, compared with 74% for demographics-only agents. Combining interviews and surveys produced the highest accuracy, though gains over either source alone were modest, suggesting that predictive benefits from data begin to asymptote once the model has observed sufficient evidence within a domain. We find that these agents also predict personality traits, economic-game behavior, and experimental responses, while reducing accuracy disparities across racial and ideological groups relative to demographics-only agents. Together, these results show that LLM agents grounded in qualitative or quantitative self-reports can support general-purpose simulation of individuals across outcomes, without requiring task-specific training data.",
-      "date": "2026-06-30T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2411.10109",
-      "pdfUrl": "https://arxiv.org/pdf/2411.10109.pdf",
-      "arxivId": "2411.10109",
-      "categories": [
-        "cs.HC",
-        "cs.AI",
-        "cs.LG"
-      ],
-      "tags": [
-        "LLM",
-        "Gaming",
-        "Education"
-      ]
-    },
-    {
-      "id": "2502.18864",
-      "title": "Accelerating scientific discovery with Co-Scientist",
-      "authors": [
-        "Juraj Gottweis",
-        "Wei-Hung Weng",
-        "Alexander Daryin",
-        "Tao Tu",
-        "Petar Sirkovic",
-        "Artiom Myaskovsky",
-        "Grzegorz Glowaty",
-        "Felix Weissenberger",
-        "Alessio Orlandi",
-        "Dan Popovici",
-        "Anil Palepu",
-        "Keran Rong",
-        "Ryutaro Tanno",
-        "Khaled Saab",
-        "Fan Zhang",
-        "Jacob Blum",
-        "Andrew Carroll",
-        "Kavita Kulkarni",
-        "Nenad Tomasev",
-        "Dina Zverinski",
-        "Ivor Rendulic",
-        "Elahe Vedadi",
-        "Florian Hasler",
-        "Luka Rimanic",
-        "Marina Boia",
-        "Ivan Budiselic",
-        "Ben Feinstein",
-        "Mathias Bellaiche",
-        "Tom Sheffer",
-        "Jan Freyberg",
-        "Jeremy Ratcliff",
-        "Ottavia Bertolli",
-        "Katherine Chou",
-        "Avinatan Hassidim",
-        "Burak Gokturk",
-        "Amin Vahdat",
-        "Yuan Guan",
-        "Vikram Dhillon",
-        "Eeshit Dhaval Vaishnav",
-        "Byron Lee",
-        "Tiago R D Costa",
-        "Jos\\'e R Penad\\'es",
-        "Gary Peltz",
-        "Yossi Matias",
-        "James Manyika",
-        "Demis Hassabis",
-        "Yunhan Xu",
-        "Pushmeet Kohli",
-        "Annalisa Pawlosky",
-        "Alan Karthikesalingam",
-        "Vivek Natarajan"
-      ],
-      "abstract": "Scientific discovery is driven by scientists generating novel hypotheses for complex problems that undergo rigorous experimental validation. To augment this process, we introduce Co-Scientist, a multi-agent AI system built on Gemini for structured scientific thinking and hypothesis generation. Co-Scientist aims to help scientists discover new original knowledge. Conditioned on their research objectives and prior scientific evidence, it formulates demonstrably novel research hypotheses for experimental verification. The system's design involves agents continuously generating, critiquing and refining hypotheses accelerated by scaling test-time compute. Key contributions include: (1) a multi-agent architecture with an asynchronous task execution framework for flexible compute scaling; (2) a tournament evolution process for self-improving hypotheses generation. Automated evaluations show continued benefits of test-time compute scaling, improving hypothesis quality over time. While general purpose, we focus the validation in three biomedical applications: drug repurposing, novel target discovery, and explaining mechanisms of anti-microbial resistance. Specifically, Co-Scientist helped identify new drug repurposing candidates and synergistic combination therapies for acute myeloid leukemia, which were validated through in vitro experiments. These real-world validations demonstrate the potential of Co-Scientist to accelerate scientific discovery and usher in an era of AI empowered scientists.",
-      "date": "2026-06-30T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2502.18864",
-      "pdfUrl": "https://arxiv.org/pdf/2502.18864.pdf",
-      "arxivId": "2502.18864",
-      "categories": [
-        "cs.HC",
-        "cs.AI",
-        "cs.CL",
-        "cs.LG",
-        "physics.soc-ph",
-        "q-bio.OT"
-      ],
-      "tags": [
-        "Health"
-      ]
-    },
-    {
-      "id": "2601.03546",
-      "title": "Value-Action Alignment in Large Language Models under Privacy-Prosocial Conflict",
-      "authors": [
-        "Guanyu Chen",
-        "Chenxiao Yu",
-        "Xiyang Hu"
-      ],
-      "abstract": "Large language models (LLMs) are increasingly used to simulate decision-making tasks involving personal data sharing, where privacy concerns and prosocial motivations can push choices in opposite directions. Existing evaluations often measure privacy-related attitudes or sharing intentions in isolation, which makes it difficult to determine whether a model's expressed values jointly predict its downstream data-sharing actions as in real human behaviors. We introduce a context-based assessment protocol that sequentially administers standardized questionnaires for privacy attitudes, prosocialness, and acceptance of data sharing within a bounded, history-carrying session. To evaluate value-action alignments under competing attitudes, we use multi-group structural equation modeling (MGSEM) to identify relations from privacy concerns and prosocialness to data sharing. We propose Value-Action Alignment Rate (VAAR), a human-referenced directional agreement metric that aggregates path-level evidence for expected signs. Across multiple LLMs, we observe stable but model-specific Privacy-PSA-AoDS profiles, and substantial heterogeneity in value-action alignment.",
-      "date": "2026-06-30T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2601.03546",
-      "pdfUrl": "https://arxiv.org/pdf/2601.03546.pdf",
-      "arxivId": "2601.03546",
-      "categories": [
-        "cs.HC",
-        "cs.CL",
-        "cs.AI",
-        "cs.LG"
-      ],
-      "tags": [
-        "LLM",
-        "Privacy"
-      ]
-    },
-    {
-      "id": "2602.12089",
-      "title": "Choose Your Agent: Tradeoffs in Adopting AI Advisors, Coaches, and Delegates in Multi-Party Negotiation",
-      "authors": [
-        "Kehang Zhu",
-        "Nithum Thain",
-        "Vivian Tsai",
-        "James Wexler",
-        "Crystal Qian"
-      ],
-      "abstract": "As AI usage becomes more prevalent in social contexts, understanding agent-user interaction is critical to designing systems that imp rove both individual and group outcomes. We present an online behavioral experiment (N=243) in which participants play three multi-tu rn bargaining games in groups of three. Each game, presented in randomized order, grants access to a single LLM assistance modality: proactive recommendations from an Advisor, reactive feedback from a Coach, or autonomous execution by a Delegate. All three modalitie s are powered by an LLM with super-human performance within this negotiation setting. On each turn, participants privately decide whe ther to act manually or use the AI modality available in that game. We document a preference-performance misalignment: participants s trongly prefer the higher-control Advisor (44%) over the Delegate (19%), yet groups only significantly increase collective surplus un der Delegate access. Adjusting for voluntary non-compliance, delegating to the AI yields suggestive individual welfare gains, roughly 1.5x the intent-to-treat estimate. A mechanism analysis traces this gap to a human filter: AI-generated proposals create more joint surplus than manual proposals across all conditions, but in the Advisor and Coach modes users modify, override, or ignore the AI's su ggestions, reverting toward human-baseline trade patterns. The Delegate advantage arises not from a different AI capability but from bypassing this filtering step altogether. Realizing these welfare gains depends not only on model capability, but on the interaction structure through which that capability is delivered. We argue that assistance modalities should be designed as mechanisms with endog enous participation; adoption-compatible interaction rules are a prerequisite to improving welfare with automated assistance.",
-      "date": "2026-06-30T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2602.12089",
-      "pdfUrl": "https://arxiv.org/pdf/2602.12089.pdf",
-      "arxivId": "2602.12089",
-      "categories": [
-        "cs.HC",
-        "cs.GT",
-        "cs.AI"
-      ],
-      "tags": [
-        "LLM",
-        "Gaming"
-      ]
-    },
-    {
-      "id": "2603.25645",
-      "title": "Colon-Bench: An Agentic Workflow for Scalable Dense Lesion Annotation in Full-Procedure Colonoscopy Videos",
-      "authors": [
-        "Abdullah Hamdi",
-        "Changchun Yang",
-        "Xin Gao"
-      ],
-      "abstract": "Early screening via colonoscopy is critical for colon cancer prevention, yet developing robust AI systems for this domain is hindered by the lack of densely annotated, long-sequence video datasets. Existing datasets predominantly focus on single-class polyp detection and lack the rich spatial, temporal, and linguistic annotations required to evaluate modern Multimodal Large Language Models (MLLMs). To address this critical gap, we introduce Colon-Bench, generated via a novel multi-stage agentic workflow. Our pipeline seamlessly integrates temporal proposals, bounding-box tracking, AI-driven visual confirmation, and human-in-the-loop review to scalably annotate full-procedure videos. The resulting verified benchmark is unprecedented in scope, encompassing 528 videos, 14 distinct lesion categories (including polyps, ulcers, and bleeding), over 300,000 bounding boxes, 213,000 segmentation masks, and 133,000 words of clinical descriptions. We utilize Colon-Bench to rigorously evaluate state-of-the-art MLLMs across lesion classification, Open-Vocabulary Video Object Segmentation (OV-VOS), and video Visual Question Answering (VQA). The MLLM results demonstrate surprisingly high localization performance in medical domains compared to SAM-3. Finally, we analyze common VQA errors from MLLMs to introduce a novel \"colon-skill\" prompting strategy, improving zero-shot MLLM performance by up to 9.7% across most MLLMs. The dataset and the code are available at https://abdullahamdi.com/colon-bench .",
-      "date": "2026-06-30T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2603.25645",
-      "pdfUrl": "https://arxiv.org/pdf/2603.25645.pdf",
-      "arxivId": "2603.25645",
-      "categories": [
-        "cs.HC",
-        "eess.IV",
-        "cs.CV"
-      ],
-      "tags": [
-        "LLM",
-        "Health"
-      ]
-    },
-    {
-      "id": "2603.29139",
-      "title": "SciVisAgentBench: A Benchmark for Evaluating Scientific Data Analysis and Visualization Agents",
-      "authors": [
-        "Kuangshi Ai",
-        "Haichao Miao",
-        "Kaiyuan Tang",
-        "Nathaniel Gorski",
-        "Jianxin Sun",
-        "Guoxi Liu",
-        "Helgi I. Ingolfsson",
-        "David Lenz",
-        "Hanqi Guo",
-        "Hongfeng Yu",
-        "Teja Leburu",
-        "Michael Molash",
-        "Bei Wang",
-        "Tom Peterka",
-        "Chaoli Wang",
-        "Shusen Liu"
-      ],
-      "abstract": "Recent advances in large language models (LLMs) have enabled agentic systems to translate natural-language intent into executable scientific visualization (SciVis) tasks. Despite rapid progress, the community lacks a principled and reproducible benchmark for evaluating these emerging SciVis agents in realistic, multi-step analysis settings. We present SciVisAgentBench, a comprehensive and extensible benchmark for evaluating scientific data analysis and visualization agents. Our benchmark is grounded in a structured taxonomy spanning four dimensions: application domain, data type, complexity level, and visualization operation. It currently comprises 108 expert-crafted cases covering diverse SciVis scenarios. To enable reliable assessment, we introduce a multimodal outcome-centric evaluation pipeline that combines LLM-based judging with deterministic evaluators, including image-based metrics, code checkers, rule-based verifiers, and case-specific evaluators. We also conduct a validity study with 12 SciVis experts to examine the agreement between human and LLM judges. Using this framework, we evaluate representative SciVis agents and general-purpose coding agents to establish initial baselines and reveal capability gaps. SciVisAgentBench is designed as a living benchmark to support systematic comparison, diagnose failure modes, and drive progress in agentic SciVis. The benchmark is available at https://scivisagentbench.github.io/.",
-      "date": "2026-06-30T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2603.29139",
-      "pdfUrl": "https://arxiv.org/pdf/2603.29139.pdf",
-      "arxivId": "2603.29139",
-      "categories": [
-        "cs.HC",
-        "cs.AI",
-        "cs.GR"
-      ],
-      "tags": [
-        "LLM",
-        "Visualization"
-      ]
-    },
-    {
-      "id": "2604.27996",
-      "title": "Exploring LLM Agent Designs and Interaction Modalities for Scientific Visualization",
-      "authors": [
-        "Jackson Vonderhorst",
-        "Kuangshi Ai",
-        "Haichao Miao",
-        "Shusen Liu",
-        "Chaoli Wang"
-      ],
-      "abstract": "This paper examines how large language model (LLM) agents perform on scientific visualization (SciVis) tasks that require generating visualization workflows from natural-language instructions. We compare three representative agent designs: domain-specific agents with structured tool use, computer-use agents, and general-purpose coding agents, across 15 benchmark tasks, evaluating visualization quality, efficiency, robustness, computational cost, and the impact of persistent memory. We further study interaction modalities, including code scripts, model context protocol (MCP) or API calls, command-line interfaces (CLI), and graphical user interfaces (GUI). Our goal is to characterize the tradeoffs among representative SciVis agent configurations used in practice. The results reveal clear tradeoffs across agent designs and interaction modalities. General-purpose coding agents achieve the highest task success rates but incur greater computational cost, whereas domain-specific agents are more efficient and stable but less flexible. Computer-use agents perform well on individual operations but struggle with multi-step workflows. Across both CLI- and GUI-based settings, persistent memory improves performance over repeated trials, but its effectiveness depends on the interaction mode and the quality of feedback. These findings suggest that future SciVis systems should combine structured tool use, interactive capabilities, and adaptive memory mechanisms to balance performance, robustness, and flexibility.",
-      "date": "2026-06-30T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2604.27996",
-      "pdfUrl": "https://arxiv.org/pdf/2604.27996.pdf",
-      "arxivId": "2604.27996",
-      "categories": [
-        "cs.HC",
-        "cs.AI",
-        "cs.GR"
-      ],
-      "tags": [
-        "LLM",
-        "Visualization"
-      ]
-    },
-    {
-      "id": "2605.29212",
-      "title": "MetaRanker: Human-in-the-loop Active Ranking for Metalens Image Quality",
-      "authors": [
-        "Yujin Park",
-        "Haejun Chung",
-        "Ikbeom Jang"
-      ],
-      "abstract": "Image quality in modern imaging systems emerges from the coupled effects of the sensor, optics, and computational reconstruction. Ultra-thin metalenses offer a path toward substantial miniaturization of optical modules, but practical designs often exhibit pronounced chromatic and field-dependent aberrations that necessitate computational reconstruction. In current metalens pipelines, reconstruction models are commonly trained and selected using distortion-based fidelity objectives, such as PSNR, yet these proxies can be weakly correlated with human preference and downstream utility, reflecting the well-known perception--distortion trade-off. We introduce MetaRanker, a human-in-the-loop active ranking framework that formalizes metalens image quality in terms of semantic interpretability, defined as the degree to which humans can reliably recognize objects and structures in the presence of optical artifacts. MetaRanker combines a probabilistic preference model with uncertainty-aware query selection, and leverages vision--language models to provide lightweight semantic priors. Importantly, these priors are used only to guide the sampling of informative comparisons; human judgments remain the primary supervision signal throughout. Across real-world and synthetic metalens datasets with distinct degradation profiles, MetaRanker produces rankings that align most closely with human assessments, while reducing the number of pairwise annotations required by approximately 80% relative to exhaustive pairwise evaluation. Finally, we show that standard image quality assessment metrics exhibit limited alignment with human interpretability in the metalens domain, positioning MetaRanker as a practical step toward perceptually grounded metalens evaluation and co-design.",
-      "date": "2026-06-30T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2605.29212",
-      "pdfUrl": "https://arxiv.org/pdf/2605.29212.pdf",
-      "arxivId": "2605.29212",
-      "categories": [
-        "cs.HC",
-        "cs.CV"
       ],
       "tags": []
     },
@@ -1001,9 +517,7 @@
         "cs.CV",
         "cs.HC"
       ],
-      "tags": [
-        "Usability"
-      ]
+      "tags": []
     },
     {
       "id": "2606.30549v1",
@@ -1049,9 +563,7 @@
         "cs.CY",
         "cs.HC"
       ],
-      "tags": [
-        "LLM"
-      ]
+      "tags": []
     },
     {
       "id": "2606.30294v1",
@@ -1074,9 +586,7 @@
         "cs.HC",
         "cs.SE"
       ],
-      "tags": [
-        "Voice"
-      ]
+      "tags": []
     },
     {
       "id": "2606.30001v1",
@@ -1098,10 +608,7 @@
         "cs.HC",
         "cs.SD"
       ],
-      "tags": [
-        "Gesture",
-        "Education"
-      ]
+      "tags": []
     },
     {
       "id": "2606.29846v1",
@@ -1123,10 +630,7 @@
         "cs.RO",
         "cs.HC"
       ],
-      "tags": [
-        "Robotics",
-        "Collaboration"
-      ]
+      "tags": []
     },
     {
       "id": "2606.29808v1",
@@ -1150,233 +654,7 @@
         "cs.HC",
         "cs.AI"
       ],
-      "tags": [
-        "LLM",
-        "Education"
-      ]
-    },
-    {
-      "id": "2405.13890",
-      "title": "Workshop Paper: An empirical study to understand how students use ChatGPT for writing essays and how it affects their ownership",
-      "authors": [
-        "Andrew Jelson",
-        "Sang Won Lee"
-      ],
-      "abstract": "This paper was a Workshop Paper. See the full paper which will be presented at CHI 2026: arXiv:2501.10551; As large language models (LLMs) become more powerful and ubiquitous, systems like ChatGPT are increasingly used by students to help them with writing tasks. To better understand how these tools are used, we investigate how students might use an LLM for essay writing, for example, to study the queries asked to ChatGPT and the responses that ChatGPT gives. To that end, we plan to conduct a user study that will record the user writing process and present them with the opportunity to use ChatGPT as an AI assistant. This study's findings will help us understand how these tools are used and how practitioners -- such as educators and essay readers -- should consider writing education and evaluation based on essay writing.",
-      "date": "2026-06-29T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2405.13890",
-      "pdfUrl": "https://arxiv.org/pdf/2405.13890.pdf",
-      "arxivId": "2405.13890",
-      "categories": [
-        "cs.HC"
-      ],
-      "tags": [
-        "LLM",
-        "GPT",
-        "Education",
-        "Emotion"
-      ]
-    },
-    {
-      "id": "2501.10551",
-      "title": "An Empirical Study to Understand How Students Use ChatGPT for Writing Essays",
-      "authors": [
-        "Andrew Jelson",
-        "Daniel Manesh",
-        "Alice Jang",
-        "Daniel Dunlap",
-        "Young-Ho Kim",
-        "Sang Won Lee"
-      ],
-      "abstract": "As large language models (LLMs) advance and become widespread, students increasingly turn to systems like ChatGPT for assistance with writing tasks. Educators are concerned with students' usage of ChatGPT beyond cheating; using ChatGPT may reduce their critical engagement with writing, hindering students' learning processes. The negative or positive impact of using LLM-powered tools for writing will depend on how students use them; however, how students use ChatGPT remains largely unknown, resulting in a limited understanding of its impact on learning. To better understand how students use these tools, we conducted an online study $(n=70)$ where students were given an essay-writing task using a custom platform we developed to capture the queries they made to ChatGPT. To characterize their ChatGPT usage, we categorized each of the queries students made to ChatGPT. We then analyzed the relationship between ChatGPT usage and a variety of other metrics, including students' self-perception, attitudes towards AI, and the resulting essay itself. We found that factors such as gender, race, and perceived self-efficacy can help predict different AI usage patterns. Additionally, we found that different usage patterns were associated with varying levels of enjoyment and perceived ownership over the essay. The results of this study contribute to discussions about how writing education should incorporate generative AI-powered tools in the classroom.",
-      "date": "2026-06-29T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2501.10551",
-      "pdfUrl": "https://arxiv.org/pdf/2501.10551.pdf",
-      "arxivId": "2501.10551",
-      "categories": [
-        "cs.HC"
-      ],
-      "tags": [
-        "LLM",
-        "GPT",
-        "Education"
-      ]
-    },
-    {
-      "id": "2504.04703",
-      "title": "Usability Testing of an Explainable AI-enhanced Tool for Clinical Decision Support: Insights from the Reflexive Thematic Analysis",
-      "authors": [
-        "Mohammad Golam Kibria",
-        "Lauren Kucirka",
-        "Alison Stuebe",
-        "Javed Mostafa"
-      ],
-      "abstract": "Artificial intelligence-augmented technology represents a considerable opportunity for improving healthcare delivery. Significant progress has been made to demonstrate the value of complex models to enhance clinicians` efficiency in decision-making. However, the clinical adoption of such models is scarce due to multifaceted implementation issues, with the explainability of AI models being among them. One of the substantially documented areas of concern is the unclear AI explainability that negatively influences clinicians` considerations for accepting the complex model. With a usability study engaging 20 U.S.-based clinicians and following the qualitative reflexive thematic analysis, this study develops and presents a concrete framework and an operational definition of explainability. The framework can inform the required customizations and feature developments in AI tools to support clinicians` preferences and enhance their acceptance.",
-      "date": "2026-06-29T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2504.04703",
-      "pdfUrl": "https://arxiv.org/pdf/2504.04703.pdf",
-      "arxivId": "2504.04703",
-      "categories": [
-        "cs.HC"
-      ],
-      "tags": [
-        "Usability",
-        "Health"
-      ]
-    },
-    {
-      "id": "2508.11059",
-      "title": "Stories and Systems: Educational Interactive Storytelling to Teach Media Literacy and Systemic Thinking",
-      "authors": [
-        "Christian Roth",
-        "Rahmin Bender-Salazar",
-        "Breanne Pitt"
-      ],
-      "abstract": "This paper explores how Interactive Digital Narratives (IDNs) can support learners in developing the critical literacies needed to address complex societal challenges, so-called wicked problems, such as climate change, pandemics, and social inequality. While digital technologies offer broad access to narratives and data, they also contribute to misinformation and the oversimplification of interconnected issues. IDNs enable learners to navigate nonlinear, interactive stories, fostering deeper understanding and engagement. We introduce Systemic Learning IDNs: interactive narrative experiences explicitly designed to help learners explore and reflect on complex systems and interdependencies. To guide their creation and use, we propose the CLASS framework, a structured model that integrates systems thinking, design thinking, and storytelling. This transdisciplinary approach supports learners in developing curiosity, critical thinking, and collaborative problem-solving. Focusing on the classroom context, we apply CLASS to two cases, one commercial narrative simulation and one educational prototype, offering a comparative analysis and practical recommendations for future design and implementation. By combining narrative, systems mapping, and participatory design, this paper highlights how IDNs can become powerful tools for transformative, systems-oriented learning in an increasingly complex world.",
-      "date": "2026-06-29T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2508.11059",
-      "pdfUrl": "https://arxiv.org/pdf/2508.11059.pdf",
-      "arxivId": "2508.11059",
-      "categories": [
-        "cs.HC",
-        "cs.CY",
-        "cs.ET"
-      ],
-      "tags": [
-        "Collaboration",
-        "Education"
-      ]
-    },
-    {
-      "id": "2604.03401",
-      "title": "Can LLMs Reason About Attention? Towards Zero-Shot Analysis of Multimodal Classroom Behavior",
-      "authors": [
-        "Nolan Platt",
-        "Sehrish Nizamani",
-        "Alp Tural",
-        "Elif Tural",
-        "Saad Nizamani",
-        "Andrew Katz",
-        "Yoonje Lee",
-        "Nada Basit"
-      ],
-      "abstract": "Understanding student engagement usually requires time-consuming manual observation or invasive recording that raises privacy concerns. We present a privacy-preserving pipeline that analyzes classroom videos to extract insights about student attention, without storing any identifiable footage. Our system runs on a single GPU, using OpenPose for skeletal extraction and Gaze-LLE for visual attention estimation. Original video frames are deleted immediately after pose extraction, thus only geometric coordinates (stored as JSON) are retained, ensuring compliance with FERPA. The extracted pose and gaze data is processed by QwQ-32B-Reasoning, which performs zero-shot analysis of student behavior across lecture segments. Instructors access results through a web dashboard featuring attention heatmaps and behavioral summaries. Our preliminary findings suggest that LLMs may show promise for multimodal behavior understanding, although they still struggle with spatial reasoning about classroom layouts. We discuss these limitations and outline directions for improving LLM spatial comprehension in educational analytics contexts.",
-      "date": "2026-06-29T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2604.03401",
-      "pdfUrl": "https://arxiv.org/pdf/2604.03401.pdf",
-      "arxivId": "2604.03401",
-      "categories": [
-        "cs.HC",
-        "cs.AI",
-        "cs.CV"
-      ],
-      "tags": [
-        "LLM",
-        "Privacy",
-        "Education"
-      ]
-    },
-    {
-      "id": "2604.18193",
-      "title": "How Do People Accept Robot in Public Space? A Comparative Study between Germany and Japan",
-      "authors": [
-        "Zhe Zeng",
-        "Clara Ayumi Fechner",
-        "Fei Yan",
-        "Hailong Liu"
-      ],
-      "abstract": "With the increasing deployment of robots in public spaces, encounters between robots and incidentally copresent persons (InCoPs) are becoming more frequent. However, InCoPs remain largely underexplored in the literature, particularly from a cross-cultural perspective. Therefore, the present study investigates differences in InCoPs' existence acceptance (EA) of autonomous cleaning robots in public spaces among Japanese and German participants. Online survey results revealed that Germans showed significantly higher EA. Social Norms and Trust were the strongest positive EA predictors across cultures. More specifically, for Germans, EA was directly influenced by Usefulness, Interest and Anger, showing a functional-affective pattern where functional perceptions boost EA and anger suppresses it. For Japanese participants, Trust, Surprise and Fear were the direct associational factors, forming a trust-emotion pattern. These findings suggest that the cognitive and emotional drivers of public robot acceptance may vary across countries, emphasizing the need for adaptive robot design.",
-      "date": "2026-06-29T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2604.18193",
-      "pdfUrl": "https://arxiv.org/pdf/2604.18193.pdf",
-      "arxivId": "2604.18193",
-      "categories": [
-        "cs.HC",
-        "cs.CY"
-      ],
-      "tags": [
-        "Robotics",
-        "Emotion",
-        "Trust"
-      ]
-    },
-    {
-      "id": "2308.05201",
-      "title": "\"Generate\" the Future of Work through AI: Empirical Evidence from Online Labor Markets",
-      "authors": [
-        "Jin Liu",
-        "Xingchen Xu",
-        "Xi Nan",
-        "Yongjun Li",
-        "Yong Tan"
-      ],
-      "abstract": "Large Language Model (LLM)-based generative AI systems are general-purpose tools capable of augmenting or even automating a wide range of job functions, positioning them to reshape labor market dynamics. However, predicting their precise impact a priori is challenging, given AI's simultaneous effects on both demand and supply, as well as the strategic responses of market participants. Leveraging an extensive dataset from a leading online labor platform, we document a pronounced displacement effect and an overall contraction in submarkets where required skills closely align with core LLM functionalities. Although demand and supply both decline, the reduction in supply is comparatively smaller, thereby intensifying competition among freelancers. Notably, further analysis shows that this heightened competition is especially pronounced in programming-intensive submarkets. This pattern is attributed to skill-transition effects: by lowering the human-capital barrier to programming, ChatGPT enables incumbent freelancers to enter programming tasks. Moreover, these transitions are not homogeneous, with high-skilled freelancers contributing disproportionately to the shift. Our findings illuminate the multifaceted impacts of general-purpose AI on labor markets, highlighting not only the displacement of certain occupations but also the inducement of skill transitions within the labor supply. These insights offer practical implications for policymakers, platform operators, and workers.",
-      "date": "2026-06-29T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2308.05201",
-      "pdfUrl": "https://arxiv.org/pdf/2308.05201.pdf",
-      "arxivId": "2308.05201",
-      "categories": [
-        "cs.HC",
-        "cs.AI",
-        "econ.GN",
-        "q-fin.EC"
-      ],
-      "tags": [
-        "LLM",
-        "GPT"
-      ]
-    },
-    {
-      "id": "2601.14264",
-      "title": "Psychometric Comparability of LLM-Based Digital Twins",
-      "authors": [
-        "Yufei Zhang",
-        "Zhihao Ma"
-      ],
-      "abstract": "Large language models (LLMs) act as digital twins for human respondents, yet their psychometric comparability remains uncertain. We propose a construct validity framework spanning construct representation and the nomothetic span, benchmarking models against human gold standards. Across studies, digital twins achieved high aggregate-level accuracy and profile correlations, but showed attenuated item-level correlations. In word association tests, LLM networks exhibited humanlike small-world structure and theory-consistent communities, yet diverged lexically and in local structure. In decision-making and contextualized tasks, they under-reproduced heuristic biases, demonstrating normative rationality, compressed variance, and limited temporal sensitivity. Feature-rich and trait relevant conditioning improved Big Five personality prediction and nomothetic-span alignment, but network invariance remained limited, with partial configural solutions and persistent loading differences. In cross-language free-text tasks in English and Chinese, feature-rich digital twins better approximated construct-level narrative content, but linguistic and idiographic differences persisted. These findings clarify that digital twins are most useful within validated boundaries, where the construct, task and level of inference align with evidence from human data.",
-      "date": "2026-06-29T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2601.14264",
-      "pdfUrl": "https://arxiv.org/pdf/2601.14264.pdf",
-      "arxivId": "2601.14264",
-      "categories": [
-        "cs.HC",
-        "cs.CY",
-        "cs.AI",
-        "cs.CL"
-      ],
-      "tags": [
-        "LLM"
-      ]
-    },
-    {
-      "id": "2604.24155",
-      "title": "The Alignment Target Problem: Divergent Moral Judgments of Humans, AI Systems, and Their Designers",
-      "authors": [
-        "Benjamin Minhao Chen",
-        "Xinyu Xie"
-      ],
-      "abstract": "The project of aligning machine behavior with human values raises a basic problem: whose moral expectations should guide AI decision-making? Much alignment research assumes that the appropriate benchmark is how humans themselves would act in a given situation. Studies of agent-type value forks challenge this assumption by showing that people do not always judge humans and AI systems identically.This paper extends that challenge by examining two further possibilities: first, that evaluations of AI behavior change when its human origins are made visible; and second, that people judge the humans who program AI systems differently from either the machines or the human actors they are compared against. An experiment with 1,002 U.S. adults measured moral judgments in a runaway mine train scenario, varying the subject of evaluation across four conditions: a repairman, a repair robot, a repair robot programmed by company engineers, and company engineers programming a repair robot. We find no significant difference in evaluations of the repairman and the robot. However, judgments shifted substantially when the robot's actions were described as the product of human design. Participants exhibited markedly more deontological, rule-based reasoning when evaluating either the programmed robot or the engineers who programmed it, suggesting that rendering human agency visible activates heightened moral constraints. These findings indicate that people may evaluate humans, AI systems acting in the same situation, and the humans who design them in meaningfully different ways. The fact that these evaluations do not necessarily converge gives rise to the alignment target problem: which normative target should guide the development of artificial moral agents in high-stakes domains, and whether these plural judgments can be reconciled within a coherent account of value alignment.",
-      "date": "2026-06-29T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2604.24155",
-      "pdfUrl": "https://arxiv.org/pdf/2604.24155.pdf",
-      "arxivId": "2604.24155",
-      "categories": [
-        "cs.HC",
-        "cs.CY",
-        "cs.AI"
-      ],
-      "tags": [
-        "Robotics"
-      ]
+      "tags": []
     },
     {
       "id": "2606.29746v1",
@@ -1399,9 +677,7 @@
         "cs.AI",
         "cs.HC"
       ],
-      "tags": [
-        "Health"
-      ]
+      "tags": []
     },
     {
       "id": "2606.29727v1",
@@ -1426,10 +702,7 @@
         "cs.AI",
         "cs.HC"
       ],
-      "tags": [
-        "LLM",
-        "Collaboration"
-      ]
+      "tags": []
     },
     {
       "id": "2606.29726v1",
@@ -1448,9 +721,7 @@
         "cs.HC",
         "cs.AI"
       ],
-      "tags": [
-        "Emotion"
-      ]
+      "tags": []
     },
     {
       "id": "2606.29548v1",
@@ -1493,11 +764,7 @@
         "cs.AI",
         "cs.CY"
       ],
-      "tags": [
-        "LLM",
-        "Privacy",
-        "Education"
-      ]
+      "tags": []
     },
     {
       "id": "2606.29393v1",
@@ -1521,10 +788,7 @@
         "cs.HC",
         "cs.SE"
       ],
-      "tags": [
-        "Privacy",
-        "Education"
-      ]
+      "tags": []
     },
     {
       "id": "2606.29115v1",
@@ -1548,9 +812,7 @@
         "cs.CV",
         "cs.HC"
       ],
-      "tags": [
-        "Accessibility"
-      ]
+      "tags": []
     },
     {
       "id": "2606.28882v1",
@@ -1574,10 +836,7 @@
         "cs.HC",
         "cs.AI"
       ],
-      "tags": [
-        "LLM",
-        "Education"
-      ]
+      "tags": []
     },
     {
       "id": "2606.28779v1",
@@ -1597,10 +856,7 @@
       "categories": [
         "cs.HC"
       ],
-      "tags": [
-        "Voice",
-        "Chatbot"
-      ]
+      "tags": []
     },
     {
       "id": "2606.28777v1",
@@ -1618,10 +874,7 @@
       "categories": [
         "cs.HC"
       ],
-      "tags": [
-        "Privacy",
-        "Trust"
-      ]
+      "tags": []
     },
     {
       "id": "2606.28749v1",
@@ -1640,10 +893,7 @@
         "cs.AI",
         "cs.HC"
       ],
-      "tags": [
-        "LLM",
-        "Education"
-      ]
+      "tags": []
     },
     {
       "id": "2606.28714v1",
@@ -1662,11 +912,7 @@
       "categories": [
         "cs.HC"
       ],
-      "tags": [
-        "XR",
-        "Voice",
-        "Emotion"
-      ]
+      "tags": []
     },
     {
       "id": "2606.28526v1",
@@ -1687,10 +933,7 @@
         "cs.CL",
         "cs.HC"
       ],
-      "tags": [
-        "LLM",
-        "Health"
-      ]
+      "tags": []
     },
     {
       "id": "2606.28517v1",
@@ -1710,10 +953,7 @@
       "categories": [
         "cs.HC"
       ],
-      "tags": [
-        "LLM",
-        "Education"
-      ]
+      "tags": []
     },
     {
       "id": "2606.28510v1",
@@ -1755,11 +995,7 @@
       "categories": [
         "cs.HC"
       ],
-      "tags": [
-        "Accessibility",
-        "Health",
-        "Chatbot"
-      ]
+      "tags": []
     },
     {
       "id": "2606.28469v1",
@@ -1785,11 +1021,7 @@
         "cs.RO",
         "cs.HC"
       ],
-      "tags": [
-        "LLM",
-        "Robotics",
-        "Collaboration"
-      ]
+      "tags": []
     },
     {
       "id": "2606.28090v1",
@@ -1810,11 +1042,7 @@
       "categories": [
         "cs.HC"
       ],
-      "tags": [
-        "LLM",
-        "Collaboration",
-        "Mobile"
-      ]
+      "tags": []
     },
     {
       "id": "2606.28083v1",
@@ -1858,9 +1086,7 @@
         "cs.HC",
         "cs.IR"
       ],
-      "tags": [
-        "LLM"
-      ]
+      "tags": []
     },
     {
       "id": "2606.27951v1",
@@ -1883,9 +1109,7 @@
         "cs.HC",
         "physics.soc-ph"
       ],
-      "tags": [
-        "Gaming"
-      ]
+      "tags": []
     },
     {
       "id": "2606.27897v1",
@@ -1905,9 +1129,7 @@
         "cs.CV",
         "cs.HC"
       ],
-      "tags": [
-        "Visualization"
-      ]
+      "tags": []
     },
     {
       "id": "2606.27738v1",
@@ -1927,241 +1149,7 @@
       "categories": [
         "cs.HC"
       ],
-      "tags": [
-        "VR"
-      ]
-    },
-    {
-      "id": "2606.26117",
-      "title": "The Governance Inversion Hypothesis: Why More AI Regulation May Produce Less Organisational Control",
-      "authors": [
-        "Victor Frimpong"
-      ],
-      "abstract": "This paper introduces the Governance Inversion Hypothesis (GIH) to explain a growing paradox in artificial intelligence (AI) governance: under conditions of increasing regulatory expansion and technological complexity, organisations may become more formally governed while simultaneously experiencing a decline in operational control over AI systems. Existing AI governance frameworks generally assume that stronger regulation improves accountability, oversight, and organisational control. This paper challenges that assumption by arguing that governance formalisation itself may contribute to the erosion of control in AI-intensive environments. Drawing on institutional theory, organisational governance research, accountability scholarship, and emerging AI governance literature, the paper develops a conceptual framework explaining how regulatory expansion may weaken operational authority through four interconnected mechanisms: authority fragmentation, symbolic governance expansion, externalisation of control, and authority paralysis. As governance systems become increasingly layered and procedurally dense, organisations may struggle to maintain coherent authority, technical visibility, escalation capability, and meaningful intervention power over opaque and externally mediated AI infrastructures. The paper extends institutional decoupling theory by introducing governance inversion as a structural condition in which governance expansion may actively undermine operational coherence rather than strengthen it. It concludes that the central risk in AI governance may not be the absence of governance structures, but the emergence of institutions that appear increasingly governed while progressively losing the capacity to govern effectively.",
-      "date": "2026-06-26T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2606.26117",
-      "pdfUrl": "https://arxiv.org/pdf/2606.26117.pdf",
-      "arxivId": "2606.26117",
-      "categories": [
-        "cs.HC",
-        "cs.CY",
-        "cs.AI"
-      ],
       "tags": []
-    },
-    {
-      "id": "2606.27258",
-      "title": "Beyond Objects",
-      "authors": [
-        "Daniel Jackson"
-      ],
-      "abstract": "A core principle of object orientation -- that the functionality of a system can be partitioned amongst objects that correspond to individuals in the problem domain -- has influenced how software has been specified, designed and implemented for more than fifty years. Later developments in software engineering sought to build on this principle. But in fact this partitioning is neither natural nor straightforward, and the problems that these later developments sought to mitigate -- the fragmentation and conflation of functionality -- were often, in fact, the inevitable consequences of this founding principle. An easier path to addressing these problems therefore starts by going back, abandoning object orientation, and replacing it with an alternative approach that decouples the individuals of the problem domain from the modules that partition functionality.",
-      "date": "2026-06-26T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2606.27258",
-      "pdfUrl": "https://arxiv.org/pdf/2606.27258.pdf",
-      "arxivId": "2606.27258",
-      "categories": [
-        "cs.HC",
-        "cs.SE",
-        "cs.PL"
-      ],
-      "tags": []
-    },
-    {
-      "id": "2406.07147",
-      "title": "Wearable Device-Based Real-Time Monitoring of Physiological Signals: Evaluating Cognitive Load Across Different Tasks",
-      "authors": [
-        "Ling He",
-        "Yanxin Chen",
-        "Wenqi Wang",
-        "Shuting He",
-        "Xiaoqiang Hu"
-      ],
-      "abstract": "This study employs cutting-edge wearable monitoring technology to conduct high-precision, high-temporal-resolution (1-second interval) cognitive load assessment on electroencephalogram (EEG) data from the FP1 channel and heart rate variability (HRV) data of secondary vocational students. By jointly analyzing these two critical physiological indicators, the research delves into their application value in assessing cognitive load among secondary vocational students and their utility across various tasks. The study designed two experiments to validate the efficacy of the proposed approach: Initially, a random forest classification model, developed using the N-BACK task, enabled the precise decoding of physiological signal characteristics in secondary vocational students under different levels of cognitive load, achieving a classification accuracy of 97%. Subsequently, this classification model was applied in a cross-task experiment involving the National Computer Rank Examination (Level-1), demonstrating the method's significant applicability and cross-task transferability in diverse learning contexts. Conducted with high portability, this research holds substantial theoretical and practical significance for optimizing teaching resource allocation in secondary vocational education, as well as for cognitive load assessment methods and monitoring. Currently, the research findings are undergoing trial implementation in the school.",
-      "date": "2026-06-26T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2406.07147",
-      "pdfUrl": "https://arxiv.org/pdf/2406.07147.pdf",
-      "arxivId": "2406.07147",
-      "categories": [
-        "cs.HC",
-        "cs.AI",
-        "cs.CY"
-      ],
-      "tags": [
-        "Education",
-        "Wearable"
-      ]
-    },
-    {
-      "id": "2509.05219",
-      "title": "Conversational AI increases political knowledge as effectively as self-directed internet search",
-      "authors": [
-        "Lennart Luettgau",
-        "Hannah Rose Kirk",
-        "Kobi Hackenburg",
-        "Jessica Bergs",
-        "Henry Davidson",
-        "Henry Ogden",
-        "Divya Siddarth",
-        "Saffron Huang",
-        "Christopher Summerfield"
-      ],
-      "abstract": "Conversational AI systems are increasingly being used in place of traditional search engines to help users complete information-seeking tasks. This has raised concerns in the political domain, where biased or hallucinated outputs could misinform voters or distort public opinion. However, in spite of these concerns, the extent to which conversational AI is used for political information-seeking, as well the potential impact of this use on users' political knowledge, remains uncertain. Here, we address these questions: First, in a representative national survey of the UK public (N = 2,499), we find that in the week before the 2024 election as many as 32% of chatbot users - and 13% of eligible UK voters - have used conversational AI to seek political information relevant to their electoral choice. Second, in a series of randomised controlled trials (N = 2,858 total) we find that across issues, models, and prompting strategies, task-directed conversations with AI to research specific political topics increase political knowledge (increase belief in true information and decrease belief in misinformation) to the same extent as self-directed Google search. Taken together, our results suggest that people in the UK are increasingly turning to conversational AI for information about politics. These findings substantially extend prior work by demonstrating that conversational AI's effects on political knowledge generalise across multiple topics, political perspectives, and model families, suggesting that the shift toward AI-assisted political information-seeking may not lead to increased public belief in political misinformation.",
-      "date": "2026-06-26T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2509.05219",
-      "pdfUrl": "https://arxiv.org/pdf/2509.05219.pdf",
-      "arxivId": "2509.05219",
-      "categories": [
-        "cs.HC"
-      ],
-      "tags": [
-        "Chatbot"
-      ]
-    },
-    {
-      "id": "2601.00570",
-      "title": "User Perceptions of an LLM-Based Chatbot for Cognitive Reappraisal of Stress: Feasibility Study",
-      "authors": [
-        "Ananya Bhattacharjee",
-        "Jina Suh",
-        "Mohit Chandra",
-        "Javier Hernandez"
-      ],
-      "abstract": "Cognitive reappraisal is a well-studied emotion regulation strategy that helps individuals reinterpret stressful situations to reduce their impact. Many digital mental health tools struggle to support this process because rigid scripts fail to accommodate how users naturally describe stressors. This study examined the feasibility of an LLM-based single-session intervention (SSI) for workplace stress reappraisal. We assessed short-term changes in stress-related outcomes and examined design tensions during use. We conducted a feasibility study with 100 employees at a large technology company who completed a structured cognitive reappraisal session delivered by a GPT-4o-based chatbot. Pre-post measures included perceived stress intensity, stress mindset, perceived demand, and perceived resources. These outcomes were analyzed using paired Wilcoxon signed-rank tests with correction for multiple comparisons. We also examined sentiment and stress trajectories across conversation quartiles using two RoBERTa-based classifiers and an LLM-based stress rater. Open-ended responses were analyzed using thematic analysis. Results showed significant reductions in perceived stress intensity and significant improvements in stress mindset. Changes in perceived resources and perceived demand trended in expected directions but were not statistically significant. Automated analyses indicated consistent declines in negative sentiment and stress over the course of the interaction. Qualitative findings suggested that participants valued the structured prompts for organizing thoughts, gaining perspective, and feeling acknowledged. Participants also reported tensions around scriptedness, preferred interaction length, and reactions to AI-driven empathy. These findings highlight both the promise and the design constraints of integrating LLMs into DMH interventions for workplace settings.",
-      "date": "2026-06-26T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2601.00570",
-      "pdfUrl": "https://arxiv.org/pdf/2601.00570.pdf",
-      "arxivId": "2601.00570",
-      "categories": [
-        "cs.HC"
-      ],
-      "tags": [
-        "LLM",
-        "GPT",
-        "Health",
-        "Chatbot",
-        "Emotion"
-      ]
-    },
-    {
-      "id": "2604.01741",
-      "title": "Eyes Can't Always Tell: Fusing Eye Tracking and User Priors for User Modeling under AI Advice Conditions",
-      "authors": [
-        "Xin Sun",
-        "Shu Wei",
-        "Ting Pan",
-        "Yajing Wang",
-        "Jos A. Bosch",
-        "Isao Echizen",
-        "Abdallah El Ali",
-        "Saku Sugawara"
-      ],
-      "abstract": "Modeling users' cognitive states (e.g., cognitive load and decision confidence) is essential for building adaptive AI in high-stakes decision-making. While eye tracking provides non-invasive behavioral signals correlated with cognitive effort, prior work has not systematically examined how AI assistance contexts, specifically varying advice reliability and user heterogeneity, can alter the mapping between gaze signals and cognitive states. We conducted a within-subject lab eye-tracking study (N=54) on factual verification tasks under three conditions: No-AI, Correct-AI advice, and Incorrect-AI advice. We analyze condition-dependent changes in self-reports and eye-tracking patterns and evaluate the robustness of eye-tracking-based user modeling. Results show that AI advice increases decision confidence compared to No-AI, while Correct-AI is associated with lower perceived cognitive load and more efficient gaze behavior. Crucially, predictive modeling is context-sensitive: the relationship between eye-tracking signals and cognitive states shifts across AI conditions. Finally, fusing eye-tracking features with user priors (demographics, AI literacy/experience, and propensity to trust technology) improves cross-participant generalization. These findings support condition-aware and personalized user modeling for cognitively aligned adaptive AI systems.",
-      "date": "2026-06-26T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2604.01741",
-      "pdfUrl": "https://arxiv.org/pdf/2604.01741.pdf",
-      "arxivId": "2604.01741",
-      "categories": [
-        "cs.HC"
-      ],
-      "tags": [
-        "Eye Tracking",
-        "Trust"
-      ]
-    },
-    {
-      "id": "2604.03501",
-      "title": "The Augmentation Trap: AI Productivity and the Cost of Cognitive Offloading",
-      "authors": [
-        "Michael Caosun",
-        "Sinan Aral"
-      ],
-      "abstract": "Experimental evidence suggests that AI tools raise worker productivity, but also that sustained use can erode the expertise on which those gains depend. To explore the consequences of this tradeoff, we develop a dynamic model in which a decision-maker chooses AI usage intensity for a worker over time, trading immediate productivity against the erosion of worker skill. We decompose the tool's productivity effect into two channels, one independent of worker expertise and one that scales with it. The model produces three main results. First, a decision-maker who fully anticipates skill erosion still rationally adopts AI when front-loaded gains outweigh long-run skill costs, lowering long-run productivity. The decomposition sorts deployments into five regimes by their long-run effect, separating beneficial from harmful adoption. Second, the tradeoff introduces the potential for misaligned incentives. When the decision-maker does not bear the long-run skill cost, AI use can leave the worker worse off than with no AI, the outcome we call the augmentation trap. Third, when AI productivity depends little on worker expertise, the model can generate permanent divergence, with high-skill workers realizing their potential and low-skill workers deskilling.",
-      "date": "2026-06-26T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2604.03501",
-      "pdfUrl": "https://arxiv.org/pdf/2604.03501.pdf",
-      "arxivId": "2604.03501",
-      "categories": [
-        "cs.HC",
-        "cs.AI"
-      ],
-      "tags": []
-    },
-    {
-      "id": "2606.09843",
-      "title": "An LLM-Native Psychometric Instrument Does Not Predict LLM Behavior: Evidence Across 25 Models",
-      "authors": [
-        "Juan Manuel Contreras"
-      ],
-      "abstract": "Large language models (LLMs) give stable answers to personality questionnaires, yet these self-reports fail to predict how the models actually behave. Is this gap an artifact of forcing human trait categories onto LLMs, or something deeper about LLM self-report itself? To find out, we built the first psychometric instrument whose dimensions are derived bottom-up from LLM behavior rather than borrowed from human psychology. Administering 300 items (240 Likert + 60 scenario) to 25 LLMs across 17 model families, 30 times each, exploratory factor analysis revealed five replicable, highly reliable factors: Responsiveness, Deference, Boldness, Guardedness, and Verbosity (all Tucker $\\phi \\geq .957$, all $\\alpha \\geq .930$). We then collected 2,500 open-ended behavioral samples and had them rated by 151 humans and a three-judge LLM ensemble. Humans and judges agreed about model behavior ($r = .51$), but self-report predicted neither: the gap persists even for constructs native to LLMs, where a human-mismatch explanation no longer applies. The exception is telling. On Responsiveness, self-report tracked LLM judges ($r = .53$) but not humans ($r = .04$), even though humans and judges otherwise agreed ($r = .59$). Self-report items and LLM judges share a source of variance that human observers do not. This confound is invisible to the within-ensemble reliability checks used to validate LLM judges, and it poses a concrete risk for the LLM-as-judge pipelines now central to model evaluation. We release the instrument as a diagnostic probe for alignment-shaped self-description.",
-      "date": "2026-06-26T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2606.09843",
-      "pdfUrl": "https://arxiv.org/pdf/2606.09843.pdf",
-      "arxivId": "2606.09843",
-      "categories": [
-        "cs.HC",
-        "cs.AI",
-        "cs.CL"
-      ],
-      "tags": [
-        "LLM"
-      ]
-    },
-    {
-      "id": "2606.20375",
-      "title": "Organizing in the Digital Age: Understanding Community, Challenges, and Consequences in Digitally-facilitated Labor Organizing",
-      "authors": [
-        "Frederick Reiber",
-        "Alishah Chator",
-        "Dana Calacci",
-        "Allison McDonald"
-      ],
-      "abstract": "The contemporary American labor force is highly dispersed, necessitating the use of digital communication tools to bridge spatial and temporal gaps in union organizing. This study provides an in-depth analysis of how workers within various labor unions utilize digital, text-based communication platforms -- including Discord, WhatsApp, and Slack -- for labor organizing. Through 17 qualitative interviews, we examine the challenges and opportunities presented by digital organizing, identifying both technical and social obstacles. Our findings reveal that although digital tools are integral to contemporary labor successes, they also introduce new complexities, such as navigating technical security, managing information overload, and building trust and consensus. Based on these insights, we draw connections to broader understandings of digital organizing and the role of digital tools in unions.",
-      "date": "2026-06-26T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2606.20375",
-      "pdfUrl": "https://arxiv.org/pdf/2606.20375.pdf",
-      "arxivId": "2606.20375",
-      "categories": [
-        "cs.HC",
-        "cs.CY"
-      ],
-      "tags": [
-        "Trust"
-      ]
-    },
-    {
-      "id": "2510.26518",
-      "title": "Human-AI Complementarity: A Goal for Amplified Oversight",
-      "authors": [
-        "Rishub Jain",
-        "Sophie Bridgers",
-        "Lili Janzer",
-        "Rory Greig",
-        "Tian Huey Teh",
-        "Vladimir Mikulik"
-      ],
-      "abstract": "Human feedback is critical for aligning AI systems to human values. As AI capabilities improve and AI is used to tackle more challenging tasks, verifying quality and safety becomes increasingly challenging. This paper explores how we can leverage AI to improve the quality of human oversight. We focus on an important safety problem that is already challenging for humans: fact-verification of AI outputs. We find that combining AI ratings and human ratings based on AI rater confidence is better than relying on either alone. Giving humans an AI fact-verification assistant further improves their accuracy, but the type of assistance matters. Displaying AI explanation, confidence, and labels leads to over-reliance, but just showing search results and evidence fosters more appropriate trust. These results have implications for Amplified Oversight -- the challenge of combining humans and AI to supervise AI systems even as they surpass human expert performance.",
-      "date": "2026-06-26T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2510.26518",
-      "pdfUrl": "https://arxiv.org/pdf/2510.26518.pdf",
-      "arxivId": "2510.26518",
-      "categories": [
-        "cs.HC",
-        "cs.AI"
-      ],
-      "tags": [
-        "Trust"
-      ]
     },
     {
       "id": "2606.27619v1",
@@ -2190,10 +1178,7 @@
         "cs.IR",
         "cs.LG"
       ],
-      "tags": [
-        "LLM",
-        "Education"
-      ]
+      "tags": []
     },
     {
       "id": "2606.27302v1",
@@ -2214,15 +1199,7 @@
         "cs.HC",
         "cs.AI"
       ],
-      "tags": [
-        "UX",
-        "Usability",
-        "Privacy",
-        "Health",
-        "Chatbot",
-        "Emotion",
-        "Trust"
-      ]
+      "tags": []
     },
     {
       "id": "2606.27301v1",
@@ -2265,11 +1242,7 @@
       "categories": [
         "cs.HC"
       ],
-      "tags": [
-        "Collaboration",
-        "Emotion",
-        "Trust"
-      ]
+      "tags": []
     },
     {
       "id": "2606.27258v1",
@@ -2310,10 +1283,7 @@
         "cs.CV",
         "cs.HC"
       ],
-      "tags": [
-        "Accessibility",
-        "Emotion"
-      ]
+      "tags": []
     },
     {
       "id": "2606.27111v1",
@@ -2345,10 +1315,7 @@
         "cs.HC",
         "cs.SI"
       ],
-      "tags": [
-        "Collaboration",
-        "Fabrication"
-      ]
+      "tags": []
     },
     {
       "id": "2606.27077v1",
@@ -2366,10 +1333,7 @@
       "categories": [
         "cs.HC"
       ],
-      "tags": [
-        "Mobile",
-        "Emotion"
-      ]
+      "tags": []
     },
     {
       "id": "2606.27067v1",
@@ -2411,10 +1375,7 @@
       "categories": [
         "cs.HC"
       ],
-      "tags": [
-        "Gaming",
-        "Health"
-      ]
+      "tags": []
     },
     {
       "id": "2606.26937v1",
@@ -2433,12 +1394,7 @@
       "categories": [
         "cs.HC"
       ],
-      "tags": [
-        "LLM",
-        "Visualization",
-        "Education",
-        "Health"
-      ]
+      "tags": []
     },
     {
       "id": "2606.26925v1",
@@ -2459,12 +1415,7 @@
       "categories": [
         "cs.HC"
       ],
-      "tags": [
-        "VR",
-        "Gaming",
-        "Education",
-        "Emotion"
-      ]
+      "tags": []
     },
     {
       "id": "2606.26886v1",
@@ -2485,11 +1436,7 @@
       "categories": [
         "cs.HC"
       ],
-      "tags": [
-        "Haptics",
-        "Visualization",
-        "Health"
-      ]
+      "tags": []
     },
     {
       "id": "2606.26884v1",
@@ -2510,10 +1457,7 @@
       "categories": [
         "cs.HC"
       ],
-      "tags": [
-        "LLM",
-        "Health"
-      ]
+      "tags": []
     },
     {
       "id": "2606.26842v1",
@@ -2553,9 +1497,7 @@
       "categories": [
         "cs.HC"
       ],
-      "tags": [
-        "Education"
-      ]
+      "tags": []
     },
     {
       "id": "2606.26725v1",
@@ -2592,10 +1534,7 @@
         "cs.SE",
         "cs.HC"
       ],
-      "tags": [
-        "Collaboration",
-        "Trust"
-      ]
+      "tags": []
     },
     {
       "id": "2606.26672v1",
@@ -2613,9 +1552,7 @@
       "categories": [
         "cs.HC"
       ],
-      "tags": [
-        "Emotion"
-      ]
+      "tags": []
     },
     {
       "id": "2606.26654v1",
@@ -2639,9 +1576,7 @@
         "cs.HC",
         "cs.IR"
       ],
-      "tags": [
-        "LLM"
-      ]
+      "tags": []
     },
     {
       "id": "2606.26641v1",
@@ -2667,11 +1602,7 @@
       "categories": [
         "cs.HC"
       ],
-      "tags": [
-        "LLM",
-        "Chatbot",
-        "Trust"
-      ]
+      "tags": []
     },
     {
       "id": "2606.26626v1",
@@ -2690,9 +1621,7 @@
       "categories": [
         "cs.HC"
       ],
-      "tags": [
-        "Emotion"
-      ]
+      "tags": []
     },
     {
       "id": "2606.26614v1",
@@ -2713,12 +1642,7 @@
         "cs.AI",
         "cs.GR"
       ],
-      "tags": [
-        "LLM",
-        "Visualization",
-        "Collaboration",
-        "Education"
-      ]
+      "tags": []
     },
     {
       "id": "2606.26579v1",
@@ -2733,263 +1657,6 @@
       "url": "https://arxiv.org/abs/2606.26579v1",
       "pdfUrl": "https://arxiv.org/pdf/2606.26579v1",
       "arxivId": "2606.26579v1",
-      "categories": [
-        "cs.HC",
-        "cs.CY"
-      ],
-      "tags": [
-        "Collaboration",
-        "Education"
-      ]
-    },
-    {
-      "id": "2606.25287",
-      "title": "The Digital Pirah\\~a Condition: Ecological Mismatch and the Reconstruction of Recursive Cognition",
-      "authors": [
-        "Dhushy Thillaivasana",
-        "Samar Shailendrab",
-        "Kristina Nichollsc",
-        "Deepani Guruged"
-      ],
-      "abstract": "Contemporary digital and AI-mediated environments are reshaping the cognitive ecologies within which human reasoning develops. As everyday activity becomes embedded in datafied infrastructures, cognitive habits adapt to conditions of immediacy, fragmentation, externalisation, and algorithmic filtering. This paper introduces the Digital Pirah\\~a Condition, a cultural ecological model explaining how these environments cultivate adaptive but shallow cognitive patterns, epistemic flattening, reduced recursive capacity, and heightened reliance on external scaffolds. While functional within digital systems, these adaptations create an ecological mismatch with the recursive, integrative reasoning required in academic and institutional activity systems. The paper argues that this mismatch is an ecological outcome rather than a psychological deficit, and that addressing it requires intentional cognitive niche construction within educational institutions. The lecturer is conceptualised as a cultural entrepreneur who reconstructs the cognitive ecology of learning through analog sanctuaries, AI-supported metacognitive scaffolds, and recursive curriculum architectures. The Digital Pirah\\~a Condition thus provides a theoretical lens for understanding contemporary cognitive change and a framework for ecological redesign in AI-mediated societies.",
-      "date": "2026-06-25T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2606.25287",
-      "pdfUrl": "https://arxiv.org/pdf/2606.25287.pdf",
-      "arxivId": "2606.25287",
-      "categories": [
-        "cs.HC"
-      ],
-      "tags": [
-        "Education"
-      ]
-    },
-    {
-      "id": "2505.14844",
-      "title": "The Pin of Shame: Examining Content Creators' Adoption of Pinning Inappropriate Comments as a Moderation Strategy",
-      "authors": [
-        "Yunhee Shim",
-        "Shagun Jhaver"
-      ],
-      "abstract": "Many social media platforms allow content creators to pin user comments in response to their content. Once pinned, a comment remains fixed at the top of the comments section, regardless of subsequent activity or the selected sorting order. The \"Pin of Shame\" refers to an innovative re-purposing of this feature, where creators intentionally pin norm-violating comments to spotlight them and prompt shaming responses from their audiences. This study explores how creators adopt this emerging moderation tactic, examining their motivations, its outcomes, and how it compares-procedurally and in effect-to other content moderation strategies. Through interviews with 20 content creators who had pinned negative comments on their posts, we find that the Pin of Shame is used to punish and educate inappropriate commenters, elicit emotional accountability, provoke audience negotiation of community norms, and support creators' impression management goals. Our findings shed light on the benefits, precarities, and risks of using public shaming as a tool for norm enforcement. We contribute to HCI research by informing the design of user-centered tools for addressing content-based harm.",
-      "date": "2026-06-25T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2505.14844",
-      "pdfUrl": "https://arxiv.org/pdf/2505.14844.pdf",
-      "arxivId": "2505.14844",
-      "categories": [
-        "cs.HC"
-      ],
-      "tags": [
-        "Education",
-        "Emotion"
-      ]
-    },
-    {
-      "id": "2510.00824",
-      "title": "Virtual Reality Alters Perceived Functional Body Size",
-      "authors": [
-        "Xiaoye Michael Wang",
-        "Ali Mazalek",
-        "Catherine M. Sabiston",
-        "Timothy N. Welsh"
-      ],
-      "abstract": "Virtual reality (VR) introduces sensory perturbations that may impact perception and action. The current study was designed to investigate how immersive VR presented through a head-mounted display (HMD) affects perceived functional body size using a passable aperture paradigm. Participants (n=60) performed an action task (sidle through apertures) and a perception task (adjust aperture width until passable without contact) in both physical, unmediated reality (UR) and VR. Results revealed significantly higher action and perceptual thresholds in VR compared to UR. Affordance ratios (perceptual threshold over action threshold) were also higher in VR, indicating that the increase in perceptual thresholds in VR was driven partly by sensorimotor uncertainty, as reflected in the increase in the action thresholds, and partly by perceptual distortions imposed by VR. This perceptual overestimation in VR also persisted as an aftereffect in UR following VR exposure. Geometrical modelling attributed the disproportionate increase in the perceptual threshold in VR primarily to depth compression. This compression, stemming from the vergence-accommodation conflict (VAC), caused the virtual aperture to be perceived as narrower than depicted, thus requiring a wider adjusted aperture. Critically, after mathematically correcting for the VAC's impact on perceived aperture width, the affordance ratios in VR became equivalent to those in UR. These outcomes demonstrate a recovered invariant geometrical scaling, suggesting that perception remained functionally attuned to action capabilities once VAC-induced distortions were accounted for. These findings highlight that VR-induced depth compression systematically alters perceived body-environment relationships, leading to an altered sense of one's functional body size.",
-      "date": "2026-06-25T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2510.00824",
-      "pdfUrl": "https://arxiv.org/pdf/2510.00824.pdf",
-      "arxivId": "2510.00824",
-      "categories": [
-        "cs.HC",
-        "cs.GR"
-      ],
-      "tags": [
-        "VR",
-        "Emotion"
-      ]
-    },
-    {
-      "id": "2602.04109",
-      "title": "Tinker Tales: A Tangible Dialogue System for Child-AI Co-Creative Storytelling",
-      "authors": [
-        "Nayoung Choi",
-        "Jiseung Hong",
-        "Peace Cyebukayire",
-        "Ikseon Choi",
-        "Jinho D. Choi"
-      ],
-      "abstract": "Conversational AI agents are increasingly explored as creative partners, yet how conversation design shapes child-AI dialogue in co-creative settings remains underexplored. We present Tinker Tales, a tangible dialogue system for child-AI collaborative storytelling, in which educational frameworks (narrative development and social-emotional learning) are instantiated as conversation design, shaping how the agent engages children across four narrative stages. The system combines a physical storytelling board, NFC-embedded toys, and a mobile app mediating multimodal interaction through tangible manipulation and voice-based dialogue. We conducted a home-based user study with 10 children (ages 6-8) across two conversation design conditions varying in how the agent structured elaboration, with and without educational scaffolding. Our findings show that prompt framing shapes the form and consistency of children's narrative contributions, structuring how they participate in co-creative dialogue with AI.",
-      "date": "2026-06-25T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2602.04109",
-      "pdfUrl": "https://arxiv.org/pdf/2602.04109.pdf",
-      "arxivId": "2602.04109",
-      "categories": [
-        "cs.HC",
-        "cs.AI"
-      ],
-      "tags": [
-        "Voice",
-        "Collaboration",
-        "Education",
-        "Mobile",
-        "Tangible",
-        "Emotion"
-      ]
-    },
-    {
-      "id": "2603.07306",
-      "title": "Seeing the Reasoning: How LLM Rationales Influence User Trust and Decision-Making in Factual Verification Tasks",
-      "authors": [
-        "Xin Sun",
-        "Shu Wei",
-        "Jos A Bosch",
-        "Isao Echizen",
-        "Saku Sugawara",
-        "Abdallah El Ali"
-      ],
-      "abstract": "Large Language Models (LLMs) increasingly show reasoning rationales alongside their answers, turning \"reasoning\" into a user-interface element. While step-by-step rationales are typically associated with model performance, how they influence users' trust and decision-making in factual verification tasks remains unclear. We ran an online study (N=68) manipulating three properties of LLM reasoning rationales: presentation format (instant vs. delayed vs. on-demand), correctness (correct vs. incorrect), and certainty framing (none vs. certain vs. uncertain). We found that correct rationales and certainty cues increased trust, decision confidence, and AI advice adoption, whereas uncertainty cues reduced them. Presentation format did not have a significant effect, suggesting users were less sensitive to how reasoning was revealed than to its reliability. Participants indicated they use rationales to primarily audit outputs and calibrate trust, where they expected rationales in stepwise, adaptive forms with certainty indicators. Our work shows that user-facing rationales, if poorly designed, can both support decision-making yet miscalibrate trust.",
-      "date": "2026-06-25T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2603.07306",
-      "pdfUrl": "https://arxiv.org/pdf/2603.07306.pdf",
-      "arxivId": "2603.07306",
-      "categories": [
-        "cs.HC"
-      ],
-      "tags": [
-        "LLM",
-        "Trust"
-      ]
-    },
-    {
-      "id": "2605.26309",
-      "title": "Visual Matters: Connecting Aesthetic Appeal and Production Quality of Photos, Infographics and Data Visualizations to Credibility of Social Media Posts",
-      "authors": [
-        "Salman Khawar",
-        "Yingdan Lu",
-        "Yilang Peng",
-        "Jiyoung Yeon",
-        "Cuihua Shen"
-      ],
-      "abstract": "The rapid proliferation of visual content raises fundamental questions about how different visual formats and features shape perceived credibility. Drawing on processing fluency theory, this research examines how visuals shape credibility judgments. We focus on three popular formats-photos, infographics, and data visualizations-comparing them to text-only posts, and test how two visual features, aesthetic appeal and production quality, influence credibility through processing fluency as a mediating mechanism. Through a preregistered experiment with 1200 US participants, we found that visual posts are generally perceived as more credible than text-only posts but this credibility advantage only applies to photos and infographics, not to data visualizations. Aesthetic appeal increases perceived credibility, partially mediated by processing fluency, while production quality had no significant effect on credibility across formats. These findings differentiate visual formats, advance conceptualizations of visual features, and identify processing fluency as a key mechanism for theorizing credibility across multimodal contexts.",
-      "date": "2026-06-25T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2605.26309",
-      "pdfUrl": "https://arxiv.org/pdf/2605.26309.pdf",
-      "arxivId": "2605.26309",
-      "categories": [
-        "cs.HC",
-        "cs.CY",
-        "cs.SI"
-      ],
-      "tags": [
-        "Visualization"
-      ]
-    },
-    {
-      "id": "2601.16529",
-      "title": "SycoEval-EM: Sycophancy Evaluation of Large Language Models in Simulated Clinical Encounters for Emergency Care",
-      "authors": [
-        "Dongshen Peng",
-        "Yi Wang",
-        "Austin Schoeffler",
-        "Sun-ha Hong",
-        "Brian Suffoletto",
-        "David Kim",
-        "Carl Preiksaitis",
-        "Christian Rose"
-      ],
-      "abstract": "Large language models (LLMs) deployed in clinical decision support may acquiesce to patient requests for care that conflicts with evidence-based guidelines. We developed SycoEval-EM, a multi-agent simulation framework to evaluate LLM robustness to adversarial patient persuasion in emergency medicine. Across 19 contemporary LLMs and 1,425 simulated clinical encounters spanning three Choosing Wisely scenarios, acquiescence rates ranged from 0% to 100%, revealing a bimodal distribution. Seven models maintained near-perfect guideline adherence, while six acquiesced in the majority of encounters. Vulnerability varied substantially across clinical scenarios. Acquiescence was highest for CT imaging requests, intermediate for antibiotic prescriptions for sinusitis, and lowest for opioid prescriptions for acute back pain. Model scale, recency, and performance on static medical benchmarks did not consistently predict robustness. All five persuasion tactics produced similar acquiescence rates, with no statistically significant differences after correction for multiple comparisons, suggesting a generalized susceptibility rather than tactic-specific weaknesses. LLM-as-judge evaluation was validated against two independent physician raters across 95 matched conversations and demonstrated near-perfect agreement for the primary outcome of acquiescence (Cohens kappa = 0.957). These findings indicate that static medical benchmarks are insufficient to predict safety performance under sustained social pressure and support incorporating multi-turn adversarial testing into clinical AI evaluation. Notably, two models achieved perfect guideline adherence across all encounters, demonstrating that robustness to patient pressure is attainable without sacrificing effective clinical communication.",
-      "date": "2026-06-25T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2601.16529",
-      "pdfUrl": "https://arxiv.org/pdf/2601.16529.pdf",
-      "arxivId": "2601.16529",
-      "categories": [
-        "cs.HC",
-        "cs.AI"
-      ],
-      "tags": [
-        "LLM",
-        "Health"
-      ]
-    },
-    {
-      "id": "2604.20166",
-      "title": "Aligning Human-AI-Interaction Trust for Mental Health Support: Survey and Position for Multi-Stakeholders",
-      "authors": [
-        "Xin Sun",
-        "Yue Su",
-        "Yifan Mo",
-        "Qingyu Meng",
-        "Yuxuan Li",
-        "Min Chen",
-        "Mengyuan Zhang",
-        "Saku Sugawara",
-        "Charlotte Gerritsen",
-        "Sander L. Koole",
-        "Koen Hindriks",
-        "Jiahuan Pei"
-      ],
-      "abstract": "Building trustworthy AI systems for mental health support is a shared priority across stakeholders from multiple disciplines. However, \"trustworthy\" remains loosely defined and inconsistently operationalized. AI research often focuses on technical criteria (e.g., robustness, explainability, and safety), while therapeutic practitioners emphasize therapeutic fidelity (e.g., appropriateness, empathy, and long-term user outcomes). To bridge the fragmented landscape, we propose a three-layer trust framework, covering human-oriented, AI-oriented, and interaction-oriented trust, integrating the viewpoints of key stakeholders (e.g., practitioners, researchers, regulators). Using this framework, we systematically review existing AI-driven research in mental health domain and examine evaluation practices for ``trustworthy'' ranging from automatic metrics to clinically validated approaches. We highlight critical gaps between what NLP currently measures and what real-world mental health contexts require, and outline a research agenda for building socio-technically aligned and genuinely trustworthy AI for mental health support.",
-      "date": "2026-06-25T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2604.20166",
-      "pdfUrl": "https://arxiv.org/pdf/2604.20166.pdf",
-      "arxivId": "2604.20166",
-      "categories": [
-        "cs.HC",
-        "cs.CL"
-      ],
-      "tags": [
-        "NLP",
-        "Health",
-        "Trust"
-      ]
-    },
-    {
-      "id": "2605.02384",
-      "title": "A Low-Code Approach for the Automatic Personalization of Conversational Agents",
-      "authors": [
-        "Aaron Conrardy",
-        "Alfredo Capozucca",
-        "Jordi Cabot"
-      ],
-      "abstract": "The rise of Large Language Models (LLMs) has increased the demand for Conversational Agents (CAs) capable of understanding human conversations as part of web applications. While traditional CAs consist of deterministic states, LLMs enhance their capabilities to handle open conversations, handling arbitrary requests. Numerous tools exist that allow non-technical users to create such CAs. Yet, the creation of personalized CAs able to adapt to the profile of end-users to offer an optimal user experience remains in the hands of experienced developers implementing ad-hoc personalizations. In this work, we propose a pipeline that follows a low-code/no-code approach to facilitate the modeling and generation of personalized CAs. A pilot user study was performed to get preliminary results on perceived usability and usefulness and the full pipeline has been implemented on top of an open-source low-code platform.",
-      "date": "2026-06-25T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2605.02384",
-      "pdfUrl": "https://arxiv.org/pdf/2605.02384.pdf",
-      "arxivId": "2605.02384",
-      "categories": [
-        "cs.HC",
-        "cs.SE"
-      ],
-      "tags": [
-        "LLM",
-        "UX",
-        "Usability",
-        "Chatbot"
-      ]
-    },
-    {
-      "id": "2605.16237",
-      "title": "Inside Baseball: The Automated Ball-Strike System as an Object Lesson in Technological Rule Enforcement",
-      "authors": [
-        "Andrea Wen-Yi Wang",
-        "Waki Kamino",
-        "David Mimno",
-        "Karen Levy",
-        "Malte F. Jung"
-      ],
-      "abstract": "Clearly-defined rules are often assumed to be straightforward to automate and evaluate. We challenge this assumption through an in-depth study of Major League Baseball's (MLB) seven-year experimentation with the Automated Ball-Strike System (ABS). ABS is envisioned to call balls and strikes accurately: a seemingly straightforward use of technology to objectively determine the distance between a pitch and the strike zone. Although the strike zone is an area clearly defined in the rulebook, it took MLB seven years to figure out how to automate calling balls and strikes with ABS, showing how even seemingly straightforward rules require a complex translation process to operationalize via technological systems. In this paper, we trace the design decisions that led to the current implementation of ABS. Our case study reveals that \"distance\" exists even between a clear rule and its technological implementation. Using analytic frameworks from Science and Technology Studies (STS), we show that such distance exists because (1) historically, the \"ground truth\" of the strike zone is contested: the rule in practice has always reflected a hybrid between the rulebook definition and umpires' enforcement decisions; and (2) the use of ABS is embedded in an existing eco-system, where the implementation of a technological enforcement system needs to balance multiple stakeholder values. This perspective challenges conventional evaluation paradigms that center on the distance between a formalized rule and its technological implementation, and instead calls for evaluating how such systems are experienced in practice. Addressing this question requires in-depth social science approaches, contributing to ongoing conversations in FAccT about the implementation and evaluation of sociotechnical systems.",
-      "date": "2026-06-25T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2605.16237",
-      "pdfUrl": "https://arxiv.org/pdf/2605.16237.pdf",
-      "arxivId": "2605.16237",
       "categories": [
         "cs.HC",
         "cs.CY"
@@ -3012,10 +1679,7 @@
         "cs.CY",
         "cs.HC"
       ],
-      "tags": [
-        "LLM",
-        "Accessibility"
-      ]
+      "tags": []
     },
     {
       "id": "2606.26565v1",
@@ -3039,9 +1703,7 @@
       "categories": [
         "cs.HC"
       ],
-      "tags": [
-        "Education"
-      ]
+      "tags": []
     },
     {
       "id": "2606.26508v1",
@@ -3083,10 +1745,7 @@
         "cs.HC",
         "cs.CV"
       ],
-      "tags": [
-        "UX",
-        "Education"
-      ]
+      "tags": []
     },
     {
       "id": "2606.26506v1",
@@ -3106,9 +1765,7 @@
       "categories": [
         "cs.HC"
       ],
-      "tags": [
-        "Education"
-      ]
+      "tags": []
     },
     {
       "id": "2606.26505v1",
@@ -3130,11 +1787,7 @@
         "cs.SE",
         "cs.HC"
       ],
-      "tags": [
-        "LLM",
-        "Eye Tracking",
-        "Trust"
-      ]
+      "tags": []
     },
     {
       "id": "2606.26485v1",
@@ -3156,9 +1809,7 @@
         "cs.HC",
         "cs.IR"
       ],
-      "tags": [
-        "Eye Tracking"
-      ]
+      "tags": []
     },
     {
       "id": "2606.26407v1",
@@ -3200,11 +1851,7 @@
         "cs.HC",
         "cs.RO"
       ],
-      "tags": [
-        "Accessibility",
-        "Haptics",
-        "Robotics"
-      ]
+      "tags": []
     },
     {
       "id": "2606.26364v1",
@@ -3224,10 +1871,1561 @@
       "categories": [
         "cs.HC"
       ],
-      "tags": [
-        "VR",
-        "Haptics"
-      ]
+      "tags": []
+    },
+    {
+      "id": "2606.25941v1",
+      "title": "Explainable Control Framework (XCF) based on Fuzzy Model-Agnostic Explanation and LLM Agent-Supported Interface",
+      "authors": [
+        "Faliang Yin",
+        "Hak-Keung Lam",
+        "David Watson"
+      ],
+      "abstract": "Increasing demand for precise and reliable control in complex scenarios has led to the development of increasingly sophisticated controllers, including data-driven approaches employing closed box models and mathematically rigorous yet complex designs. This complexity highlights the needs for explainable control that can provide human-understandable insights into controller behavior. In this paper, an explainable control framework (XCF) along with supporting algorithms and user interface are proposed to explain how controllers determine their control actions and their underlying working mechanism. The novel contributions of this work are threefold: First, the XCF is designed to provide model-agnostic explanations for controllers in closed-loop systems and can optionally refine local explanations by system response dynamics. Second, a novel explanation method, hierarchical fuzzy model-agnostic explanation for control systems (HFMAE-C), is proposed based on the designed framework. The HFMAE-C employs a fuzzy logic system to approximate the controller's behavior and system dynamics, providing sample, local, domain and universe level explanations via IF-THEN rules revealing the controller's decision logic and salience values quantifying the contribution of system states to control actions. Third, a large language model agent-supported user interface is developed to automatically analyze user requirements, select appropriate algorithms, interpret the generated explanations to a natural language report, and provide interactive consultation. Case studies on inverted pendulum system and Turtlebot obstacle avoidance demonstrate the effectiveness of the proposed method through simulated user experiments and quantitative comparisons with mainstream explainable control approaches.",
+      "date": "2026-06-24T15:17:54.000Z",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2606.25941v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.25941v1",
+      "arxivId": "2606.25941v1",
+      "categories": [
+        "cs.HC",
+        "cs.AI",
+        "eess.SY"
+      ],
+      "tags": []
+    },
+    {
+      "id": "2606.25809v1",
+      "title": "Designing Trustworthy LLM-based Wellbeing Recommendation through Controllable Interaction",
+      "authors": [
+        "Alan Said",
+        "Alexandra Weilenmann"
+      ],
+      "abstract": "Large language models (LLMs) are increasingly used to generate personalized guidance in wellbeing contexts such as physical activity, stress management, and mental health support, enabling fluent and context-aware interaction but relying on largely implicit mechanisms that shape how recommendations are expressed and adapted. We argue that this reliance on implicit adaptation through prompting and alignment limits control over guidance, responsibility framing, and user influence, which is particularly problematic in wellbeing settings where recommendations affect users' actions and long-term outcomes. We propose a system-level perspective in which conversational behavior is structured through explicit interaction constraints, including guidance strategies, explanation styles, degrees of directness, and mechanisms for user control. Building on prior work on tangible recommendations, we show how these constraints address key challenges in wellbeing-oriented recommendation, namely trust calibration, intent alignment, and consequence awareness. We outline a modular architecture for controllable LLM-based recommendation and discuss how different configurations can be systematically designed and evaluated in relation to user-centered outcomes such as self-efficacy, perceived agency, and appropriate reliance. This paper contributes a system-level framework for designing LLM-based recommender systems that are adaptive while remaining transparent, controllable, and aligned with human wellbeing.",
+      "date": "2026-06-24T13:23:33.000Z",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2606.25809v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.25809v1",
+      "arxivId": "2606.25809v1",
+      "categories": [
+        "cs.HC"
+      ],
+      "tags": []
+    },
+    {
+      "id": "2606.25681v1",
+      "title": "Dissociable Spatial and Temporal Effects of Interaction Latency in Virtual Reality",
+      "authors": [
+        "Xiaoye Michael Wang",
+        "Catherine M. Sabiston",
+        "Timothy N. Welsh"
+      ],
+      "abstract": "Motion-to-photon latency is inherent in immersive virtual reality (VR) systems and can arise from multiple sensorimotor loops, including view-contingent latency between head movement and display update and interaction latency between hand movement and the virtual effector. Although prior work shows that interaction latency can impair VR performance, it remains unclear whether common spatial, temporal, and efficiency measures reveal the same latency-related disruption. This study addressed this question by experimentally imposing delays between the physical and virtual hands during manual pointing in VR. Participants pointed to targets on a horizontal surface in VR and in the physical environment as an unmediated baseline. In VR, pointing was performed with a virtual hand avatar controlled by a motion capture pipeline, and additional delays (0-500 ms) were imposed between the participant's hand movement and the rendered movement of the virtual hand. Relative to the baseline, performance in VR showed greater endpoint error, longer movement time, greater endpoint variability, and lower throughput. Within VR, added interaction latency further increased endpoint error and variability, reduced throughput, and altered movement time, but these effects followed different profiles: endpoint error increased even at the shortest delays, whereas movement time remained stable at short delays and increased primarily at longer delays. These findings show that interaction latency produces dissociable spatial and temporal consequences in immersive VR, such that endpoint accuracy revealed disruption before movement time or throughput. Thus, latency-sensitive VR interactions cannot be fully evaluated using movement time or efficiency measures alone. Instead, HCI evaluations should assess both spatial and temporal performance, particularly when VR tasks involve visually guided manual actions.",
+      "date": "2026-06-24T10:49:00.000Z",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2606.25681v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.25681v1",
+      "arxivId": "2606.25681v1",
+      "categories": [
+        "cs.HC"
+      ],
+      "tags": []
+    },
+    {
+      "id": "2606.25626v1",
+      "title": "Reasonable Motion: A General ASP Foundation for Environment Constrained Movement Trajectory Computation",
+      "authors": [
+        "Julius Monsen",
+        "Jakob Suchan",
+        "Mehul Bhatt",
+        "Lars Karlsson"
+      ],
+      "abstract": "We present a general answer set programming based hybrid quantitative-qualitative method for computing constrained branching trajectory modes for moving objects in real-world settings. The method performs constrained traversal of an environment graph, enumerating geometrically admissible motion behaviours as stable models, each constituting a distinct trajectory mode characterised by both domain-dependent and independent factors such as derived event sequence, map topology, and domain norms. The hybrid trajectory computation method is generally applicable across motion characteristics typically encountered in diverse dynamic domains with moving objects, e.g., autonomous driving. We demonstrate applicability and highlight how computed trajectories are traceable to their underlying stable model, thereby affording verifiable interpretability that purely learned approaches cannot provide. We also perform an empirical evaluation with Argoverse 2, a large-scale real-world autonomous driving benchmark representative of the class of dynamic domains within the scope of the proposed method.",
+      "date": "2026-06-24T09:34:24.000Z",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2606.25626v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.25626v1",
+      "arxivId": "2606.25626v1",
+      "categories": [
+        "cs.AI",
+        "cs.HC",
+        "cs.RO"
+      ],
+      "tags": []
+    },
+    {
+      "id": "2606.25489v1",
+      "title": "When LLM Rationales Become User-Facing: Effects on Trust Perception, Decision-Making, and Gaze Behaviors",
+      "authors": [
+        "Xin Sun",
+        "Ting Pan",
+        "Yajing Wang",
+        "Shu Wei",
+        "Jos A. Bosch",
+        "Isao Echizen",
+        "Abdallah El Ali",
+        "Saku Sugawara"
+      ],
+      "abstract": "Large language models (LLMs) increasingly show step-by-step reasoning rationales alongside their answers, turning reasoning from an internal model capability into a user-facing interface feature. Yet it is unclear whether such rationales help users judge when trust is warranted or merely persuade through fluent reasoning. We address this gap through the lens of auditable trust calibration: user-facing rationales should help people inspect whether an answer is warranted by evidence. We test this framing in factual verification through two linked studies. Study 1, an online experiment (N=68), manipulated rationale presentation format (instant, delayed, on demand), rationale correctness (correct, incorrect), and certainty framing (none, certain, uncertain). Study 2, a controlled eye-tracking study (N=54), examined how no-, correct-, and incorrect-rationale conditions were associated with users' trust, decision-making, and eye-movement patterns. Study 1 showed no reliable presentation-format effects; instead, rationale correctness and certainty framing influenced the trust in the information, trust in the LLM system, and decision confidence. In Study 2, incorrect rationales drew more attention to the supporting evidence and larger pupil diameter while the rationale was viewed, consistent with greater cognitive effort. Incorrect rationales also lowered trust in LLM system relative to showing no rationale, whereas the no-rationale difference was weaker for trust in information. A post-hoc predictive modeling analysis of gaze data from Study 2 further showed that gaze features carried predictive signal for trust- and decision-related user states. This work challenges the assumption that more reasoning is always better and supports rationale designs that are selective, linked to evidence, calibrated in how they express certainty, and easier to verify.",
+      "date": "2026-06-24T07:18:00.000Z",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2606.25489v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.25489v1",
+      "arxivId": "2606.25489v1",
+      "categories": [
+        "cs.HC"
+      ],
+      "tags": []
+    },
+    {
+      "id": "2606.25337v1",
+      "title": "AI Coaching for Accelerating Human Skill Development with Reinforcement Learning",
+      "authors": [
+        "Wei Wang",
+        "Enlin Gu",
+        "Antonio Loquercio",
+        "Haimin Hu",
+        "Rahul Mangharam"
+      ],
+      "abstract": "AI copilots can substantially boost human performance through shared control, but excessive assistance can induce over-reliance and skill atrophy. This paper studies how an embodied AI agent can act as a coach that accelerates human motor-skill development. We argue that effective coaching requires strategic scaffolding and stepping back that are aligned with the learner's capability, allowing productive failures that drive learning. We formalize the interactive AI coaching process as a non-cooperative dynamic game in which the learner optimizes task performance while the coach targets the learner's independent competence. Building on this formalism, we develop a reinforcement learning framework combining adaptive shared control with probabilistic models of the coach's causal influence on skill evolution, enabling tractable training of coaching policies. A comprehensive user study (N=33) on first-person-view drone racing shows significant gains in human learning outcomes over state-of-the-art AI coaching baselines.",
+      "date": "2026-06-24T03:05:22.000Z",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2606.25337v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.25337v1",
+      "arxivId": "2606.25337v1",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.HC"
+      ],
+      "tags": []
+    },
+    {
+      "id": "2606.25287v1",
+      "title": "The Digital Pirahã Condition: Ecological Mismatch and the Reconstruction of Recursive Cognition",
+      "authors": [
+        "Dhushy Thillaivasan",
+        "Samar Shailendra",
+        "Kristina Nicholls",
+        "Deepani Guruge"
+      ],
+      "abstract": "Contemporary digital and AI-mediated environments are reshaping the cognitive ecologies within which human reasoning develops. As everyday activity becomes embedded in datafied infrastructures, cognitive habits adapt to conditions of immediacy, fragmentation, externalisation, and algorithmic filtering. This paper introduces the Digital Pirahã Condition, a cultural ecological model explaining how these environments cultivate adaptive but shallow cognitive patterns, epistemic flattening, reduced recursive capacity, and heightened reliance on external scaffolds. While functional within digital systems, these adaptations create an ecological mismatch with the recursive, integrative reasoning required in academic and institutional activity systems. The paper argues that this mismatch is an ecological outcome rather than a psychological deficit, and that addressing it requires intentional cognitive niche construction within educational institutions. The lecturer is conceptualised as a cultural entrepreneur who reconstructs the cognitive ecology of learning through analog sanctuaries, AI-supported metacognitive scaffolds, and recursive curriculum architectures. The Digital Pirahã Condition thus provides a theoretical lens for understanding contemporary cognitive change and a framework for ecological redesign in AI-mediated societies.",
+      "date": "2026-06-24T01:42:10.000Z",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2606.25287v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.25287v1",
+      "arxivId": "2606.25287v1",
+      "categories": [
+        "cs.HC"
+      ],
+      "tags": []
+    },
+    {
+      "id": "2606.25271v1",
+      "title": "Co-designing a Preliminary Repository of Augmented Reality Concepts for Real-Time Emotion Regulation",
+      "authors": [
+        "Graciela Camacho-Fidalgo",
+        "Edgar Rojas-Muñoz"
+      ],
+      "abstract": "Augmented Reality (AR) can be a positive therapeutic approach to support mental health and emotion regulation. Although AR techniques for therapeutic support exist, there is no user-centered, expert-informed understanding of how real-time AR designs can support people in emotional distress without disengaging them from their ongoing activities. This lack of reusable design resources hinders the adoption of AR for mental health support. This paper addresses this gap by introducing a co-designed collection of AR interventions describing how this technique can support real-time emotion regulation. The repository was created following a two-phase participatory design process. Phase 1 recruited 40 anxiety-prone individuals and used the Nominal Group Technique to list ideas on how AR affordances could support emotion regulation. Phase 2 recruited 10 mental health professionals to organize these ideas into thematic clusters and assess their clinical feasibility. The resulting AR design repository, grounded in user perspective and clinical expertise, identifies eight thematic clusters and 106 design ideas. This work represents a first step towards the development of seamless real-time AR interventions for mental health.",
+      "date": "2026-06-24T01:11:08.000Z",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2606.25271v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.25271v1",
+      "arxivId": "2606.25271v1",
+      "categories": [
+        "cs.HC"
+      ],
+      "tags": []
+    },
+    {
+      "id": "2606.25247v1",
+      "title": "FUTO Swipe: Layout-Agnostic Neural Swipe Decoding",
+      "authors": [
+        "David Lee Miller",
+        "Aleksandras Kostarevas"
+      ],
+      "abstract": "Neural swipe decoders are typically tied to the keyboard they were trained on, requiring a new corpus and training run for each layout. In this report, we document our approach toward training models that can function on any contiguous mobile keyboard layout. At each point along the swipe, our encoder predicts whether the user is indicating a character and where on the keyboard that character lies. The keyboard layout is supplied at inference time and used to map the spatial and temporal prediction to a logit at each key, rather than being learned during training. Training neural models requires substantial data, but public swipe data is limited, particularly for non-QWERTY layouts. We release swipe.futo.org, the largest MIT-licensed swipe corpus we are aware of, containing over 1M donated swipes from more than 12k donor sessions. To generalize beyond the English QWERTY layout, we apply geometric augmentations to both the swipe trajectory and the keyboard layout at every training step, forcing the model to make predictions based on characteristics of the swipe gesture rather than the training layout. The model generalizes to layouts absent from training, in some cases more accurately than the layout it was trained on. This combines the layout-flexibility of an algorithmic decoder with the accuracy of a neural model. Trained models are publicly available.",
+      "date": "2026-06-24T00:11:09.000Z",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2606.25247v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.25247v1",
+      "arxivId": "2606.25247v1",
+      "categories": [
+        "cs.HC",
+        "cs.LG"
+      ],
+      "tags": []
+    },
+    {
+      "id": "10.1109/ISSCC49663.2026.11409294",
+      "title": "MADiC: A 3nm 7.4TOPS/mm2, 17.4TOPS/W Generative Diffusion Accelerator Enabled by Hardware-Compiler Co-Optimization of Memory Hierarchy and Operator Parallelism",
+      "authors": [
+        "Shih-Wei Hsieh",
+        "Yi-Syuan Chen",
+        "Ping-Yuan Tsai",
+        "Ming-Hung Lin",
+        "Chia-Yuan Cheng",
+        "Lien-Feng Hsu",
+        "Po-Hao Huang",
+        "Hung-Wei Chih",
+        "Po-Han Chiang",
+        "Chia-Ming Chang",
+        "Ming-Hsuan Chiang",
+        "Chia-Hung Yuan",
+        "Sheng-Po Kuo",
+        "Viswanath Uggu",
+        "Chun-Kun Chan",
+        "Ming-En David Shih",
+        "Yu-Cheng Tseng",
+        "Hsin-Ping Cheng",
+        "Stan Huang",
+        "Chia-Ping Chen",
+        "Shen-Kai Chang",
+        "Chih-Ming Wang",
+        "Po-Yu Yeh",
+        "Jett Liu",
+        "Yung-Chang Chang",
+        "Chi-Cheng Ju",
+        "Yucheun Kevin Jou"
+      ],
+      "abstract": "",
+      "date": "2026-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1109/ISSCC49663.2026.11409294",
+      "doi": "10.1109/ISSCC49663.2026.11409294",
+      "categories": [],
+      "tags": [],
+      "venue": "ISSCC"
+    },
+    {
+      "id": "10.1145/3772363.3798313",
+      "title": "Exploring the Use of Generative AI Technologies to Create Life-Review Summaries with Family Members to Promote Mental Health in Patients with Geriatric Depression",
+      "authors": [
+        "Yu-Ching Lin",
+        "Yun-Jen Wu",
+        "Pin-Yu Liu",
+        "Chih-Ching Chuang",
+        "Hsiang-Yen Fan",
+        "Yan-Ming Chen",
+        "Tina Chien-Wen Yuan",
+        "Nanyi Bi",
+        "Chih-Chiang Chiu",
+        "Chuang-Wen You"
+      ],
+      "abstract": "",
+      "date": "2026-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1145/3772363.3798313",
+      "doi": "10.1145/3772363.3798313",
+      "categories": [],
+      "tags": [],
+      "venue": "CHI Extended Abstracts"
+    },
+    {
+      "id": "10.1007/S11263-025-02606-0",
+      "title": "UMCL: Unimodal-generated Multimodal Contrastive Learning for Cross-compression-rate Deepfake Detection",
+      "authors": [
+        "Ching-Yi Lai",
+        "Chih-Yu Jian",
+        "Pei-Cheng Chuang",
+        "Chia-Ming Lee",
+        "Chih-Chung Hsu",
+        "Chiou-Ting Hsu",
+        "Chia-Wen Lin"
+      ],
+      "abstract": "",
+      "date": "2026-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1007/s11263-025-02606-0",
+      "doi": "10.1007/S11263-025-02606-0",
+      "categories": [],
+      "tags": [],
+      "venue": "Int. J. Comput. Vis."
+    },
+    {
+      "id": "10.1016/J.IJHCS.2025.103697",
+      "title": "Who has your back? Countering dark patterns in online shopping using interpersonal and AI-delivered support",
+      "authors": [
+        "Chia-Hsin Lee",
+        "Hsuen-Chi Chiu",
+        "Tzu-Ching Lai",
+        "Chien Wen Yuan"
+      ],
+      "abstract": "",
+      "date": "2026-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1016/j.ijhcs.2025.103697",
+      "doi": "10.1016/J.IJHCS.2025.103697",
+      "categories": [],
+      "tags": [],
+      "venue": "Int. J. Hum. Comput. Stud."
+    },
+    {
+      "id": "10.1109/ISSCC49663.2026.11409096",
+      "title": "15.4 A 16nm 168Mb Embedded STT-MRAM with 0.0249µm2 Bit-Cell, Dual-Port Access, and 51.2Gb/s Read Throughput for Automotive and Edge AI Applications",
+      "authors": [
+        "Po-Hao Lee",
+        "Chia-Fu Lee",
+        "Hon-Jarn Lin",
+        "Cheng-Han Lu",
+        "Yen-An Chang",
+        "Pranata W. Sanjaya",
+        "Chia-Jung Tsen",
+        "Kuan-Chun Chen",
+        "Ming-Chieh Lin",
+        "Chao-Jung Hung",
+        "Tan-Li Chou",
+        "Chih-Hui Weng",
+        "Chia-Yu Wang",
+        "J. J. Wu",
+        "Harry Chuang",
+        "Yih Wang",
+        "Yu-Der Chih",
+        "Tsung-Yung Jonathan Chang"
+      ],
+      "abstract": "",
+      "date": "2026-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1109/ISSCC49663.2026.11409096",
+      "doi": "10.1109/ISSCC49663.2026.11409096",
+      "categories": [],
+      "tags": [],
+      "venue": "ISSCC"
+    },
+    {
+      "id": "10.1016/J.ASOC.2026.115142",
+      "title": "SEMPRA: Secure medical privacy-reversible adversarial framework",
+      "authors": [
+        "Xiaozhu Xie",
+        "Chao Ouyang 0004",
+        "Xia Du",
+        "Jizhe Zhou 0001",
+        "Chi-Man Pun",
+        "Ching-Chun Chang",
+        "Chin-Chen Chang 0001"
+      ],
+      "abstract": "",
+      "date": "2026-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1016/j.asoc.2026.115142",
+      "doi": "10.1016/J.ASOC.2026.115142",
+      "categories": [],
+      "tags": [],
+      "venue": "Appl. Soft Comput."
+    },
+    {
+      "id": "10.1016/J.CSI.2026.104138",
+      "title": "RDHE3DM-SPDM: Reversible data hiding in encrypted 3D meshes based on short-path generation and dynamic multi-MSB prediction",
+      "authors": [
+        "Hengxiao Chi",
+        "Chia-Chen Lin 0001",
+        "Ching-Chun Chang",
+        "Chin-Chen Chang 0001"
+      ],
+      "abstract": "",
+      "date": "2026-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1016/j.csi.2026.104138",
+      "doi": "10.1016/J.CSI.2026.104138",
+      "categories": [],
+      "tags": [],
+      "venue": "Comput. Stand. Interfaces"
+    },
+    {
+      "id": "10.1186/S12911-026-03477-2",
+      "title": "Deep-learning-based diagnostic models for transcutaneous oxygen pressure-defined peripheral arterial disease and lower extremity wound healing in patients with diabetic foot",
+      "authors": [
+        "Ming-Feng Tsai",
+        "Chen-Shen Shih",
+        "Yu-Fan Chen",
+        "Yu-Chang Chu",
+        "Chieh-Ming Yu",
+        "Wen-Teng Yao",
+        "Ya-Shu Chan",
+        "Chia-Meng Yu",
+        "Shu-Tien Huang",
+        "Liong-Rung Liu",
+        "Lang-Hua Chiu",
+        "Yueh-Hung Lin",
+        "Chin-Yi Yang",
+        "Kung-Chen Ho",
+        "Wen-Chen Huang",
+        "Kwang-Yi Tung",
+        "Fei-Hung Hung",
+        "Hung-Wen Chiu"
+      ],
+      "abstract": "",
+      "date": "2026-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1186/s12911-026-03477-2",
+      "doi": "10.1186/S12911-026-03477-2",
+      "categories": [],
+      "tags": [],
+      "venue": "BMC Medical Informatics Decis. Mak."
+    },
+    {
+      "id": "10.1177/1088467X251333230",
+      "title": "ICL: In-loop continual learning framework for language model pre-training for E-commerce",
+      "authors": [
+        "Nan Lu",
+        "Chi-Man Wong",
+        "Yan Liu",
+        "Sanpeng Wang",
+        "Danyang Zhu",
+        "Chi-Man Vong",
+        "Rui Lin",
+        "Shaoyi Xu"
+      ],
+      "abstract": "",
+      "date": "2026-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1177/1088467x251333230",
+      "doi": "10.1177/1088467X251333230",
+      "categories": [],
+      "tags": [],
+      "venue": "Intell. Data Anal."
+    },
+    {
+      "id": "10.1109/TETCI.2026.3668535",
+      "title": "De-Identification Neural Network for Privacy Protection in Fingerprinting Localization",
+      "authors": [
+        "Canyang Guo",
+        "Feng-Jang Hwang",
+        "Chi-Hua Chen 0002",
+        "Ching-Chun Chang",
+        "Chin-Chen Chang 0001"
+      ],
+      "abstract": "",
+      "date": "2026-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1109/TETCI.2026.3668535",
+      "doi": "10.1109/TETCI.2026.3668535",
+      "categories": [],
+      "tags": [],
+      "venue": "IEEE Trans. Emerg. Top. Comput. Intell."
+    },
+    {
+      "id": "10.1109/FG67764.2026.11557020",
+      "title": "StyleDiT: A Unified Framework for Diverse Child and Partner Faces Synthesis with Style Latent Diffusion Transformer",
+      "authors": [
+        "Pin-Yen Chiu",
+        "Dai-Jie Wu",
+        "Po-Hsun Chu",
+        "Chia-Hsuan Hsu",
+        "Hsiang-Chen Chiu",
+        "Chih-Yu Wang",
+        "Jun-Cheng Chen"
+      ],
+      "abstract": "",
+      "date": "2026-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1109/FG67764.2026.11557020",
+      "doi": "10.1109/FG67764.2026.11557020",
+      "categories": [],
+      "tags": [],
+      "venue": "FG"
+    },
+    {
+      "id": "10.1109/ISBI61048.2026.11515557",
+      "title": "AMIE : Affine-Attentive Matching and Interpretive Imprint Evaluation for Partial Fingerprint Verification",
+      "authors": [
+        "Tsai-Chieh Chien",
+        "Ching-Te Chiu",
+        "Ned Lin",
+        "Ang Yu",
+        "Paul Lai",
+        "Daniel Chen",
+        "Chia-Yi Lin"
+      ],
+      "abstract": "",
+      "date": "2026-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1109/ISBI61048.2026.11515557",
+      "doi": "10.1109/ISBI61048.2026.11515557",
+      "categories": [],
+      "tags": [],
+      "venue": "ISBI"
+    },
+    {
+      "id": "10.48550/ARXIV.2604.08612",
+      "title": "Post-Quantum Cryptography-Based Bidirectional Authentication Key Exchange Protocol and Industry Applications: A Case Study of Instant Messaging",
+      "authors": [
+        "Abel C. H. Chen",
+        "James W. H. Tung",
+        "Austin B. Y. Lin",
+        "Chin-Ling Chen",
+        "Ching-Chun Chang",
+        "Chin-Chen Chang 0001"
+      ],
+      "abstract": "",
+      "date": "2026-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.48550/arXiv.2604.08612",
+      "doi": "10.48550/ARXIV.2604.08612",
+      "categories": [],
+      "tags": [],
+      "venue": "CoRR"
+    },
+    {
+      "id": "10.48550/ARXIV.2604.24163",
+      "title": "Robust Deepfake Detection, NTIRE 2026 Challenge: Report",
+      "authors": [
+        "Benedikt Hopf",
+        "Radu Timofte",
+        "Chenfan Qu",
+        "Junchi Li",
+        "Fei Wu",
+        "Dagong Lu",
+        "Mufeng Yao",
+        "Xinlei Xu",
+        "Fengjun Guo",
+        "Yongwei Tang",
+        "Zhiqiang Yang",
+        "Zhiqiang Wu",
+        "Jia Wen Seow",
+        "Hong Vin Koay",
+        "Haodong Ren",
+        "Feng Xu",
+        "Shuai Chen",
+        "Minh-Khoa Le-Phan",
+        "Minh-Hoang Le 0001",
+        "Trong-Le Do",
+        "Minh-Triet Tran",
+        "Chih-Yu Jian",
+        "Yi-Fan Wang",
+        "Bang-Kang Chen",
+        "You-Chen Chao",
+        "Chia-Ming Lee",
+        "Fu-En Yang",
+        "Yu-Chiang Frank Wang",
+        "Chih-Chung Hsu",
+        "Aashish Negi",
+        "Hardik Sharma",
+        "Prateek Shaily",
+        "Jayant Kumar",
+        "Sachin Chaudhary",
+        "Akshay Dudhane",
+        "Praful Hambarde",
+        "Amit Shukla 0002",
+        "Jielun Peng",
+        "Yabin Wang 0001",
+        "Yaqi Li",
+        "Jincheng Liu",
+        "Xiaopeng Hong",
+        "Krish Wadhwani",
+        "Liam Fitzpatrick",
+        "Utkarsh Tiwari",
+        "Bilel Benjdira",
+        "Anas M. Ali",
+        "Wadii Boulila",
+        "Cristian Lazo Quispe",
+        "Aishwarya A",
+        "Akshara S",
+        "Ashwathi N",
+        "Jiachen Tu",
+        "Guoyi Xu",
+        "Yaoxin Jiang",
+        "Jiajia Liu 0002",
+        "Yaokun Shi"
+      ],
+      "abstract": "",
+      "date": "2026-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.48550/arXiv.2604.24163",
+      "doi": "10.48550/ARXIV.2604.24163",
+      "categories": [],
+      "tags": [],
+      "venue": "CoRR"
+    },
+    {
+      "id": "10.1016/J.BSPC.2025.108974",
+      "title": "A facial expression-based artificial intelligence model to aid in screening for Parkinson&apos;s disease: Development and validation in a cohort study",
+      "authors": [
+        "Chia-Tung Wu",
+        "Chin-Cheng Hsiao",
+        "Ssu-Ming Wang",
+        "Kai-Zheng Su",
+        "Tsung-Ting Hsieh",
+        "Shih-Wei Huang",
+        "Hsaio-Ting Lee",
+        "Lian-Yin Jhao",
+        "Jean-Christophe Cau",
+        "Hung-Jui Chiu",
+        "Hong-Ming Chen",
+        "Pai-Yi Chiu"
+      ],
+      "abstract": "",
+      "date": "2026-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1016/j.bspc.2025.108974",
+      "doi": "10.1016/J.BSPC.2025.108974",
+      "categories": [],
+      "tags": [],
+      "venue": "Biomed. Signal Process. Control."
+    },
+    {
+      "id": "10.1016/J.COMPAG.2026.111663",
+      "title": "A scalable consensus docking decision-support pipeline for aquaculture bridging foodomics and affordability",
+      "authors": [
+        "Chen-Hsun Liu",
+        "Chiu-Hui Kuo",
+        "William Chih-Wei Chang",
+        "Chih-Hsuan Fan",
+        "Bonien Chen",
+        "Li-Lian Liu",
+        "Fen-Chen Wu",
+        "Pao-Chi Liao",
+        "Kuohsun Chiu"
+      ],
+      "abstract": "",
+      "date": "2026-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1016/j.compag.2026.111663",
+      "doi": "10.1016/J.COMPAG.2026.111663",
+      "categories": [],
+      "tags": [],
+      "venue": "Comput. Electron. Agric."
+    },
+    {
+      "id": "10.1016/J.IJMEDINF.2026.106402",
+      "title": "A visualized nurse-led ePRO system for chemotherapy toxicity: Content design and validation",
+      "authors": [
+        "Chiao-Chi Kuan",
+        "Jhe-Cyuan Guo",
+        "Shan-Hsiang Shen",
+        "Chiun Hsu",
+        "Chi-Ming Chu",
+        "Chi-Kang Lin",
+        "Hsueh-Hsing Pan"
+      ],
+      "abstract": "",
+      "date": "2026-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1016/j.ijmedinf.2026.106402",
+      "doi": "10.1016/J.IJMEDINF.2026.106402",
+      "categories": [],
+      "tags": [],
+      "venue": "Int. J. Medical Informatics"
+    },
+    {
+      "id": "10.1145/3772318.3790779",
+      "title": "InspirationGraph for Progressive Design Space Exploration",
+      "authors": [
+        "Suxiang Ling",
+        "Yi Xiao 0004",
+        "Yang Zhou",
+        "Ruoxuan Ma",
+        "Guangpeng Wei",
+        "Chi-Sing Leung"
+      ],
+      "abstract": "",
+      "date": "2026-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1145/3772318.3790779",
+      "doi": "10.1145/3772318.3790779",
+      "categories": [],
+      "tags": [],
+      "venue": "CHI"
+    },
+    {
+      "id": "10.1145/3772318.3790326",
+      "title": "RPGAgent: Driving Coherent Story-to-Play Generation with an LLM-Based Multi-Agent System",
+      "authors": [
+        "Shunan Zhang",
+        "Yi Xiao 0004",
+        "Ruoxuan Ma",
+        "Chi-Sing Leung"
+      ],
+      "abstract": "",
+      "date": "2026-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1145/3772318.3790326",
+      "doi": "10.1145/3772318.3790326",
+      "categories": [],
+      "tags": [],
+      "venue": "CHI"
+    },
+    {
+      "id": "10.1145/3772318.3791216",
+      "title": "CoNode: Visualizing Workflows for Knowledge Reuse and Recombination in Team-AI Collaborative Design",
+      "authors": [
+        "Yang Zhou",
+        "Yi Xiao 0004",
+        "Guangpeng Wei",
+        "Suxiang Ling",
+        "Ruoxuan Ma",
+        "Chi-Sing Leung"
+      ],
+      "abstract": "",
+      "date": "2026-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1145/3772318.3791216",
+      "doi": "10.1145/3772318.3791216",
+      "categories": [],
+      "tags": [],
+      "venue": "CHI"
+    },
+    {
+      "id": "10.1109/ISSCC49663.2026.11409144",
+      "title": "8.2 A 32Gb/s 12.35Tb/s/mm2 0.36pJ/b UCIe-Like Die-to-Die Interface Featuring Edge-Triggered Transceivers in 3nm with Active LSI Packaging",
+      "authors": [
+        "Wei-Chih Chen",
+        "Mu-Shan Lin",
+        "Chien-Chun Tsai",
+        "Shenggao Li 0002",
+        "Wei-Shuo Lin",
+        "Yu-Jie Huang",
+        "Nai-Chen Cheng 0001",
+        "Yu-Chi Chen",
+        "Wen-Hung Huang",
+        "Chin-Hua Wen",
+        "Hsin-Hung Kuo",
+        "Han-Tzung Ke",
+        "Jie-Ren Huang",
+        "Chang-Yi Li",
+        "Sheng-Tsung Lai",
+        "Shu-Chun Yang",
+        "Kuan-Ting Chou",
+        "Pei-Chen Chiou",
+        "Tsung-Hsien Tsai",
+        "Yi-Ting Chen",
+        "Yen-Ming Chen",
+        "Kenny Cheng-Hsiang Hsieh"
+      ],
+      "abstract": "",
+      "date": "2026-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1109/ISSCC49663.2026.11409144",
+      "doi": "10.1109/ISSCC49663.2026.11409144",
+      "categories": [],
+      "tags": [],
+      "venue": "ISSCC"
+    },
+    {
+      "id": "10.1145/3742413.3789059",
+      "title": "Not the Right Cue for Me: Investigating VR Cue Design and Biofeedback Integration in Drug Psychotherapy",
+      "authors": [
+        "Chuang-Wen You",
+        "Hung-Wen Lin",
+        "Hsin-Ai Chen",
+        "Tina Chien-Wen Yuan",
+        "Nanyi Bi",
+        "Hsiang-Chih Chiu",
+        "Su-Yi Chao",
+        "Ming-Chyi Huang"
+      ],
+      "abstract": "",
+      "date": "2026-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1145/3742413.3789059",
+      "doi": "10.1145/3742413.3789059",
+      "categories": [],
+      "tags": [],
+      "venue": "IUI"
+    },
+    {
+      "id": "10.1145/3800645",
+      "title": "Proceedings of the 2026 Designing Interactive Systems Conference, DIS 2026, Singapore, June 13-17, 2026",
+      "authors": [
+        "Ching Chiuan Yen",
+        "Jung-Joo Lee",
+        "Ellen Yi-Luen Do",
+        "Clement Zheng",
+        "Daisy Yoo",
+        "Tony Tang"
+      ],
+      "abstract": "",
+      "date": "2026-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1145/3800645",
+      "doi": "10.1145/3800645",
+      "categories": [],
+      "tags": [],
+      "venue": "DIS"
+    },
+    {
+      "id": "10.1145/3802974",
+      "title": "Companion Publication of the 2026 ACM Designing Interactive Systems Conference, DIS 2026, Singapore, June 13-17, 2026",
+      "authors": [
+        "Ching Chiuan Yen",
+        "Jung-Joo Lee",
+        "Ellen Yi-Luen Do",
+        "Clement Zheng",
+        "Daisy Yoo",
+        "Tony Tang"
+      ],
+      "abstract": "",
+      "date": "2026-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1145/3802974",
+      "doi": "10.1145/3802974",
+      "categories": [],
+      "tags": [],
+      "venue": "DIS Companion"
+    },
+    {
+      "id": "10.48550/ARXIV.2603.19195",
+      "title": "How Auditory Knowledge in LLM Backbones Shapes Audio Language Models: A Holistic Evaluation",
+      "authors": [
+        "Ke-Han Lu",
+        "Szu-Wei Fu",
+        "Chao-Han Huck Yang",
+        "Zhehuai Chen",
+        "Sung-Feng Huang",
+        "Chih-Kai Yang",
+        "Yi-Cheng Lin",
+        "Chi-Yuan Hsiao",
+        "Wenze Ren",
+        "En-Pei Hu",
+        "Yu-Han Huang",
+        "An-Yu Cheng",
+        "Cheng-Han Chiang",
+        "Yu Tsao 0001",
+        "Yu-Chiang Frank Wang",
+        "Hung-Yi Lee"
+      ],
+      "abstract": "",
+      "date": "2026-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.48550/arXiv.2603.19195",
+      "doi": "10.48550/ARXIV.2603.19195",
+      "categories": [],
+      "tags": [],
+      "venue": "CoRR"
+    },
+    {
+      "id": "10.1016/J.BSPC.2025.109271",
+      "title": "System for the automatic segmentation of retinal layers and the quantification of individual layer thicknesses and areas",
+      "authors": [
+        "Jia-Yi Hong",
+        "Chung-Ching Chio",
+        "Ching-Ping Chang",
+        "Jui-Ti Ma",
+        "Chung-Hsin Tseng",
+        "Chi-Chun Chen",
+        "Shu-Chun Kuo"
+      ],
+      "abstract": "",
+      "date": "2026-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1016/j.bspc.2025.109271",
+      "doi": "10.1016/J.BSPC.2025.109271",
+      "categories": [],
+      "tags": [],
+      "venue": "Biomed. Signal Process. Control."
+    },
+    {
+      "id": "10.1016/J.CHB.2025.108898",
+      "title": "Association between school phone restriction policies and adolescents&apos; cyberbullying, gambling, and substance use behaviors",
+      "authors": [
+        "Szu-Chia Chen",
+        "Tzu-Fu Huang",
+        "Kevin Chang 0009",
+        "Fong-Ching Chang",
+        "Shawn C. Chiang",
+        "Chiung-Hui Chiu",
+        "Ping-Hung Chen",
+        "Nae-Fang Miao",
+        "Hung-Yi Chuang"
+      ],
+      "abstract": "",
+      "date": "2026-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1016/j.chb.2025.108898",
+      "doi": "10.1016/J.CHB.2025.108898",
+      "categories": [],
+      "tags": [],
+      "venue": "Comput. Hum. Behav."
+    },
+    {
+      "id": "10.1016/J.DISPLA.2026.103399",
+      "title": "Effects of ambient illumination, character color perceptual brightness, and postures on the reading performance of Chinese characters on optical see-through head-mounted displays",
+      "authors": [
+        "Yun-Chia Chuang",
+        "Chih-Yu Hsiao",
+        "Chien-Chi Chang"
+      ],
+      "abstract": "",
+      "date": "2026-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1016/j.displa.2026.103399",
+      "doi": "10.1016/J.DISPLA.2026.103399",
+      "categories": [],
+      "tags": [],
+      "venue": "Displays"
+    },
+    {
+      "id": "10.1016/J.DISPLA.2025.103184",
+      "title": "Reversible steganography in cipher domain for JPEG images using polynomial homomorphism",
+      "authors": [
+        "Shuying Xu",
+        "Ji-Hwei Horng",
+        "Ching-Chun Chang",
+        "Chin-Chen Chang 0001"
+      ],
+      "abstract": "",
+      "date": "2026-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1016/j.displa.2025.103184",
+      "doi": "10.1016/J.DISPLA.2025.103184",
+      "categories": [],
+      "tags": [],
+      "venue": "Displays"
+    },
+    {
+      "id": "10.1016/J.ESWA.2026.133102",
+      "title": "DDSF-Net: dual-domain deepfake detection via semantic suppression and spatial-frequency mapping",
+      "authors": [
+        "Zhifeng Xing",
+        "Li Liu 0029",
+        "Yingchun Wu",
+        "Ching-Chun Chang",
+        "Anhong Wang",
+        "Chin-Chen Chang 0001"
+      ],
+      "abstract": "",
+      "date": "2026-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1016/j.eswa.2026.133102",
+      "doi": "10.1016/J.ESWA.2026.133102",
+      "categories": [],
+      "tags": [],
+      "venue": "Expert Syst. Appl."
+    },
+    {
+      "id": "10.1016/J.ASOC.2025.114393",
+      "title": "UIStore: A secure encryption framework for underwater images based on hybrid chaotic dynamics and metaheuristic optimization",
+      "authors": [
+        "Prateek Khokhar",
+        "Jatin Bedi",
+        "Shalini Batra"
+      ],
+      "abstract": "",
+      "date": "2026-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1016/j.asoc.2025.114393",
+      "doi": "10.1016/J.ASOC.2025.114393",
+      "categories": [],
+      "tags": [],
+      "venue": "Appl. Soft Comput."
+    },
+    {
+      "id": "10.1145/3746059",
+      "title": "Proceedings of the 38th Annual ACM Symposium on User Interface Software and Technology, UIST 2025, Busan, Korea, 28 September 2025 - 1 October 2025",
+      "authors": [
+        "Andrea Bianchi",
+        "Elena L. Glassman",
+        "Wendy E. Mackay",
+        "Shengdong Zhao 0001",
+        "Jeeeun Kim",
+        "Ian Oakley"
+      ],
+      "abstract": "",
+      "date": "2025-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1145/3746059",
+      "doi": "10.1145/3746059",
+      "categories": [],
+      "tags": [],
+      "venue": "UIST"
+    },
+    {
+      "id": "10.1145/3746058",
+      "title": "Adjunct Proceedings of the 38th Annual ACM Symposium on User Interface Software and Technology, UIST Adjunct 2025, BusanRepublic of Korea, 28 September 2025- 1 October 2025",
+      "authors": [
+        "Andrea Bianchi",
+        "Elena L. Glassman",
+        "Wendy E. Mackay",
+        "Shengdong Zhao 0001",
+        "Jeeeun Kim",
+        "Ian Oakley"
+      ],
+      "abstract": "",
+      "date": "2025-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1145/3746058",
+      "doi": "10.1145/3746058",
+      "categories": [],
+      "tags": [],
+      "venue": "UIST Adjunct"
+    },
+    {
+      "id": "10.1145/3746059.3747622",
+      "title": "Efficient Visual Appearance Optimization by Learning from Prior Preferences",
+      "authors": [
+        "Zhipeng Li 0001",
+        "Yi-Chi Liao 0001",
+        "Christian Holz 0001"
+      ],
+      "abstract": "",
+      "date": "2025-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1145/3746059.3747622",
+      "doi": "10.1145/3746059.3747622",
+      "categories": [],
+      "tags": [],
+      "venue": "UIST"
+    },
+    {
+      "id": "10.1145/3746059.3747646",
+      "title": "Denicek: Computational Substrate for Document-Oriented End-User Programming",
+      "authors": [
+        "Tomas Petricek 0001",
+        "Jonathan Edwards"
+      ],
+      "abstract": "",
+      "date": "2025-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1145/3746059.3747646",
+      "doi": "10.1145/3746059.3747646",
+      "categories": [],
+      "tags": [],
+      "venue": "UIST"
+    },
+    {
+      "id": "10.1145/3746059.3747738",
+      "title": "Texergy: Textile-based Harvesting, Storing, and Releasing of Mechanical Energy for Passive On-Body Actuation",
+      "authors": [
+        "Yu Jiang 0001",
+        "Alice C. Haynes",
+        "Jürgen Steimle"
+      ],
+      "abstract": "",
+      "date": "2025-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1145/3746059.3747738",
+      "doi": "10.1145/3746059.3747738",
+      "categories": [],
+      "tags": [],
+      "venue": "UIST"
+    },
+    {
+      "id": "10.1145/3746059.3747685",
+      "title": "MorphingSkin: A Skin-like Platform that Integrates Multimodal Hydraulic Actuators Based on Flexible Electroosmotic Pumps",
+      "authors": [
+        "Tianyu Yu 0001",
+        "Peisheng He",
+        "Bob Tianqi Wei",
+        "Chenyuheng Wang",
+        "Xueqing Li 0005",
+        "Xuezhu Wang",
+        "Yao Lu 0038",
+        "Wei Yue",
+        "Megan Teng",
+        "Zihan Wang",
+        "Liwei Lin",
+        "Haipeng Mi",
+        "Qi Lu 0001",
+        "Lining Yao"
+      ],
+      "abstract": "",
+      "date": "2025-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1145/3746059.3747685",
+      "doi": "10.1145/3746059.3747685",
+      "categories": [],
+      "tags": [],
+      "venue": "UIST"
+    },
+    {
+      "id": "10.1145/3746059.3747803",
+      "title": "GaussianShopVR: Facilitating Immersive 3D Authoring Using Gaussian Splatting in VR",
+      "authors": [
+        "Yulin Shen 0001",
+        "Boyu Li 0007",
+        "Jiayang Huang",
+        "David Kei-Man Yip",
+        "Zeyu Wang 0003"
+      ],
+      "abstract": "",
+      "date": "2025-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1145/3746059.3747803",
+      "doi": "10.1145/3746059.3747803",
+      "categories": [],
+      "tags": [],
+      "venue": "UIST"
+    },
+    {
+      "id": "10.1145/3746058.3758413",
+      "title": "Caption: Generating Informative Content Labels for Image Buttons Using Next-Screen Context",
+      "authors": [
+        "Mingyuan Zhong 0001",
+        "Ajit Mallavarapu",
+        "Qing Nie"
+      ],
+      "abstract": "",
+      "date": "2025-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1145/3746058.3758413",
+      "doi": "10.1145/3746058.3758413",
+      "categories": [],
+      "tags": [],
+      "venue": "UIST Adjunct"
+    },
+    {
+      "id": "10.1145/3746058.3758370",
+      "title": "AcaMate: Supporting Novice A Cappella Singers in Iterative Individual Practice",
+      "authors": [
+        "Kexin Phyllis Ju 0001",
+        "Ting-Yu Pan",
+        "Hao-Wen Dong"
+      ],
+      "abstract": "",
+      "date": "2025-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1145/3746058.3758370",
+      "doi": "10.1145/3746058.3758370",
+      "categories": [],
+      "tags": [],
+      "venue": "UIST Adjunct"
+    },
+    {
+      "id": "10.1145/3746059.3747671",
+      "title": "EI-Lite: Electrical Impedance Sensing for Micro-gesture Recognition and Pinch Force Estimation",
+      "authors": [
+        "Junyi Zhu 0001",
+        "Tianyu Xu 0008",
+        "Jiayu Wang",
+        "Emily Guan",
+        "JaeYoung Moon",
+        "Stiven Morvan",
+        "D. Shin",
+        "Andrea Colaço",
+        "Stefanie Mueller 0001",
+        "Karan Ahuja",
+        "Yiyue Luo",
+        "Ishan Chatterjee"
+      ],
+      "abstract": "",
+      "date": "2025-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1145/3746059.3747671",
+      "doi": "10.1145/3746059.3747671",
+      "categories": [],
+      "tags": [],
+      "venue": "UIST"
+    },
+    {
+      "id": "10.1145/3746058.3758417",
+      "title": "Seeing and Sensing Intention: Resolving Midas Touch with Vision-Motion Fusion in Mixed Reality",
+      "authors": [
+        "Daeho Lee 0002",
+        "ChungHa Lee",
+        "Jin-Hyuk Hong"
+      ],
+      "abstract": "",
+      "date": "2025-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1145/3746058.3758417",
+      "doi": "10.1145/3746058.3758417",
+      "categories": [],
+      "tags": [],
+      "venue": "UIST Adjunct"
+    },
+    {
+      "id": "10.1145/3746059.3747697",
+      "title": "NarraGuide: an LLM-based Narrative Mobile Robot for Remote Place Exploration",
+      "authors": [
+        "Yaxin Hu 0002",
+        "Arissa J. Sato",
+        "Jingxin Du",
+        "Chenming Ye",
+        "Anjun Zhu",
+        "Pragathi Praveena",
+        "Bilge Mutlu"
+      ],
+      "abstract": "",
+      "date": "2025-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1145/3746059.3747697",
+      "doi": "10.1145/3746059.3747697",
+      "categories": [],
+      "tags": [],
+      "venue": "UIST"
+    },
+    {
+      "id": "10.1145/3746058.3758997",
+      "title": "Demonstration of VisRing: A Display-Extended Smartring for Nano Visualizations",
+      "authors": [
+        "Runze Liu 0003",
+        "Christian Krauter",
+        "Taiting Lu",
+        "Mara Schulte",
+        "Alexander Achberger",
+        "Tanja Blascheck",
+        "Michael Sedlmair",
+        "Mahanth Gowda"
+      ],
+      "abstract": "",
+      "date": "2025-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1145/3746058.3758997",
+      "doi": "10.1145/3746058.3758997",
+      "categories": [],
+      "tags": [],
+      "venue": "UIST Adjunct"
+    },
+    {
+      "id": "10.1145/3746058.3758469",
+      "title": "Facilitating Longitudinal Interaction Studies of AI Systems",
+      "authors": [
+        "Tao Long 0003",
+        "Sitong Wang 0001",
+        "Émilie Fabre",
+        "Tony Wang",
+        "Anup Sathya",
+        "Jason Wu 0001",
+        "Savvas Dimitrios Petridis",
+        "Ding Li",
+        "Tuhin Chakrabarty",
+        "Yue Jiang 0002",
+        "Jingyi Li",
+        "Tiffany Tseng",
+        "Ken Nakagaki",
+        "Qian Yang 0004",
+        "Nikolas Martelaro",
+        "Jeffrey V. Nickerson",
+        "Lydia B. Chilton"
+      ],
+      "abstract": "",
+      "date": "2025-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1145/3746058.3758469",
+      "doi": "10.1145/3746058.3758469",
+      "categories": [],
+      "tags": [],
+      "venue": "UIST Adjunct"
+    },
+    {
+      "id": "10.1145/3746059.3747762",
+      "title": "From Sports Videos to Immersive Training: Augmenting Human Motion to Enrich Basketball Training Experience",
+      "authors": [
+        "Yihong Wu 0003",
+        "Xiao Xie",
+        "Lingyun Yu 0001",
+        "Xinyi Ruan",
+        "Runzhou Li",
+        "Liqi Cheng",
+        "Shuainan Ye",
+        "Dazhen Deng",
+        "Hui Zhang 0051",
+        "Yingcai Wu"
+      ],
+      "abstract": "",
+      "date": "2025-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1145/3746059.3747762",
+      "doi": "10.1145/3746059.3747762",
+      "categories": [],
+      "tags": [],
+      "venue": "UIST"
+    },
+    {
+      "id": "10.1145/3746059.3747705",
+      "title": "GestureCoach: Rehearsing for Engaging Talks with LLM-Driven Gesture Recommendations",
+      "authors": [
+        "Ashwin Ram 0004",
+        "Varsha Suresh",
+        "Artin Saberpour Abadian",
+        "Vera Demberg",
+        "Jürgen Steimle"
+      ],
+      "abstract": "",
+      "date": "2025-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1145/3746059.3747705",
+      "doi": "10.1145/3746059.3747705",
+      "categories": [],
+      "tags": [],
+      "venue": "UIST"
+    },
+    {
+      "id": "10.1145/3746058.3759017",
+      "title": "Gesture2Prop: Conditional VR Prop Generation from Hand Gestures and Speech",
+      "authors": [
+        "Zhihao Yao 0004",
+        "Xiwen Yao",
+        "Qirui Sun",
+        "Haowei Xiong",
+        "Kin Wang Lau",
+        "Haipeng Mi"
+      ],
+      "abstract": "",
+      "date": "2025-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1145/3746058.3759017",
+      "doi": "10.1145/3746058.3759017",
+      "categories": [],
+      "tags": [],
+      "venue": "UIST Adjunct"
+    },
+    {
+      "id": "10.1145/3746059.3747635",
+      "title": "ImaginateAR: AI-Assisted In-Situ Authoring in Augmented Reality",
+      "authors": [
+        "Jaewook Lee 0005",
+        "Filippo Aleotti",
+        "Diego Mazala",
+        "Guillermo Garcia-Hernando",
+        "Sara Vicente",
+        "Oliver James Johnston",
+        "Isabel Kraus-Liang",
+        "Jakub Powierza",
+        "Donghoon Shin",
+        "Jon E. Froehlich",
+        "Gabriel J. Brostow",
+        "Jessica Van Brummelen"
+      ],
+      "abstract": "",
+      "date": "2025-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1145/3746059.3747635",
+      "doi": "10.1145/3746059.3747635",
+      "categories": [],
+      "tags": [],
+      "venue": "UIST"
+    },
+    {
+      "id": "10.1145/3746059.3747766",
+      "title": "KiriInflate: Fabricating Cross-Scale Inflatables with Large Contraction and Tunable Stretchability for Tangible Interaction",
+      "authors": [
+        "Yue Yang 0005",
+        "Chuang Chen",
+        "Yulu Chen",
+        "Ge Gao",
+        "Lei Ren",
+        "Bolan Yao",
+        "Lingyun Sun",
+        "Ye Tao 0001",
+        "Guanyun Wang"
+      ],
+      "abstract": "",
+      "date": "2025-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1145/3746059.3747766",
+      "doi": "10.1145/3746059.3747766",
+      "categories": [],
+      "tags": [],
+      "venue": "UIST"
+    },
+    {
+      "id": "10.1145/3746059.3747667",
+      "title": "Do You See What I See? Bring Live Pedestrians into an Outdoor Collaborative Mixed Reality Experience",
+      "authors": [
+        "Jingyi Zhang 0007",
+        "Ziwen Lu",
+        "Changrui Zhu",
+        "Simon Julier",
+        "Anthony Steed"
+      ],
+      "abstract": "",
+      "date": "2025-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1145/3746059.3747667",
+      "doi": "10.1145/3746059.3747667",
+      "categories": [],
+      "tags": [],
+      "venue": "UIST"
+    },
+    {
+      "id": "10.1145/3746059.3747601",
+      "title": "Invisibility Cloak: Personalized Smartwatch-Guided Camera Obfuscation",
+      "authors": [
+        "Xue Wang 0015",
+        "Yang Zhang 0041"
+      ],
+      "abstract": "",
+      "date": "2025-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1145/3746059.3747601",
+      "doi": "10.1145/3746059.3747601",
+      "categories": [],
+      "tags": [],
+      "venue": "UIST"
+    },
+    {
+      "id": "10.1145/3746059.3747662",
+      "title": "Empowering Children to Create AI-Enabled Augmented Reality Experiences",
+      "authors": [
+        "Lei Zhang 0216",
+        "Shuyao Zhou",
+        "Amna Liaqat",
+        "Tinney Mak",
+        "Brian Berengard",
+        "Emily Qian",
+        "Andrés Monroy-Hernández"
+      ],
+      "abstract": "",
+      "date": "2025-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1145/3746059.3747662",
+      "doi": "10.1145/3746059.3747662",
+      "categories": [],
+      "tags": [],
+      "venue": "UIST"
+    },
+    {
+      "id": "10.1145/3746058.3758456",
+      "title": "Distant Mid-Air Interaction via Accurate Gaze and Hand Posture Estimation with an Ultrafast Pan-Tilt Camera",
+      "authors": [
+        "Yuta Abe",
+        "Taishi Iriyama",
+        "Takashi Komuro",
+        "Kohei Shimasaki",
+        "Idaku Ishii"
+      ],
+      "abstract": "",
+      "date": "2025-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1145/3746058.3758456",
+      "doi": "10.1145/3746058.3758456",
+      "categories": [],
+      "tags": [],
+      "venue": "UIST Adjunct"
+    },
+    {
+      "id": "10.1145/3746058.3759002",
+      "title": "speak: Improving Confidence in Public Speaking",
+      "authors": [
+        "Naisha Agarwal",
+        "Travis Nguyen",
+        "Cristobal Velazquez",
+        "Jenna Wang",
+        "Eunice Jun"
+      ],
+      "abstract": "",
+      "date": "2025-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1145/3746058.3759002",
+      "doi": "10.1145/3746058.3759002",
+      "categories": [],
+      "tags": [],
+      "venue": "UIST Adjunct"
+    },
+    {
+      "id": "10.1145/3746058.3758345",
+      "title": "Clay Play: A Metaphorical LLM Interface for Dynamic Idea Generation and Exploration",
+      "authors": [
+        "Yuya Aikawa",
+        "Joohan Bae",
+        "Daigo Misaki"
+      ],
+      "abstract": "",
+      "date": "2025-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1145/3746058.3758345",
+      "doi": "10.1145/3746058.3758345",
+      "categories": [],
+      "tags": [],
+      "venue": "UIST Adjunct"
+    },
+    {
+      "id": "10.1145/3746058.3758435",
+      "title": "Ori-TENG: 3D Printed Origami Tessellations as Triboelectric Nanogenerators for Self-powered Sensing and Energy Harvesting",
+      "authors": [
+        "Marwa Alalawi",
+        "Kexin Wang",
+        "Regina Zheng",
+        "Adelene Chan",
+        "Martin Feick",
+        "Stefanie Mueller 0001"
+      ],
+      "abstract": "",
+      "date": "2025-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1145/3746058.3758435",
+      "doi": "10.1145/3746058.3758435",
+      "categories": [],
+      "tags": [],
+      "venue": "UIST Adjunct"
+    },
+    {
+      "id": "10.1145/3746058.3758991",
+      "title": "Demonstration of Meta-antenna: Mechanically Frequency Reconfigurable Metamaterial Antennas",
+      "authors": [
+        "Marwa Alalawi",
+        "Regina Zheng",
+        "Sooyeon Ahn 0001",
+        "Katherine Yan",
+        "Ticha Sethapakdi",
+        "Junyi Zhu 0001",
+        "Stefanie Mueller 0001"
+      ],
+      "abstract": "",
+      "date": "2025-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1145/3746058.3758991",
+      "doi": "10.1145/3746058.3758991",
+      "categories": [],
+      "tags": [],
+      "venue": "UIST Adjunct"
+    },
+    {
+      "id": "10.1145/3746059.3747760",
+      "title": "Meta-antenna: Mechanically Frequency Reconfigurable Metamaterial Antennas",
+      "authors": [
+        "Marwa Alalawi",
+        "Regina Zheng",
+        "Sooyeon Ahn 0001",
+        "Katherine Yan",
+        "Ticha Sethapakdi",
+        "Junyi Zhu 0001",
+        "Stefanie Mueller 0001"
+      ],
+      "abstract": "",
+      "date": "2025-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1145/3746059.3747760",
+      "doi": "10.1145/3746059.3747760",
+      "categories": [],
+      "tags": [],
+      "venue": "UIST"
+    },
+    {
+      "id": "10.1145/3746059.3747610",
+      "title": "StepWrite: Adaptive Planning for Speech-Driven Text Generation",
+      "authors": [
+        "Hamza El Alaoui",
+        "Atieh Taheri",
+        "Yi-Hao Peng",
+        "Jeffrey P. Bigham"
+      ],
+      "abstract": "",
+      "date": "2025-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1145/3746059.3747610",
+      "doi": "10.1145/3746059.3747610",
+      "categories": [],
+      "tags": [],
+      "venue": "UIST"
+    },
+    {
+      "id": "10.1145/3746058.3758994",
+      "title": "VIRT-LAB: An AI-Powered System for Flexible, Customizable, and Large-scale Team Simulations",
+      "authors": [
+        "Mohammed Almutairi",
+        "Charles Chiang",
+        "Haoze Guo",
+        "Matthew Belcher",
+        "Nandini Banerjee",
+        "Maria Milkowski",
+        "Svitlana Volkova",
+        "Daniel Nguyen",
+        "Tim Weninger",
+        "Michael G. Yankoski",
+        "Trenton W. Ford",
+        "Diego Gómez-Zará"
+      ],
+      "abstract": "",
+      "date": "2025-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1145/3746058.3758994",
+      "doi": "10.1145/3746058.3758994",
+      "categories": [],
+      "tags": [],
+      "venue": "UIST Adjunct"
     }
   ]
 }
