@@ -17,10 +17,7 @@
         "cs.HC",
         "cs.CY"
       ],
-      "tags": [
-        "GPT",
-        "Education"
-      ]
+      "tags": []
     },
     {
       "id": "2607.03023",
@@ -42,11 +39,7 @@
         "cs.HC",
         "cs.CY"
       ],
-      "tags": [
-        "Visualization",
-        "UX",
-        "Chatbot"
-      ]
+      "tags": []
     },
     {
       "id": "2607.03292",
@@ -86,10 +79,7 @@
       "categories": [
         "cs.HC"
       ],
-      "tags": [
-        "Visualization",
-        "Emotion"
-      ]
+      "tags": []
     },
     {
       "id": "2607.03720",
@@ -109,10 +99,7 @@
       "categories": [
         "cs.HC"
       ],
-      "tags": [
-        "Health",
-        "Emotion"
-      ]
+      "tags": []
     },
     {
       "id": "2607.03731",
@@ -137,11 +124,7 @@
         "cs.HC",
         "cs.AI"
       ],
-      "tags": [
-        "VR",
-        "Collaboration",
-        "Emotion"
-      ]
+      "tags": []
     },
     {
       "id": "2607.03834",
@@ -158,9 +141,7 @@
       "categories": [
         "cs.HC"
       ],
-      "tags": [
-        "Education"
-      ]
+      "tags": []
     },
     {
       "id": "2607.03896",
@@ -182,13 +163,7 @@
       "categories": [
         "cs.HC"
       ],
-      "tags": [
-        "VR",
-        "XR",
-        "Usability",
-        "Education",
-        "Tangible"
-      ]
+      "tags": []
     },
     {
       "id": "2607.03978",
@@ -211,9 +186,7 @@
         "cs.AI",
         "cs.CV"
       ],
-      "tags": [
-        "LLM"
-      ]
+      "tags": []
     },
     {
       "id": "2607.04282",
@@ -233,9 +206,7 @@
         "cs.CY",
         "cs.IR"
       ],
-      "tags": [
-        "Education"
-      ]
+      "tags": []
     },
     {
       "id": "2607.04381",
@@ -258,10 +229,7 @@
         "cs.HC",
         "cs.CY"
       ],
-      "tags": [
-        "Accessibility",
-        "Health"
-      ]
+      "tags": []
     },
     {
       "id": "2607.04501",
@@ -282,9 +250,7 @@
         "cs.HC",
         "cs.LG"
       ],
-      "tags": [
-        "Visualization"
-      ]
+      "tags": []
     },
     {
       "id": "2607.04547",
@@ -303,11 +269,7 @@
       "categories": [
         "cs.HC"
       ],
-      "tags": [
-        "UX",
-        "Education",
-        "Chatbot"
-      ]
+      "tags": []
     },
     {
       "id": "2607.04573",
@@ -325,9 +287,7 @@
       "categories": [
         "cs.HC"
       ],
-      "tags": [
-        "Mobile"
-      ]
+      "tags": []
     },
     {
       "id": "2607.04670",
@@ -351,9 +311,7 @@
       "categories": [
         "cs.HC"
       ],
-      "tags": [
-        "Emotion"
-      ]
+      "tags": []
     },
     {
       "id": "2607.05110",
@@ -374,10 +332,7 @@
         "cs.HC",
         "cs.RO"
       ],
-      "tags": [
-        "Robotics",
-        "Health"
-      ]
+      "tags": []
     },
     {
       "id": "2607.02563",
@@ -397,9 +352,7 @@
         "cs.CV",
         "cs.AI"
       ],
-      "tags": [
-        "Collaboration"
-      ]
+      "tags": []
     },
     {
       "id": "2607.02565",
@@ -469,11 +422,7 @@
         "cs.AI",
         "cs.IR"
       ],
-      "tags": [
-        "LLM",
-        "Health",
-        "Emotion"
-      ]
+      "tags": []
     },
     {
       "id": "2607.02912",
@@ -498,12 +447,7 @@
         "cs.CV",
         "cs.MM"
       ],
-      "tags": [
-        "Visualization",
-        "Privacy",
-        "Education",
-        "Emotion"
-      ]
+      "tags": []
     },
     {
       "id": "2607.02929",
@@ -524,9 +468,7 @@
         "cs.AI",
         "cs.CV"
       ],
-      "tags": [
-        "Usability"
-      ]
+      "tags": []
     },
     {
       "id": "2607.02932",
@@ -549,12 +491,7 @@
         "cs.AI",
         "cs.LG"
       ],
-      "tags": [
-        "LLM",
-        "Privacy",
-        "Education",
-        "Chatbot"
-      ]
+      "tags": []
     },
     {
       "id": "2607.03162",
@@ -583,9 +520,7 @@
         "cs.HC",
         "cs.AI"
       ],
-      "tags": [
-        "LLM"
-      ]
+      "tags": []
     },
     {
       "id": "2607.03213",
@@ -606,10 +541,7 @@
         "cs.AI",
         "cs.CL"
       ],
-      "tags": [
-        "Privacy",
-        "Wearable"
-      ]
+      "tags": []
     },
     {
       "id": "2607.03289",
@@ -631,9 +563,7 @@
         "cs.HC",
         "cs.RO"
       ],
-      "tags": [
-        "Robotics"
-      ]
+      "tags": []
     },
     {
       "id": "2607.03421",
@@ -676,10 +606,7 @@
         "cs.HC",
         "cs.AI"
       ],
-      "tags": [
-        "Education",
-        "Emotion"
-      ]
+      "tags": []
     },
     {
       "id": "2607.03621",
@@ -699,10 +626,7 @@
         "cs.CV",
         "cs.RO"
       ],
-      "tags": [
-        "Robotics",
-        "Collaboration"
-      ]
+      "tags": []
     },
     {
       "id": "2607.03844",
@@ -724,9 +648,7 @@
         "cs.HC",
         "cs.SD"
       ],
-      "tags": [
-        "Education"
-      ]
+      "tags": []
     },
     {
       "id": "2607.04025",
@@ -747,9 +669,7 @@
         "cs.HC",
         "cs.IR"
       ],
-      "tags": [
-        "Health"
-      ]
+      "tags": []
     },
     {
       "id": "2607.04438",
@@ -841,9 +761,7 @@
         "cs.HC",
         "cs.CV"
       ],
-      "tags": [
-        "Robotics"
-      ]
+      "tags": []
     },
     {
       "id": "2607.05113",
@@ -868,10 +786,7 @@
         "cs.CL",
         "cs.CY"
       ],
-      "tags": [
-        "LLM",
-        "Collaboration"
-      ]
+      "tags": []
     },
     {
       "id": "2411.11449",
@@ -920,11 +835,7 @@
         "cs.HC",
         "cs.CL"
       ],
-      "tags": [
-        "LLM",
-        "Collaboration",
-        "Health"
-      ]
+      "tags": []
     },
     {
       "id": "2504.17331",
@@ -945,16 +856,7 @@
         "cs.HC",
         "cs.AI"
       ],
-      "tags": [
-        "LLM",
-        "VR",
-        "Accessibility",
-        "Eye Tracking",
-        "Voice",
-        "UX",
-        "Usability",
-        "Education"
-      ]
+      "tags": []
     },
     {
       "id": "2507.03670",
@@ -997,9 +899,7 @@
       "categories": [
         "cs.HC"
       ],
-      "tags": [
-        "Health"
-      ]
+      "tags": []
     },
     {
       "id": "2508.08242",
@@ -1019,10 +919,7 @@
       "categories": [
         "cs.HC"
       ],
-      "tags": [
-        "LLM",
-        "GPT"
-      ]
+      "tags": []
     },
     {
       "id": "2509.13742",
@@ -1048,10 +945,7 @@
       "categories": [
         "cs.HC"
       ],
-      "tags": [
-        "LLM",
-        "Design Tools"
-      ]
+      "tags": []
     },
     {
       "id": "2512.09802",
@@ -1069,10 +963,7 @@
       "categories": [
         "cs.HC"
       ],
-      "tags": [
-        "Visualization",
-        "Gaming"
-      ]
+      "tags": []
     },
     {
       "id": "2601.11049",
@@ -1091,11 +982,7 @@
         "cs.HC",
         "cs.AI"
       ],
-      "tags": [
-        "LLM",
-        "GPT",
-        "Chatbot"
-      ]
+      "tags": []
     },
     {
       "id": "2601.15291",
@@ -1114,11 +1001,7 @@
         "cs.HC",
         "cs.CY"
       ],
-      "tags": [
-        "Accessibility",
-        "Education",
-        "Health"
-      ]
+      "tags": []
     },
     {
       "id": "2601.20749",
@@ -1138,12 +1021,7 @@
       "categories": [
         "cs.HC"
       ],
-      "tags": [
-        "GPT",
-        "Education",
-        "Emotion",
-        "Trust"
-      ]
+      "tags": []
     },
     {
       "id": "2603.28944",
@@ -1182,12 +1060,7 @@
         "cs.HC",
         "cs.CY"
       ],
-      "tags": [
-        "LLM",
-        "Collaboration",
-        "Chatbot",
-        "Emotion"
-      ]
+      "tags": []
     },
     {
       "id": "2605.12613",
@@ -1208,12 +1081,7 @@
         "cs.HC",
         "cs.IR"
       ],
-      "tags": [
-        "Privacy",
-        "Collaboration",
-        "Chatbot",
-        "Trust"
-      ]
+      "tags": []
     },
     {
       "id": "2605.15932",
@@ -1234,10 +1102,7 @@
       "categories": [
         "cs.HC"
       ],
-      "tags": [
-        "Collaboration",
-        "Education"
-      ]
+      "tags": []
     },
     {
       "id": "2605.16270",
@@ -1262,11 +1127,7 @@
         "cs.HC",
         "cs.CY"
       ],
-      "tags": [
-        "Accessibility",
-        "Health",
-        "Emotion"
-      ]
+      "tags": []
     },
     {
       "id": "2606.22484",
@@ -1305,9 +1166,7 @@
         "cs.AI",
         "cs.LG"
       ],
-      "tags": [
-        "Education"
-      ]
+      "tags": []
     },
     {
       "id": "2410.20696",
@@ -1347,9 +1206,7 @@
         "cs.MA",
         "cs.AI"
       ],
-      "tags": [
-        "LLM"
-      ]
+      "tags": []
     },
     {
       "id": "2507.02950",
@@ -1375,11 +1232,7 @@
         "cs.CL",
         "cs.AI"
       ],
-      "tags": [
-        "LLM",
-        "GPT",
-        "Health"
-      ]
+      "tags": []
     },
     {
       "id": "2508.16771",
@@ -1405,10 +1258,7 @@
         "cs.SE",
         "cs.AI"
       ],
-      "tags": [
-        "Eye Tracking",
-        "Education"
-      ]
+      "tags": []
     },
     {
       "id": "2508.21010",
@@ -1431,9 +1281,7 @@
         "cs.CL",
         "cs.LG"
       ],
-      "tags": [
-        "Trust"
-      ]
+      "tags": []
     },
     {
       "id": "2512.10785",
@@ -1456,10 +1304,7 @@
         "physics.ed-ph",
         "cs.AI"
       ],
-      "tags": [
-        "LLM",
-        "Education"
-      ]
+      "tags": []
     },
     {
       "id": "2602.19107",
@@ -1478,9 +1323,7 @@
         "cs.HC",
         "cs.RO"
       ],
-      "tags": [
-        "Robotics"
-      ]
+      "tags": []
     },
     {
       "id": "2603.02070",
@@ -1504,10 +1347,7 @@
         "cs.CL",
         "cs.MA"
       ],
-      "tags": [
-        "LLM",
-        "Trust"
-      ]
+      "tags": []
     },
     {
       "id": "2604.11730",
@@ -1536,12 +1376,7 @@
         "cs.CV",
         "cs.LG"
       ],
-      "tags": [
-        "LLM",
-        "Education",
-        "Health",
-        "Emotion"
-      ]
+      "tags": []
     },
     {
       "id": "2604.25596",
@@ -1588,11 +1423,7 @@
         "cs.LG",
         "cs.AI"
       ],
-      "tags": [
-        "Education",
-        "Health",
-        "Wearable"
-      ]
+      "tags": []
     },
     {
       "id": "2606.08281",
@@ -1614,9 +1445,7 @@
         "eess.SY",
         "physics.med-ph"
       ],
-      "tags": [
-        "Robotics"
-      ]
+      "tags": []
     },
     {
       "id": "2606.15198",
@@ -1639,10 +1468,7 @@
         "cs.HC",
         "cs.CV"
       ],
-      "tags": [
-        "VR",
-        "Crowdsourcing"
-      ]
+      "tags": []
     },
     {
       "id": "2606.16337",
@@ -1667,11 +1493,7 @@
         "cs.AI",
         "cs.LG"
       ],
-      "tags": [
-        "LLM",
-        "Education",
-        "Health"
-      ]
+      "tags": []
     },
     {
       "id": "2606.16428",
@@ -1693,381 +1515,7 @@
         "cs.CL",
         "cs.AI"
       ],
-      "tags": [
-        "Collaboration",
-        "Education"
-      ]
-    },
-    {
-      "id": "2607.01242",
-      "title": "ExPerT: Personalizing LLM Responses to Users' Domain Expertise via Query-Wise Semantic and Keystroke Behavioral Cues",
-      "authors": [
-        "Yeji Park",
-        "Jiwon Tark",
-        "Taesik Gong"
-      ],
-      "abstract": "Large language models (LLMs) are increasingly used by end users, yet existing personalization methods relying on static profiles or text-only signals fail to capture query-specific expertise variation. We present ExPerT, a query-wise personalization framework that adapts LLM responses to users' query domain expertise by combining semantic and behavioral cues. ExPerT consists of two key components: (i) a semantic-behavioral expertise inference module that jointly interprets query text and keystroke dynamics via in-context LLM prompting, and (ii) an expertise-conditioned response generation that adapts the level of detail, terminology, and conceptual complexity. Our user study with 40 participants and 1270 queries demonstrated that ExPerT reduced expertise inference error by 65.7% compared to the strongest baseline (MAE = 0.398 vs. 1.162) and improved response satisfaction by 17.52% (from 3.71 to 4.36) on a 5-point Likert scale.",
-      "date": "2026-07-03T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2607.01242",
-      "pdfUrl": "https://arxiv.org/pdf/2607.01242.pdf",
-      "arxivId": "2607.01242",
-      "categories": [
-        "cs.HC",
-        "cs.AI",
-        "cs.CL",
-        "cs.IR"
-      ],
-      "tags": [
-        "LLM"
-      ]
-    },
-    {
-      "id": "2607.01253",
-      "title": "Three Futures for the Diagnostic Radiologist: A Structured Disagreement About What AI Actually Changes",
-      "authors": [
-        "Jan Beger",
-        "Amine Korchi",
-        "Christoph A. Agten"
-      ],
-      "abstract": "Rationale. The diagnostic radiologist's role in 2035 will not look like it does today. Imaging AI is already changing how worklists are organized, how reports are generated, and which cases require a radiologist's attention. What remains genuinely contested is not whether the role changes but how. Approach. Three subject-matter experts (two radiologists and one health tech professional with more than 20 years of experience in medical imaging IT) independently authored 2035 job descriptions for the diagnostic radiologist using a shared template. Each author wrote from a distinct vantage point: one optimistic, one framed as a trade-off view incorporating workforce economics, and one structured around professional stratification. The three versions were published openly and subjected to a structured comparison across seven dimensions. Key findings. The three versions agree on direction but disagree on magnitude. All three describe a radiologist whose routine workload is AI-managed, who carries accountability for AI output, and who spends more time on complex cases and clinical collaboration than today's radiologist does. They diverge on headcount, career security, and whether the profession expands broadly, concentrates into a smaller well-compensated group, or stratifies into sharply differentiated tiers. Conclusion. AI won't eliminate the diagnostic radiologist. Whether it expands, concentrates, or stratifies the profession depends on choices health systems haven't made yet. The clinical argument for optimism is real. So is the economic argument for caution. Both can be true simultaneously. Keywords: radiology workforce; artificial intelligence; diagnostic radiology; job redesign; medical imaging IT; AI governance",
-      "date": "2026-07-03T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2607.01253",
-      "pdfUrl": "https://arxiv.org/pdf/2607.01253.pdf",
-      "arxivId": "2607.01253",
-      "categories": [
-        "cs.HC",
-        "cs.CY"
-      ],
-      "tags": [
-        "Collaboration",
-        "Health"
-      ]
-    },
-    {
-      "id": "1808.07645",
-      "title": "Playing 20 Question Game with Policy-Based Reinforcement Learning",
-      "authors": [
-        "Huang Hu",
-        "Xianchao Wu",
-        "Bingfeng Luo",
-        "Chongyang Tao",
-        "Can Xu",
-        "Wei Wu",
-        "Zhan Chen"
-      ],
-      "abstract": "The 20 Questions (Q20) game is a well known game which encourages deductive reasoning and creativity. In the game, the answerer first thinks of an object such as a famous person or a kind of animal. Then the questioner tries to guess the object by asking 20 questions. In a Q20 game system, the user is considered as the answerer while the system itself acts as the questioner which requires a good strategy of question selection to figure out the correct object and win the game. However, the optimal policy of question selection is hard to be derived due to the complexity and volatility of the game environment. In this paper, we propose a novel policy-based Reinforcement Learning (RL) method, which enables the questioner agent to learn the optimal policy of question selection through continuous interactions with users. To facilitate training, we also propose to use a reward network to estimate the more informative reward. Compared to previous methods, our RL method is robust to noisy answers and does not rely on the Knowledge Base of objects. Experimental results show that our RL method clearly outperforms an entropy-based engineering system and has competitive performance in a noisy-free simulation environment.",
-      "date": "2026-07-03T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/1808.07645",
-      "pdfUrl": "https://arxiv.org/pdf/1808.07645.pdf",
-      "arxivId": "1808.07645",
-      "categories": [
-        "cs.HC",
-        "cs.AI",
-        "cs.CL"
-      ],
-      "tags": [
-        "Gaming",
-        "Education"
-      ]
-    },
-    {
-      "id": "2504.12865",
-      "title": "DashChat: Interactive Authoring of Performance Dashboard Design Prototypes through Conversation with LLM-Powered Agent",
-      "authors": [
-        "Z. Lin",
-        "S. Shen",
-        "W. Liu",
-        "C. Xin",
-        "W. Dai",
-        "S. Chen",
-        "X. Wen",
-        "X. Lan"
-      ],
-      "abstract": "Performance dashboards are dashboards designed for and deployed within industrial settings (e.g., enterprises, government agencies) to showcase and monitor their operational performance. They have evolved into an important and well-commercialized format for data visualization. In practice, the ideation and negotiation phases demand rapid prototyping and iteration to align with evolving client needs. However, existing tools compel designers to compromise either on iteration speed or on the meticulous handling of visual complexities. To address these gaps, we introduce DashChat for generating performance dashboard prototypes. Collaborating with industry experts, we derived the design requirements and analyzed 114 dashboards to extract common design patterns. Informed by the findings, our solution integrates a chat interface with an LLM-driven multi-agent pipeline, translating textual requirements into prototypes. We evaluated the system by comparing it with a baseline, demonstrating its effectiveness in facilitating the prototyping process while ensuring design quality.",
-      "date": "2026-07-03T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2504.12865",
-      "pdfUrl": "https://arxiv.org/pdf/2504.12865.pdf",
-      "arxivId": "2504.12865",
-      "categories": [
-        "cs.HC"
-      ],
-      "tags": [
-        "LLM",
-        "Visualization",
-        "Collaboration"
-      ]
-    },
-    {
-      "id": "2504.20369",
-      "title": "Perception-aware Sampling for Scatterplot Visualizations",
-      "authors": [
-        "Zafeiria Moumoulidou",
-        "Hamza Elhamdadi",
-        "Ke Yang",
-        "Subrata Mitra",
-        "Cindy Xiong Bearfield",
-        "Alexandra Meliou"
-      ],
-      "abstract": "Visualizing data is often a crucial first step in data analytics workflows, but growing data sizes pose challenges due to computational and visual perception limitations. As a result, data analysts commonly down-sample their data and work with subsets. Deriving representative samples, however, remains a challenge. This paper focuses on scatterplots, a widely-used visualization type, and introduces a novel sampling objective -- perception-awareness -- aiming to improve sample efficacy by targeting humans' perception of a visualization. We make the following contributions: (1) We propose perception-augmented databases and design PAwS: a novel perception-aware sampling method for scatterplots that leverages saliency maps -- a computer vision tool for predicting areas of attention focus in visualizations -- and models perception-awareness via saliency, density, and coverage objectives. (2) We design ApproPAwS: a fast, perception-aware method for approximate visualizations, which exploits the fact that small visual perturbations are often imperceptible to humans. (3) We introduce the concept of perceptual similarity as a metric for sample quality, and present a novel method that compares saliency maps to measure it. (4) Our extensive experimental evaluation shows that our methods consistently outperform prior art in producing samples with high perceptual similarity, while ApproPAwS achieves up to 100x speed-ups with minimal loss in visual fidelity. Our user study shows that PAwS is often preferred by humans, validating our quantitative findings.",
-      "date": "2026-07-03T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2504.20369",
-      "pdfUrl": "https://arxiv.org/pdf/2504.20369.pdf",
-      "arxivId": "2504.20369",
-      "categories": [
-        "cs.HC",
-        "cs.DB"
-      ],
-      "tags": [
-        "Visualization"
-      ]
-    },
-    {
-      "id": "2505.18318",
-      "title": "The Relational Origins of Rules in Online Communities",
-      "authors": [
-        "Charles Kiene",
-        "Sohyeon Hwang",
-        "Nathan TeBlunthuis",
-        "Carl Colglazier",
-        "Aaron Shaw",
-        "Benjamin Mako Hill"
-      ],
-      "abstract": "Where do rules come from in online communities? This study investigates how and why online communities adopt and change their rules. We conducted a grounded theory-based analysis of 40 in-depth interviews with community leaders from subreddits, Fandom wikis, and Fediverse servers, and identified seven processes involved in the adoption of online community rules. Our findings reveal that, beyond operational reasons like regulating behavior and solving problems, rules are also adopted and changed for relational reasons, such as signaling or reinforcing community legitimacy and identity to other communities. While rule change was often prompted by challenges during community growth or decline, change also depended on volunteer leaders' work capacity, the presence of member feedback mechanisms, and relational dynamics between leaders and members. Our findings extend prior theories from social computing and organizational research, illustrating how institutionalist and ecological explanations of the relational origins of rules complement operational accounts. Finally, we build on these explanations to offer a set of design propositions that reflect the relational aspects of rules and rulemaking across communities' lifecycles.",
-      "date": "2026-07-03T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2505.18318",
-      "pdfUrl": "https://arxiv.org/pdf/2505.18318.pdf",
-      "arxivId": "2505.18318",
-      "categories": [
-        "cs.HC"
-      ],
       "tags": []
-    },
-    {
-      "id": "2509.25383",
-      "title": "Beyond the Pocket: A Large-Scale International Study on User Preferences on Bodily Placements of Commercial Wearables",
-      "authors": [
-        "Joanna Sorysz",
-        "Lars Krupp",
-        "Dominique Nshimyimana",
-        "Meagan B. Loerakker",
-        "Bo Zhou",
-        "Paul Lukowicz",
-        "Jakob Karolus"
-      ],
-      "abstract": "As wearables become smaller, more powerful, and increasingly embedded in everyday life, their integration into diverse user contexts raises important design challenges. Despite this, their placement is still largely informed by lab-based assumptions not grounded in real-world, context-specific use. It remains unclear whether the designs evaluated in controlled studies reflect users everyday needs, routines, and habits. To address this gap, we collect empirical data on how people carry wearables in their daily lives, beginning to systematically examine user preferences for wearable placement across contexts and routines. We developed a multilingual questionnaire to capture real-world wearable placement practices. Responses from n=300 participants recruited through typical research channels, reveal how wearable usage patterns vary with users. We propose a set of user-centred guidelines for sensor placement and discuss how they fit in assumptions seen in related work. This study contributes to ongoing efforts to design more inclusive, adaptable, and context-aware wearable systems.",
-      "date": "2026-07-03T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2509.25383",
-      "pdfUrl": "https://arxiv.org/pdf/2509.25383.pdf",
-      "arxivId": "2509.25383",
-      "categories": [
-        "cs.HC"
-      ],
-      "tags": [
-        "Wearable"
-      ]
-    },
-    {
-      "id": "2512.23128",
-      "title": "It's a TRAP! Task-Redirecting Agent Persuasion Benchmark for Web Agents",
-      "authors": [
-        "Karolina Korgul",
-        "Yushi Yang",
-        "Arkadiusz Drohomirecki",
-        "Piotr B{\\l}aszczyk",
-        "Will Howard",
-        "Lukas Aichberger",
-        "Chris Russell",
-        "Philip H. S. Torr",
-        "Adam Mahdi",
-        "Adel Bibi"
-      ],
-      "abstract": "Web-based agents powered by large language models are increasingly used for tasks such as email management or professional networking. Their reliance on dynamic web content, however, makes them vulnerable to prompt injection attacks: adversarial instructions hidden in interface elements that persuade the agent to divert from its original task. We introduce the Task-Redirecting Agent Persuasion Benchmark (TRAP), a benchmark for studying how persuasion techniques misguide autonomous web agents on realistic tasks. Across six frontier models, agents are susceptible to prompt injection in 25% of tasks on average (13% for GPT-5 to 43% for DeepSeek-R1), with small interface or contextual changes often doubling success rates and revealing systemic, psychologically driven vulnerabilities in web-based agents. We also provide a modular social-engineering injection framework with controlled experiments on high-fidelity website clones, allowing for further benchmark expansion.",
-      "date": "2026-07-03T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2512.23128",
-      "pdfUrl": "https://arxiv.org/pdf/2512.23128.pdf",
-      "arxivId": "2512.23128",
-      "categories": [
-        "cs.HC",
-        "cs.AI",
-        "cs.MA"
-      ],
-      "tags": [
-        "LLM",
-        "GPT"
-      ]
-    },
-    {
-      "id": "2604.02220",
-      "title": "Visual Decoding Operators: Towards a Compositional Theory of Visualization Perception",
-      "authors": [
-        "Sheng Long",
-        "Remco Chang",
-        "Eugene Wu",
-        "Alex Kale",
-        "Matthew Kay"
-      ],
-      "abstract": "Prior work on perceptual effectiveness has decomposed visualizations into smaller common units (e.g., channels such as angle, position, and length) to establish rankings. While useful, these decompositions lack the computational structure to predict performance for new visualization x task combinations, requiring new experiments for each. We propose an alternative unit of analysis: operationalizing quantitative visualization interpretation as sequences of composable visual decoding operators. Using probability density function (PDF) and cumulative distribution function (CDF) charts, we examine how four chart-specific tasks can be decomposed into five reusable, chart-agnostic perceptual operations and characterize their error profiles through hierarchical Bayesian modeling. We then test generalizability by composing one kind of learned operators to predict performance on a structurally different task: Moritz et al.'s [37] scatterplot mean-estimation experiment, where the chart type, chart dimensions, and analytic goal all differ from the learning conditions. With a pre-registered analysis plan, we compose operators under six candidate strategies and evaluate each against empirical data with no parameters fit to the response data. One strategy captures both bias and variance of observed responses; five alternatives fail in distinguishable ways. We argue that this decoding-operator-oriented approach to empirical visualization research demonstrates the feasibility of a different way of doing empirical visualization research, one where findings compose, and predictions extend beyond the conditions in which they were measured. Free copy of this paper and supplemental materials: https://osf.io/prtfq.",
-      "date": "2026-07-03T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2604.02220",
-      "pdfUrl": "https://arxiv.org/pdf/2604.02220.pdf",
-      "arxivId": "2604.02220",
-      "categories": [
-        "cs.HC"
-      ],
-      "tags": [
-        "Visualization",
-        "Education"
-      ]
-    },
-    {
-      "id": "2605.00275",
-      "title": "Engagement Phenotypes for a Sample of 102,684 AI Mental Health Chatbot Users and Dose-Response Associations with Clinical Outcomes",
-      "authors": [
-        "Emma C. Wolfe",
-        "Ting Su",
-        "Olivier Tieleman",
-        "Thomas D. Hull",
-        "Matteo Malgaroli",
-        "Caitlin A. Stamatis"
-      ],
-      "abstract": "Background: Conversational AI chatbots are emerging as scalable mental health tools, but little is known about real world engagement or its relationship to clinical outcomes. Objective: To characterize engagement phenotypes among users of Ash, a purpose-built AI mental health chatbot, and examine associations with clinical change and working alliance. Methods: K-means clustering across eight behavioral features identified engagement phenotypes among 102,684 users. Subsamples completed the PHQ-9 (n=298), GAD-7 (n=298), and MSPSS (social support; n=194) baseline and 3 weeks; 11,437 users completed baseline Working Alliance Inventory (WAI). Results: Five engagement phenotypes emerged: Early Dropouts (52.2%), Power Users (1.6%), Intensive Users (4.1%), Weekly Users (25.3%), and a novel Concentrated User pattern (16.8%); across users, 66.9% had at least one overnight session (9pm-5am). Significant pre-post improvements occurred in depression (d = -0.51), anxiety (d = -0.57), and social support (d = 0.22). An observed dose-response gradient in self-reported depression improvement was replicated in a larger sample using model-predicted PHQ-9 (n = 23,813), with the largest improvements among high-engagement Power and Intensive Users (d = -0.40 and -0.43) and the smallest among Early Dropouts (d = -0.11). Higher working alliance predicted depression improvement and moderated the engagement-social support relationship. Conclusions: Engagement with AI mental health tools is multidimensional, and different clinical outcomes respond to different dimensions of use. Findings caution against treating session counts as a primary engagement metric and offer naturalistic evidence for the clinical value of purpose-built conversational AI.",
-      "date": "2026-07-03T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2605.00275",
-      "pdfUrl": "https://arxiv.org/pdf/2605.00275.pdf",
-      "arxivId": "2605.00275",
-      "categories": [
-        "cs.HC"
-      ],
-      "tags": [
-        "Health",
-        "Chatbot"
-      ]
-    },
-    {
-      "id": "2605.04306",
-      "title": "dtour: A Steerable Tour de Vis Through High-Dimensional Data",
-      "authors": [
-        "Fritz Lekschas",
-        "Nezar Abdennur"
-      ],
-      "abstract": "Understanding high-dimensional data requires projecting it into lower-dimensional spaces, but any single projection inevitably loses information or introduces distortions. Tours address this limitation through animation of 2D projection sequences, yet existing tools present tradeoffs in the freedom and steerability of projection traversal, providing little to no ability to move between expert-guided paths and unrestrained exploration. We present dtour, a tour interface that combines static projection previews, reversible scrubbing along continuous geodesic projection paths, manual projection manipulation, and a wandering grand tour, all within a single progressive exploration interface. dtour scales to millions of points via GPU-accelerated rendering, runs in any modern browser, and integrates with both Python and JavaScript ecosystems. We demonstrate dtour on text, image, and single-cell data for two usage scenarios: gradually revealing structure in high-dimensional data and validating non-linear dimensionality reduction outputs.",
-      "date": "2026-07-03T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2605.04306",
-      "pdfUrl": "https://arxiv.org/pdf/2605.04306.pdf",
-      "arxivId": "2605.04306",
-      "categories": [
-        "cs.HC"
-      ],
-      "tags": []
-    },
-    {
-      "id": "2605.10522",
-      "title": "The Balance between Nuance and Clarity: Decluttering Tabular Sequential Graphs to Counter Money Laundering",
-      "authors": [
-        "Salom\\'e Esteves",
-        "Rita Costa",
-        "Louise Fallon",
-        "Pedro Bizarro"
-      ],
-      "abstract": "Money laundering is not only about moving illicit funds, but about hiding the money's origin and traces to complicate detection. Financial criminals resort to many methods to avoid regulators and legal thresholds. But analysts investigating alerts, dedicated to pin mule accounts and track suspicious transactions daily, also have theirs. Network visualizations can be key in countering adversarial money laundering activities, especially if they provide a clear overview of the money flows and a seamless analysis experience, but they are often not structured for this type of task. That is why we propose a tabular sequential graph visualization tailored to money laundering analysis - following transactions (edges) from the victim account that triggered an alert through multiple accounts (nodes) and banks (rows). To reduce the number of nodes and edges, we propose three methods for grouping these tabular sequential graphs: an amount-based approach, a time-based approach, and a combined solution that considers both the transaction amount and its order. A user study with experts revealed that the most effective method in node reduction was not necessarily the most interesting for analysis and that there is a trade-off between manual work and time for interpretation in more granular graphs.",
-      "date": "2026-07-03T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2605.10522",
-      "pdfUrl": "https://arxiv.org/pdf/2605.10522.pdf",
-      "arxivId": "2605.10522",
-      "categories": [
-        "cs.HC"
-      ],
-      "tags": [
-        "Visualization"
-      ]
-    },
-    {
-      "id": "2606.17793",
-      "title": "Evaluating Social Engineering Risks in AI-based Interaction using Biometrics and a Gaming Setup",
-      "authors": [
-        "Roberto Daza",
-        "Javier Irigoyen",
-        "Ivan Lopez",
-        "Raquel Rodriguez-Carvajal",
-        "Laura Gomez-Carbajo",
-        "Julian Fierrez",
-        "Ruben Tolosana",
-        "Aythami Morales"
-      ],
-      "abstract": "We introduce AIriskEval-gaming, an open platform and dataset to evaluate social engineering risks in LLM-mediated multimodal interaction through controlled games. It supports human-human, human-AI and AI-AI settings, combining configurable game templates, role-conditioned LLM agents, psychology-informed participant profiling, structured interaction trees, and synchronized behavioral and biometric acquisition, filtering, and deep-learning-based feature extraction. The dataset (AIriskEval-gaming-db) was collected from 15 participants who interacted with a role-conditioned GPT-5.4 agent in two concatenated games: an adapted Prisoner's Dilemma and an Ultimatum Game. It comprises 340 GB of raw and processed multimodal data across six streams: interaction logs, video, screen recordings, gaze logs, smartwatch signals, and game/questionnaire metadata. These data include interaction paths, written justifications, psychological profiles, subjective feedback, perceived counterpart identity, game outcomes, and derived behavioral, facial, and gaze features. Alongside the dataset, we provide descriptive analyses characterizing the resulting multimodal data. Rigorous risk evaluation is essential for the deployment of secure AI systems, as it enables the identification and mitigation of vulnerabilities, ensures the protection of sensitive data, and supports compliance with evolving regulatory and ethical standards in society. The dataset and related code are available on GitHub.",
-      "date": "2026-07-03T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2606.17793",
-      "pdfUrl": "https://arxiv.org/pdf/2606.17793.pdf",
-      "arxivId": "2606.17793",
-      "categories": [
-        "cs.HC",
-        "cs.DB"
-      ],
-      "tags": [
-        "LLM",
-        "GPT",
-        "Gaming",
-        "Education"
-      ]
-    },
-    {
-      "id": "2511.11437",
-      "title": "Hi-DREAM: Brain-Inspired Hierarchical Diffusion for fMRI-to-Image Reconstruction via ROI Encoder and VisuAl Mapping",
-      "authors": [
-        "Guowei Zhang",
-        "Yun Zhao",
-        "Kai Sun",
-        "Moein Khajehnejad",
-        "Adeel Razi",
-        "Dinh Phung",
-        "Levin Kuhlmann"
-      ],
-      "abstract": "Reconstructing natural images from fMRI requires bridging neural activity with both the structural and semantic representations used by modern generative models. Existing diffusion-based decoders often condition on a single global fMRI embedding, which limits their ability to exploit the hierarchical organization of the visual cortex and makes the contribution of different visual areas difficult to inspect. We propose Hi-DREAM, a brain-inspired hierarchical diffusion framework that structures fMRI conditioning according to early, middle, and late visual Regions of Interest (ROI) streams. A ROI adapter converts these streams into a multi-scale cortical pyramid, and a lightweight ROI-conditioned ControlNet injects the resulting anatomy-aware priors into matched U-Net depths during denoising. Experiments on the Natural Scenes Dataset (NSD) show that Hi-DREAM achieves state-of-the-art high-level semantic reconstruction while retaining strong low-level structure. Further ablation and attribution analyses show that the proposed hierarchy-aware conditioning is effective, and that different ROI streams provide complementary, inspectable contributions to reconstruction.",
-      "date": "2026-07-03T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2511.11437",
-      "pdfUrl": "https://arxiv.org/pdf/2511.11437.pdf",
-      "arxivId": "2511.11437",
-      "categories": [
-        "cs.HC",
-        "cs.CV"
-      ],
-      "tags": []
-    },
-    {
-      "id": "2606.28749",
-      "title": "Four Types of LLM Reliance and Their Predictors Among Undergraduate Writers: A Mixed-Methods Study at a Minority-Serving R1 University",
-      "authors": [
-        "Shahin Hossain"
-      ],
-      "abstract": "Although most undergraduates now use large language models (LLMs), a form of generative artificial intelligence (GenAI) for academic writing, no validated method distinguishes the qualitatively different ways students rely on them. Existing instruments assess reliance solely by frequency of use, a measure that, as this study shows, inadvertently rewards dependence on AI rather than recognizing students' own intellectual contribution. Conducted at a public minority-serving university and grounded in the AI Literacy Framework, Expectancy-Value Theory, and Biggs's Presage-Process-Product model, the study drew on 382 undergraduates, 14 interviews, and 396 open-ended survey responses. Four distinct reliance types were identified and confirmed: Strategic (34.3%), Instrumental (30.9%), Dialogic (30.4%), and Dependent (4.5%). Students' value and cost beliefs predicted the intensity of their reliance on LLMs, whereas their AI literacy predicted the type of reliance they adopted, indicating that differentiated support is needed. Notably, Strategic users, those who engaged AI most deliberately, scored lowest on standard outcome measures. This pattern reflects a limitation of current instruments, which index AI's contribution rather than writing quality, thereby penalizing students who show the greatest independent thinking. Analysis also revealed an additional group, roughly 13%, who declined to use AI for ethical rather than practical reasons, and who existing frameworks overlook. These findings carry implications for AI literacy programs, the measurement of student learning outcomes, and equitable AI policy at minority-serving institutions.",
-      "date": "2026-07-03T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2606.28749",
-      "pdfUrl": "https://arxiv.org/pdf/2606.28749.pdf",
-      "arxivId": "2606.28749",
-      "categories": [
-        "cs.HC",
-        "cs.CY",
-        "cs.AI"
-      ],
-      "tags": [
-        "LLM",
-        "Education"
-      ]
     },
     {
       "id": "2607.02455v1",
@@ -2085,11 +1533,7 @@
       "categories": [
         "cs.HC"
       ],
-      "tags": [
-        "LLM",
-        "GPT",
-        "Visualization"
-      ]
+      "tags": []
     },
     {
       "id": "2607.02430v1",
@@ -2107,12 +1551,7 @@
       "categories": [
         "cs.HC"
       ],
-      "tags": [
-        "VR",
-        "Haptics",
-        "Gesture",
-        "Tangible"
-      ]
+      "tags": []
     },
     {
       "id": "2607.02361v1",
@@ -2134,10 +1573,7 @@
         "cs.HC",
         "cs.ET"
       ],
-      "tags": [
-        "Visualization",
-        "Education"
-      ]
+      "tags": []
     },
     {
       "id": "2607.02325v1",
@@ -2157,9 +1593,7 @@
       "categories": [
         "cs.HC"
       ],
-      "tags": [
-        "LLM"
-      ]
+      "tags": []
     },
     {
       "id": "2607.02245v1",
@@ -2180,11 +1614,7 @@
         "cs.CY",
         "cs.HC"
       ],
-      "tags": [
-        "Privacy",
-        "Health",
-        "Emotion"
-      ]
+      "tags": []
     },
     {
       "id": "2607.02198v1",
@@ -2224,10 +1654,7 @@
         "cs.HC",
         "cs.CY"
       ],
-      "tags": [
-        "Chatbot",
-        "Emotion"
-      ]
+      "tags": []
     },
     {
       "id": "2607.02174v1",
@@ -2251,9 +1678,7 @@
         "cs.RO",
         "cs.HC"
       ],
-      "tags": [
-        "Robotics"
-      ]
+      "tags": []
     },
     {
       "id": "2607.02163v1",
@@ -2272,9 +1697,7 @@
         "cs.HC",
         "cs.SI"
       ],
-      "tags": [
-        "Education"
-      ]
+      "tags": []
     },
     {
       "id": "2607.01807v1",
@@ -2291,10 +1714,7 @@
       "categories": [
         "cs.HC"
       ],
-      "tags": [
-        "Privacy",
-        "Trust"
-      ]
+      "tags": []
     },
     {
       "id": "2607.01747v1",
@@ -2311,9 +1731,7 @@
       "categories": [
         "cs.HC"
       ],
-      "tags": [
-        "Visualization"
-      ]
+      "tags": []
     },
     {
       "id": "2607.01692v1",
@@ -2332,101 +1750,7 @@
       "categories": [
         "cs.HC"
       ],
-      "tags": [
-        "LLM",
-        "Usability",
-        "Education"
-      ]
-    },
-    {
-      "id": "2510.06452",
-      "title": "Code Semantic Zooming",
-      "authors": [
-        "Jinsheng Ba",
-        "Sverrir Thorgeirsson",
-        "Zhendong Su"
-      ],
-      "abstract": "Recent advances in Large Language Models (LLMs) have introduced a new paradigm for software development, where source code is generated from natural language prompts. While this paradigm significantly boosts development productivity, building complex, real-world software systems remains challenging because natural language offers limited control over the code generation process. Inspired by the historical evolution of programming languages toward higher levels of abstraction, we advocate for a high-level abstraction language that gives developers greater control over LLM-assisted code writing. To this end, we propose Code Semantic Zooming (CodeZoom), a novel approach based on pseudocode that allows developers to iteratively explore, understand, and refine code across multiple layers of semantic abstraction. In a within-subjects user study (n=26), our method matches a state-of-the-art coding agent, Claude Code, on usability while producing a large effect on code comprehension: over 90% of participants reported feeling more in control of design decisions when using CodeZoom compared to using Claude Code.",
-      "date": "2026-07-02T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2510.06452",
-      "pdfUrl": "https://arxiv.org/pdf/2510.06452.pdf",
-      "arxivId": "2510.06452",
-      "categories": [
-        "cs.HC"
-      ],
-      "tags": [
-        "LLM",
-        "Usability"
-      ]
-    },
-    {
-      "id": "2606.28517",
-      "title": "Drag, Infer, Reproject: Grounding LLMs through Spatial Interaction for Image Clustering",
-      "authors": [
-        "Yang Liu",
-        "Xuxin Tang",
-        "Jiahao Xu",
-        "Chris North"
-      ],
-      "abstract": "Dimension reduction and semantic interaction support image clustering by making similarity structure visible and manipulable. Existing semantic interaction methods encode users' clustering criterion (a user-interpretable semantic dimension, e.g., action, location, or mood) from direct manipulation to steer reprojection, giving users direct control over the resulting layout. Yet they typically depend on learned embeddings or a predefined criterion. In practice, users' clustering criterion often emerges gradually and becomes refined through interaction rather than being fully clear at the outset. In this work, we present CriterionSI (Criterion-guided Semantic Interaction), a method that translates incremental drag interactions into criterion-guided reprojection. CriterionSI uses large language models to infer and refine the clustering criterion from sequential user drags, while grounding semantic interpretation in human-provided feedback rather than fixed prior assumptions. CriterionSI combines the inferred criterion with local drags to guide global reprojection. The simulation-based evaluation and usage scenario demonstrate that CriterionSI can discover and refine the target criterion from sequential interactions and progressively produce criterion-aligned clustering layouts. Our code and data are available at: https://github.com/4C79/CriterionSI.",
-      "date": "2026-07-02T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2606.28517",
-      "pdfUrl": "https://arxiv.org/pdf/2606.28517.pdf",
-      "arxivId": "2606.28517",
-      "categories": [
-        "cs.HC"
-      ],
-      "tags": [
-        "LLM",
-        "Education"
-      ]
-    },
-    {
-      "id": "2410.22526",
-      "title": "From Silos to Systems: Process-Oriented Hazard Analysis for AI Systems",
-      "authors": [
-        "Shalaleh Rismani",
-        "Roel Dobbe",
-        "AJung Moon"
-      ],
-      "abstract": "To effectively address potential harms from Artificial Intelligence (AI) systems, it is essential to identify and mitigate system-level hazards. Current analysis approaches focus on individual components of an AI system, like training data or models, in isolation, overlooking hazards from component interactions or how they are situated within a company's development process. To this end, we draw from the established field of system safety, which considers safety as an emergent property of the entire system. In this work, we translate System Theoretic Process Analysis (STPA) - a recognized system safety framework - for analyzing AI development and operation processes. We focus on systems that rely on machine learning algorithms and conduct STPA on three case studies involving linear regression, reinforcement learning, and transformer-based generative models. Our analysis explored how STPA's control and system-theoretic perspectives apply to AI systems and whether unique AI traits - such as model opacity, capability uncertainty, and output complexity - necessitate modifications to the framework. We find that the key concepts and steps of conducting an STPA apply to AI systems but require targeted adaptations to address AI-specific challenges that arise to differing degrees across three case studies. We present the Process-oriented Hazard Analysis for AI Systems (PHASE) as a guideline that adapts STPA concepts for AI. Applying and interpreting STPA using the PHASE guidelines enables four key affordances for analysts responsible for managing AI system harms: 1) detection of system-level hazards, including those from accumulation of disparate issues; 2) explicit acknowledgment of social factors contributing to algorithmic harms; 3) creation of traceable accountability chains between harms and those who can mitigate them; and 4) ongoing monitoring and mitigation of new hazards.",
-      "date": "2026-07-02T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2410.22526",
-      "pdfUrl": "https://arxiv.org/pdf/2410.22526.pdf",
-      "arxivId": "2410.22526",
-      "categories": [
-        "cs.HC",
-        "cs.AI"
-      ],
-      "tags": [
-        "Education"
-      ]
-    },
-    {
-      "id": "2512.18303",
-      "title": "MORPHEUS: A Multidimensional Framework for Modeling, Measuring, and Mitigating Human Factors in Cybersecurity",
-      "authors": [
-        "Giuseppe Desolda",
-        "Francesco Greco",
-        "Rosa Lanzilotti",
-        "Cesare Tucci"
-      ],
-      "abstract": "Despite technical advancements, the human factor remains cybersecurity's most exploited vulnerability. Current research acknowledges this but remains fragmented, treating vulnerabilities as isolated, static traits. To address this, we introduce MORPHEUS, a holistic framework conceptualizing human-centric security as a dynamic, interconnected system. Grounded in the Cognition-Affect-Behavior (CAB) model and Attribution Theory, MORPHEUS consolidates 50 human factors influencing susceptibility to major cyberthreats (e.g., phishing, malware, password management, and misconfigurations). Beyond mere identification, the framework introduces a hierarchical Causal Pathway Architecture. Systematically mapping 302 empirical interactions (82.8% architecture-compliant), we reveal how cognitive, affective, and behavioral processes jointly shape security outcomes, distilling them into 12 recurring interaction mechanisms. MORPHEUS further links theory to practice through an inventory of 99 validated psychometric instruments for empirical assessment. We illustrate its applicability through in-depth operational scenarios for risk diagnosis and targeted interventions. Overall, MORPHEUS provides a comprehensive theoretical foundation for advancing human-centered cybersecurity.",
-      "date": "2026-07-02T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2512.18303",
-      "pdfUrl": "https://arxiv.org/pdf/2512.18303.pdf",
-      "arxivId": "2512.18303",
-      "categories": [
-        "cs.HC",
-        "cs.CR"
-      ],
-      "tags": [
-        "Emotion"
-      ]
+      "tags": []
     },
     {
       "id": "2607.01618v1",
@@ -2452,12 +1776,7 @@
       "categories": [
         "cs.HC"
       ],
-      "tags": [
-        "Collaboration",
-        "Education",
-        "Health",
-        "Wearable"
-      ]
+      "tags": []
     },
     {
       "id": "2607.01593v1",
@@ -2477,10 +1796,7 @@
       "categories": [
         "cs.HC"
       ],
-      "tags": [
-        "Visualization",
-        "Emotion"
-      ]
+      "tags": []
     },
     {
       "id": "2607.01588v1",
@@ -2500,9 +1816,7 @@
       "categories": [
         "cs.HC"
       ],
-      "tags": [
-        "XR"
-      ]
+      "tags": []
     },
     {
       "id": "2607.01506v1",
@@ -2524,11 +1838,7 @@
       "categories": [
         "cs.HC"
       ],
-      "tags": [
-        "Education",
-        "Emotion",
-        "Trust"
-      ]
+      "tags": []
     },
     {
       "id": "2607.01494v1",
@@ -2574,13 +1884,7 @@
         "cs.HC",
         "cs.LG"
       ],
-      "tags": [
-        "VR",
-        "AR",
-        "Eye Tracking",
-        "Gesture",
-        "Usability"
-      ]
+      "tags": []
     },
     {
       "id": "2607.01418v1",
@@ -2620,10 +1924,7 @@
       "categories": [
         "cs.HC"
       ],
-      "tags": [
-        "Visualization",
-        "Design Tools"
-      ]
+      "tags": []
     },
     {
       "id": "2607.01214v1",
@@ -2646,13 +1947,7 @@
       "categories": [
         "cs.HC"
       ],
-      "tags": [
-        "LLM",
-        "Accessibility",
-        "Haptics",
-        "Visualization",
-        "Education"
-      ]
+      "tags": []
     },
     {
       "id": "2607.01034v1",
@@ -2672,14 +1967,7 @@
         "cs.AI",
         "cs.HC"
       ],
-      "tags": [
-        "LLM",
-        "UX",
-        "Education",
-        "Health",
-        "Chatbot",
-        "Trust"
-      ]
+      "tags": []
     },
     {
       "id": "2607.00989v1",
@@ -2700,9 +1988,7 @@
         "cs.HC",
         "cs.AI"
       ],
-      "tags": [
-        "LLM"
-      ]
+      "tags": []
     },
     {
       "id": "2607.00979v1",
@@ -2724,11 +2010,7 @@
       "categories": [
         "cs.HC"
       ],
-      "tags": [
-        "XR",
-        "Visualization",
-        "Education"
-      ]
+      "tags": []
     },
     {
       "id": "2607.00969v1",
@@ -2754,10 +2036,7 @@
         "cs.HC",
         "cs.LG"
       ],
-      "tags": [
-        "Visualization",
-        "Education"
-      ]
+      "tags": []
     },
     {
       "id": "2607.00968v1",
@@ -2780,12 +2059,7 @@
         "cs.CL",
         "cs.HC"
       ],
-      "tags": [
-        "LLM",
-        "GPT",
-        "Health",
-        "Emotion"
-      ]
+      "tags": []
     },
     {
       "id": "2607.00854v1",
@@ -2807,9 +2081,7 @@
         "cs.CY",
         "cs.HC"
       ],
-      "tags": [
-        "Emotion"
-      ]
+      "tags": []
     },
     {
       "id": "2607.00542v1",
@@ -2832,12 +2104,7 @@
       "categories": [
         "cs.HC"
       ],
-      "tags": [
-        "Visualization",
-        "Collaboration",
-        "Health",
-        "Trust"
-      ]
+      "tags": []
     },
     {
       "id": "2607.00533v1",
@@ -2859,9 +2126,7 @@
         "cs.HC",
         "cs.SE"
       ],
-      "tags": [
-        "Design Tools"
-      ]
+      "tags": []
     },
     {
       "id": "2607.00523v1",
@@ -2880,13 +2145,9 @@
         "cs.AI",
         "cs.CY",
         "cs.ET",
-        "eess.SY",
-        "cs.SY"
+        "eess.SY"
       ],
-      "tags": [
-        "Collaboration",
-        "Trust"
-      ]
+      "tags": []
     },
     {
       "id": "2607.00518v1",
@@ -2905,9 +2166,7 @@
       "categories": [
         "cs.HC"
       ],
-      "tags": [
-        "XR"
-      ]
+      "tags": []
     },
     {
       "id": "2607.00445v1",
@@ -2928,9 +2187,7 @@
       "categories": [
         "cs.HC"
       ],
-      "tags": [
-        "LLM"
-      ]
+      "tags": []
     },
     {
       "id": "2607.00420v1",
@@ -2970,156 +2227,7 @@
         "cs.CR",
         "cs.CY"
       ],
-      "tags": [
-        "LLM",
-        "Crowdsourcing"
-      ]
-    },
-    {
-      "id": "2606.30660",
-      "title": "Improving Survey Participation in Low-Literacy Populations Through Value-Sensitive Conversational AI",
-      "authors": [
-        "Raj Gaurav Maurya"
-      ],
-      "abstract": "Collecting reliable social data from low-literacy populations remains a persistent challenge, particularly when surveys involve sensitive topics and marginalized communities. Traditional paper-based and web-based survey modalities often suffer from high attrition and incomplete responses due to literacy barriers, social pressure, and interactional discomfort. In this paper, we present findings from an initial field evaluation comparing multiple survey modalities paper-based interviews, digital web-based surveys, conversational AI (convAI) surveys, and convAI enhanced with layered value-sensitive design conducted with low-literacy women across India. Using data from 315 participants, we show that convAI significantly improves survey completion rates relative to traditional modalities, with the highest completion and lowest drop-off observed when value-sensitive and culturally aligned conversational design elements are fully integrated. These results demonstrate the importance of human-centered and value-sensitive interaction design in enabling inclusive, ethical, and scalable data collection; motivating more `AI for social good' applications.",
-      "date": "2026-07-01T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2606.30660",
-      "pdfUrl": "https://arxiv.org/pdf/2606.30660.pdf",
-      "arxivId": "2606.30660",
-      "categories": [
-        "cs.HC",
-        "cs.CY",
-        "cs.AI"
-      ],
       "tags": []
-    },
-    {
-      "id": "2508.02376",
-      "title": "Talking Surveys: How Photorealistic Embodied Conversational Agents Shape Response Quality, Engagement, and Satisfaction",
-      "authors": [
-        "Matus Krajcovic",
-        "Peter Demcak",
-        "Eduard Kuric"
-      ],
-      "abstract": "Embodied conversational agents (ECAs) are increasingly more realistic and capable of dynamic conversations. In online surveys, anthropomorphic agents could help address issues like careless responding and satisficing, which originate from the lack of personal engagement and perceived accountability. However, there is a lack of understanding of how ECAs in user experience research may affect participant engagement, satisfaction, and the quality of responses. As a proof of concept, we propose an instrument that enables the incorporation of conversations with a virtual avatar into surveys, using on AI-driven video generation, speech recognition, and Large Language Models. In our between-subjects study, 80 participants (UK, stratified random sample of general population) either talked to a voice-based agent with an animated video avatar, or interacted with a chatbot. Across surveys based on two self-reported psychometric tests, 2,265 conversation responses were obtained. Statistical comparison of results indicates that embodied agents can contribute significantly to more informative, detailed responses, as well as higher yet more time-efficient engagement. Furthermore, qualitative analysis provides valuable insights for causes of no significant change to satisfaction, linked to personal preferences, turn-taking delays and Uncanny Valley reactions. These findings support the pursuit and development of new methods toward human-like agents for the transformation of online surveys into more natural interactions resembling in-person interviews.",
-      "date": "2026-07-01T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2508.02376",
-      "pdfUrl": "https://arxiv.org/pdf/2508.02376.pdf",
-      "arxivId": "2508.02376",
-      "categories": [
-        "cs.HC"
-      ],
-      "tags": [
-        "LLM",
-        "Voice",
-        "UX",
-        "Chatbot",
-        "Emotion"
-      ]
-    },
-    {
-      "id": "2509.19957",
-      "title": "Interactive Semantic Segmentation for Phosphene Vision Neuroprosthetics",
-      "authors": [
-        "Eleftherios Papadopoulos (Donders Institute of Brain",
-        "Cognition and Behaviour)",
-        "Yagmur G\\\"ucl\\\"ut\\\"urk (Donders Institute of Brain",
-        "Cognition and Behaviour)"
-      ],
-      "abstract": "Visual impairments present significant challenges to individuals worldwide, impacting daily activities and quality of life. Visual neuroprosthetics offer a promising solution, leveraging advancements in technology to provide a simplified visual sense through devices comprising cameras, computers, and implanted electrodes. This study investigates user-centered design principles for a phosphene vision algorithm, utilizing feedback from visually impaired individuals to guide the development of a gaze-controlled semantic segmentation system. We conducted interviews revealing key design principles. These principles informed the implementation of a gaze-guided semantic segmentation algorithm using the Segment Anything Model (SAM). In a simulated phosphene vision environment, participants performed object detection tasks under SAM, edge detection, and normal vision conditions. SAM improved identification accuracy over edge detection, remained effective in complex scenes, and was particularly robust for specific object shapes. These findings demonstrate the value of user feedback and the potential of gaze-guided semantic segmentation to enhance neuroprosthetic vision.",
-      "date": "2026-07-01T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2509.19957",
-      "pdfUrl": "https://arxiv.org/pdf/2509.19957.pdf",
-      "arxivId": "2509.19957",
-      "categories": [
-        "cs.HC"
-      ],
-      "tags": []
-    },
-    {
-      "id": "2604.18121",
-      "title": "Enabling Sensitive Conversations with Consent Boundaries: Moa, a Platform for Discussing PhD Advising Relationships",
-      "authors": [
-        "Jane Im",
-        "Kentaro Toyama"
-      ],
-      "abstract": "When an individual is harmed by someone in power, such as a workplace manager, it can help to identify allies--people who would offer sympathy, advice, or supportive action. However, ally discovery is fraught because the very people who might be most relevant--e.g., someone who reports to the same manager--might not be sympathetic and could potentially exacerbate the harm. We examine this problem in the specific context of PhD students navigating advising challenges and present a social media platform called \"Moa\" that brings together a number of features that we believe facilitate ally discovery. Moa's most novel element is an audience selection process that uses what we call consent boundaries, which allow users to flexibly define each post or comment's audience based on factors such as common social identity or lived experience, all while preserving anonymity--neither senders nor recipients learn each other's identities, even as the post reaches the right audience. A 3-week field study with 47 real-world users showed that the features in combination facilitated sensitive conversations about advising, with 22.6% of users using consent boundaries. We discuss both our overall \"recipe\" for systems for ally discovery and the benefits of a consent-centered approach to design.",
-      "date": "2026-07-01T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2604.18121",
-      "pdfUrl": "https://arxiv.org/pdf/2604.18121.pdf",
-      "arxivId": "2604.18121",
-      "categories": [
-        "cs.HC",
-        "cs.SI"
-      ],
-      "tags": [
-        "Education"
-      ]
-    },
-    {
-      "id": "2606.02301",
-      "title": "Quantitative Movement Testing: Measuring Chronic Pain Patient Movements from a Single Smartphone Video",
-      "authors": [
-        "Pranav Mahajan",
-        "Amanda Wall",
-        "Eleonora Maria Camerone",
-        "Julie Stebbins",
-        "Eoin Kelleher",
-        "Shuangyi Tong",
-        "Annina Schmid",
-        "Katja Wiech",
-        "Anushka Irani",
-        "Ben Seymour"
-      ],
-      "abstract": "Chronic pain diminishes quality of life by decreasing functional ability, yet objectively measuring this functional impact remains challenging in real-world settings. While optical motion capture provides high precision for assessing altered movement quality, it is costly and restricted to laboratory environments. We aimed to develop and validate Quantitative Movement Testing (QMT), a computer vision pipeline extracting 3D kinematic biomarkers from standard monocular smartphone video, balancing clinical accessibility with biomechanical accuracy. We validated the QMT pipeline, utilising deep learning-based 3D pose-estimation, against gold-standard optical motion capture in healthy controls (N=13). Following leave-one-subject-out calibration to correct systematic bias, we deployed QMT in two prospective clinical cohorts to assess real-world utility: a pre- and post-intervention trial for fibromyalgia patients, and a 30-day longitudinal at-home monitoring study of chronic sciatica patients and healthy controls. In laboratory validation, QMT extracted clinical kinematic metrics with high agreement to optical motion capture, yielding strong correlations (r > 0.85) and low mean absolute errors. QMT demonstrated high test-retest reliability (r > 0.86) in fibromyalgia patients and successfully tracked day-to-day movement fluctuations in chronic sciatica. While real-world home settings introduced higher measurement variance than lab settings, QMT found group-level differences between healthy controls and sciatica patients based entirely on remote recordings. Monocular 3D pose estimation offers a scalable alternative to traditional assessments. QMT provides an objective, accessible biomarker for tracking disease progression and treatment response in clinical trials, though further research is needed to optimise reliability in home environments.",
-      "date": "2026-07-01T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2606.02301",
-      "pdfUrl": "https://arxiv.org/pdf/2606.02301.pdf",
-      "arxivId": "2606.02301",
-      "categories": [
-        "cs.HC",
-        "cs.AI",
-        "cs.CV"
-      ],
-      "tags": [
-        "Accessibility",
-        "Education",
-        "Health"
-      ]
-    },
-    {
-      "id": "2511.00810",
-      "title": "GUI-AIMA: Aligning Intrinsic Multimodal Attention with a Context Anchor for GUI Grounding",
-      "authors": [
-        "Shijie Zhou",
-        "Viet Dac Lai",
-        "Hao Tan",
-        "Jihyung Kil",
-        "Wanrong Zhu",
-        "Changyou Chen",
-        "Ruiyi Zhang"
-      ],
-      "abstract": "Graphical user interface (GUI) grounding is a key capability for computer-use agents, mapping natural-language instructions to actionable regions on the screen. Existing Multimodal Large Language Model (MLLM) approaches typically formulate GUI grounding as a text-based coordinate generation task. However, directly generating precise coordinates from visual inputs is challenging and often data-intensive. A more intuitive strategy is to first identify instruction-relevant visual patches and then determine the exact click location within them. Motivated by recent observations that general MLLMs exhibit native grounding ability embedded in their attention maps, we propose GUI-AIMA, an attention-based and coordinate-free supervised fine-tuning framework for efficient GUI grounding. GUI-AIMA aligns the intrinsic multimodal attention of MLLMs with patch-wise grounding signals. These signals are calculated adaptively for diverse user instructions by multi-head aggregation on simplified query-visual attention matrices. Besides, its coordinate-free manner can easily integrate a plug-and-play zoom-in stage. GUI-AIMA-3B was trained with only 509k samples (around 101k screenshots), demonstrating exceptional data efficiency and verifying that light training can trigger the native grounding capability of MLLMs. It achieves state-of-the-art performance among 3B models, attaining an average accuracy of 61.5% on ScreenSpot-Pro, 92.1% on ScreenSpot-v2, 68.1% on OSWorld-G, 79.1% on MMBench-GUI-L2, and 60.0% on UI-Vision. Project page: https://github.com/sjz5202/GUI-AIMA .",
-      "date": "2026-07-01T04:00:00.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2511.00810",
-      "pdfUrl": "https://arxiv.org/pdf/2511.00810.pdf",
-      "arxivId": "2511.00810",
-      "categories": [
-        "cs.HC",
-        "cs.CV",
-        "cs.AI",
-        "cs.CL",
-        "cs.LG"
-      ],
-      "tags": [
-        "LLM"
-      ]
     },
     {
       "id": "2607.00395v1",
@@ -3136,9 +2244,7 @@
       "categories": [
         "cs.HC"
       ],
-      "tags": [
-        "Education"
-      ]
+      "tags": []
     },
     {
       "id": "2607.00309v1",
@@ -3158,9 +2264,7 @@
         "cs.HC",
         "eess.AS"
       ],
-      "tags": [
-        "LLM"
-      ]
+      "tags": []
     },
     {
       "id": "2607.00239v1",
@@ -3181,11 +2285,7 @@
         "cs.HC",
         "cs.GR"
       ],
-      "tags": [
-        "Accessibility",
-        "Visualization",
-        "Emotion"
-      ]
+      "tags": []
     },
     {
       "id": "2607.00211v1",
@@ -3203,9 +2303,7 @@
         "cs.AI",
         "cs.HC"
       ],
-      "tags": [
-        "Education"
-      ]
+      "tags": []
     },
     {
       "id": "2607.00103v1",
@@ -3224,10 +2322,7 @@
       "categories": [
         "cs.HC"
       ],
-      "tags": [
-        "Visualization",
-        "Emotion"
-      ]
+      "tags": []
     },
     {
       "id": "2606.31980v1",
@@ -3252,10 +2347,869 @@
         "cs.AI",
         "cs.HC"
       ],
-      "tags": [
-        "Collaboration",
-        "Education"
-      ]
+      "tags": []
+    },
+    {
+      "id": "2606.31762v1",
+      "title": "Investigating LLM-Powered Dissenting Minority Support in Power-Imbalanced Group Decision-Making: Counterargument and Mediation as Intervention Strategies",
+      "authors": [
+        "Soohwan Lee",
+        "Seoyeong Hwang",
+        "Mingyu Kim",
+        "Dajung Kim",
+        "Kyungho Lee"
+      ],
+      "abstract": "Minority viewpoints are often suppressed in power-imbalanced group decision-making due to social pressure to comply with the majority. To address this problem, we developed an LLM-powered dissenting minority support system that aimed to foster attention to minority views through either AI-generated counterarguments or AI-mediated messages. We conducted a mixed-method experiment with 96 participants in 24 groups, comparing minority members' experiences across baseline, AI-counterargument, and AI-mediated message conditions. Our findings revealed a nuanced trade-off: AI-generated counterarguments fostered a more flexible atmosphere and enhanced satisfaction, while AI-mediated messaging increased minority participation but unexpectedly reduced their psychological safety. This research contributes empirical evidence on how different AI implementations affect group dynamics, identifies a critical support paradox between participation and psychological safety, provides design implications for future systems, and highlights ethical challenges in implementing AI-mediated communication in hierarchical settings. These insights advance understanding of designing more equitable AI support for power-imbalanced group decision-making.",
+      "date": "2026-06-30T14:50:50.000Z",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2606.31762v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.31762v1",
+      "arxivId": "2606.31762v1",
+      "categories": [
+        "cs.HC"
+      ],
+      "tags": []
+    },
+    {
+      "id": "2606.31311v1",
+      "title": "From Idea to Prototype in an Afternoon: Scaffolded, AI-Assisted Rapid VA Prototyping",
+      "authors": [
+        "Gennady Andrienko",
+        "Natalia Andrienko"
+      ],
+      "abstract": "Testing a new visual-analytics idea usually takes months: one needs to find a realistic data set, clean it, and implement an interactive prototype. We describe a case where a workflow language and an AI assistant reduced this effort to one afternoon. The idea under test: relax the Pareto frontier with a tolerance and group the surviving options into recurring types -- ``constellations'' on a ``soft sky''. Using the Artifact--Transform Workflow Language (ATWL) as a scaffold, we obtained a consistent workflow in minutes and a running prototype in a few hours. We derive three lessons. The scaffold matters: without ATWL the assistant produced a naive workflow. The scaffold alone is not enough: the first implementation was only average, and expert knowledge injection was needed to reach state-of-the-art quality. Finally, the way the scaffold is used matters: controlled experiments show that a language definition and a library of examples support different aspects of the task, that providing both at once reduces quality because template following displaces creative content, and that scaffolds work best when introduced after an initial unconstrained design pass. We argue that the field needs a typology of human knowledge injection, in a form that is both human-editable and machine-accessible.",
+      "date": "2026-06-30T08:19:46.000Z",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2606.31311v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.31311v1",
+      "arxivId": "2606.31311v1",
+      "categories": [
+        "cs.HC",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "tags": []
+    },
+    {
+      "id": "2606.31211v1",
+      "title": "AA: A Multi-view Multimodal Dataset for Screen-based Gaze Estimation",
+      "authors": [
+        "Chang Liu",
+        "Jiaqi Liu",
+        "Zhoutong Ye",
+        "Xinjie Shen",
+        "Chun Yu",
+        "Yuanchun Shi"
+      ],
+      "abstract": "We present AA, a multi-view multimodal dataset for screen-based gaze estimation. The dataset captures synchronized facial observations from eight fixed screen-mounted cameras and two additional side-view cameras, paired with precise screen-space gaze targets collected under controlled fixation conditions. Each sample contains multi-view face observations together with structured facial region crops, enabling multimodal learning from both global and local visual cues. Unlike existing single-view gaze datasets, AA provides multi-view coverage from both screen-mounted and side-mounted perspectives, enabling more robust modeling under viewpoint variation and occlusion. The dataset includes subject-independent evaluation splits and a standardized data processing pipeline to support reproducible research in gaze estimation.",
+      "date": "2026-06-30T06:47:09.000Z",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2606.31211v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.31211v1",
+      "arxivId": "2606.31211v1",
+      "categories": [
+        "cs.CV",
+        "cs.HC"
+      ],
+      "tags": []
+    },
+    {
+      "id": "2606.31112v1",
+      "title": "What Counts as an Error? Dual-Reference Benchmarking for Atypical ASR",
+      "authors": [
+        "Hawau Olamide Toyin",
+        "Srinivasan Umesh",
+        "Hanan Aldarmaki"
+      ],
+      "abstract": "ASR systems have been often reported to underperform on atypical speech. An often conflated compounding factor is the existence of two valid transcription references: verbatim (actual produced speech, including repetitions/prolongations) and intended (the canonical form of the text with disfluencies removed) in atypical speech recognition depending on context and use-case. Most ASR evaluations conflate this duality into a single ground truth and reward systems that delete disfluencies, ignoring verbatim faithfulness. We benchmark 11 ASR models from encoder-decoder, CTC and transducer families using both verbatim and intended references on atypical stuttered speech as a case study. Our quantitative assessment underlines the disparity in model performance and rankings using the two transcript styles. Through this analysis, we highlight the importance of selecting a suitable transcription reference for valid model selection depending on the use-case, particularly for atypical ASR.",
+      "date": "2026-06-30T04:15:39.000Z",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2606.31112v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.31112v1",
+      "arxivId": "2606.31112v1",
+      "categories": [
+        "cs.CL",
+        "cs.HC"
+      ],
+      "tags": []
+    },
+    {
+      "id": "2606.31069v1",
+      "title": "Building a Multimodal Dataset of Academic Paper for Keyword Extraction",
+      "authors": [
+        "Jingyu Zhang",
+        "Xinyi Yan",
+        "Yi Xiang",
+        "Yingyi Zhang",
+        "Chengzhi Zhang"
+      ],
+      "abstract": "Up to this point, keyword extraction task typically relies solely on textual data. Neglecting visual details and audio features from image and audio modalities leads to deficiencies in information richness and overlooks potential correlations, thereby constraining the model's ability to learn representations of the data and the accuracy of model predictions. Furthermore, the currently available multimodal datasets for keyword extraction task are particularly scarce, further hindering the progress of research on multimodal keyword extraction task. Therefore, this study constructs a multimodal dataset of academic paper consisting of 1000 samples, with each sample containing paper text, images, audios and keywords. Based on unsupervised and supervised methods of keyword extraction, experiments are conducted using textual data from papers, as well as text extracted from images and audio. The aim is to investigate the differences in performance in keyword extraction task with respect to different modal information and the fusion of multimodal information. The experimental results indicate that text from different modalities exhibits distinct characteristics in the model. The concatenation of paper text, image text and audio text can effectively enhance the keyword extraction performance of academic papers.",
+      "date": "2026-06-30T02:57:23.000Z",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2606.31069v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.31069v1",
+      "arxivId": "2606.31069v1",
+      "categories": [
+        "cs.CL",
+        "cs.DL",
+        "cs.HC",
+        "cs.IR"
+      ],
+      "tags": []
+    },
+    {
+      "id": "2606.31012v1",
+      "title": "Evaluating Interactivity: Toward Automated Assessment of AI-Generated Explorable Explanations",
+      "authors": [
+        "Xiaozao Wang",
+        "Zhewei Wang",
+        "Hongyi Wen"
+      ],
+      "abstract": "While large language models now enable rapid generation of interactive learning materials, evaluating the interaction quality of these explorable explanations remains an open challenge. Existing benchmarks largely focus on code executability or visual fidelity, providing limited insight into dynamic interaction behaviors such as learner-controlled state transitions and context-sensitive system responses, which are factors that critically shape learners' conceptual understanding. We present EE-Eval, an automated evaluation framework that formalizes interactivity as a finite space of learner-controllable states and transitions, represented as a Finite State Machine (FSM). By extracting FSMs from AI-generated explorable explanations, EE-Eval externalizes implicit interaction logic into an explicit, machine-interpretable graph. Evaluation is performed by comparing each generated FSM to an ideal FSM that encodes pedagogical intent, using a combination of graph-based metrics and embedding-based comparison of states, actions, and feedback to measure their structural and semantic similarity. Across thousands of generated explorable explanations spanning 127 concepts and produced by 6 AI models, EE-Eval consistently differentiates interaction quality beyond surface-level criteria such as functional correctness or visual quality, and exhibits substantially stronger alignment with human judgments of interactivity and pedagogical effectiveness than existing baselines. By framing interactivity as testable behavioral models rather than an emergent byproduct of LLM generation, EE-Eval transforms evaluation into a reflective diagnostic tool, enabling pedagogically grounded and actionable human-AI collaboration in creating interactive educational content.",
+      "date": "2026-06-30T00:57:50.000Z",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2606.31012v1",
+      "pdfUrl": "https://arxiv.org/pdf/2606.31012v1",
+      "arxivId": "2606.31012v1",
+      "categories": [
+        "cs.HC"
+      ],
+      "tags": []
+    },
+    {
+      "id": "10.1109/ISSCC49663.2026.11409294",
+      "title": "MADiC: A 3nm 7.4TOPS/mm2, 17.4TOPS/W Generative Diffusion Accelerator Enabled by Hardware-Compiler Co-Optimization of Memory Hierarchy and Operator Parallelism",
+      "authors": [
+        "Shih-Wei Hsieh",
+        "Yi-Syuan Chen",
+        "Ping-Yuan Tsai",
+        "Ming-Hung Lin",
+        "Chia-Yuan Cheng",
+        "Lien-Feng Hsu",
+        "Po-Hao Huang",
+        "Hung-Wei Chih",
+        "Po-Han Chiang",
+        "Chia-Ming Chang",
+        "Ming-Hsuan Chiang",
+        "Chia-Hung Yuan",
+        "Sheng-Po Kuo",
+        "Viswanath Uggu",
+        "Chun-Kun Chan",
+        "Ming-En David Shih",
+        "Yu-Cheng Tseng",
+        "Hsin-Ping Cheng",
+        "Stan Huang",
+        "Chia-Ping Chen",
+        "Shen-Kai Chang",
+        "Chih-Ming Wang",
+        "Po-Yu Yeh",
+        "Jett Liu",
+        "Yung-Chang Chang",
+        "Chi-Cheng Ju",
+        "Yucheun Kevin Jou"
+      ],
+      "abstract": "",
+      "date": "2026-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1109/ISSCC49663.2026.11409294",
+      "doi": "10.1109/ISSCC49663.2026.11409294",
+      "categories": [],
+      "tags": [],
+      "venue": "ISSCC"
+    },
+    {
+      "id": "10.1145/3772363.3798313",
+      "title": "Exploring the Use of Generative AI Technologies to Create Life-Review Summaries with Family Members to Promote Mental Health in Patients with Geriatric Depression",
+      "authors": [
+        "Yu-Ching Lin",
+        "Yun-Jen Wu",
+        "Pin-Yu Liu",
+        "Chih-Ching Chuang",
+        "Hsiang-Yen Fan",
+        "Yan-Ming Chen",
+        "Tina Chien-Wen Yuan",
+        "Nanyi Bi",
+        "Chih-Chiang Chiu",
+        "Chuang-Wen You"
+      ],
+      "abstract": "",
+      "date": "2026-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1145/3772363.3798313",
+      "doi": "10.1145/3772363.3798313",
+      "categories": [],
+      "tags": [],
+      "venue": "CHI Extended Abstracts"
+    },
+    {
+      "id": "10.1007/S11263-025-02606-0",
+      "title": "UMCL: Unimodal-generated Multimodal Contrastive Learning for Cross-compression-rate Deepfake Detection",
+      "authors": [
+        "Ching-Yi Lai",
+        "Chih-Yu Jian",
+        "Pei-Cheng Chuang",
+        "Chia-Ming Lee",
+        "Chih-Chung Hsu",
+        "Chiou-Ting Hsu",
+        "Chia-Wen Lin"
+      ],
+      "abstract": "",
+      "date": "2026-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1007/s11263-025-02606-0",
+      "doi": "10.1007/S11263-025-02606-0",
+      "categories": [],
+      "tags": [],
+      "venue": "Int. J. Comput. Vis."
+    },
+    {
+      "id": "10.1016/J.IJHCS.2025.103697",
+      "title": "Who has your back? Countering dark patterns in online shopping using interpersonal and AI-delivered support",
+      "authors": [
+        "Chia-Hsin Lee",
+        "Hsuen-Chi Chiu",
+        "Tzu-Ching Lai",
+        "Chien Wen Yuan"
+      ],
+      "abstract": "",
+      "date": "2026-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1016/j.ijhcs.2025.103697",
+      "doi": "10.1016/J.IJHCS.2025.103697",
+      "categories": [],
+      "tags": [],
+      "venue": "Int. J. Hum. Comput. Stud."
+    },
+    {
+      "id": "10.1109/ISSCC49663.2026.11409096",
+      "title": "15.4 A 16nm 168Mb Embedded STT-MRAM with 0.0249µm2 Bit-Cell, Dual-Port Access, and 51.2Gb/s Read Throughput for Automotive and Edge AI Applications",
+      "authors": [
+        "Po-Hao Lee",
+        "Chia-Fu Lee",
+        "Hon-Jarn Lin",
+        "Cheng-Han Lu",
+        "Yen-An Chang",
+        "Pranata W. Sanjaya",
+        "Chia-Jung Tsen",
+        "Kuan-Chun Chen",
+        "Ming-Chieh Lin",
+        "Chao-Jung Hung",
+        "Tan-Li Chou",
+        "Chih-Hui Weng",
+        "Chia-Yu Wang",
+        "J. J. Wu",
+        "Harry Chuang",
+        "Yih Wang",
+        "Yu-Der Chih",
+        "Tsung-Yung Jonathan Chang"
+      ],
+      "abstract": "",
+      "date": "2026-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1109/ISSCC49663.2026.11409096",
+      "doi": "10.1109/ISSCC49663.2026.11409096",
+      "categories": [],
+      "tags": [],
+      "venue": "ISSCC"
+    },
+    {
+      "id": "10.1016/J.ASOC.2026.115142",
+      "title": "SEMPRA: Secure medical privacy-reversible adversarial framework",
+      "authors": [
+        "Xiaozhu Xie",
+        "Chao Ouyang 0004",
+        "Xia Du",
+        "Jizhe Zhou 0001",
+        "Chi-Man Pun",
+        "Ching-Chun Chang",
+        "Chin-Chen Chang 0001"
+      ],
+      "abstract": "",
+      "date": "2026-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1016/j.asoc.2026.115142",
+      "doi": "10.1016/J.ASOC.2026.115142",
+      "categories": [],
+      "tags": [],
+      "venue": "Appl. Soft Comput."
+    },
+    {
+      "id": "10.1016/J.CSI.2026.104138",
+      "title": "RDHE3DM-SPDM: Reversible data hiding in encrypted 3D meshes based on short-path generation and dynamic multi-MSB prediction",
+      "authors": [
+        "Hengxiao Chi",
+        "Chia-Chen Lin 0001",
+        "Ching-Chun Chang",
+        "Chin-Chen Chang 0001"
+      ],
+      "abstract": "",
+      "date": "2026-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1016/j.csi.2026.104138",
+      "doi": "10.1016/J.CSI.2026.104138",
+      "categories": [],
+      "tags": [],
+      "venue": "Comput. Stand. Interfaces"
+    },
+    {
+      "id": "10.1186/S12911-026-03477-2",
+      "title": "Deep-learning-based diagnostic models for transcutaneous oxygen pressure-defined peripheral arterial disease and lower extremity wound healing in patients with diabetic foot",
+      "authors": [
+        "Ming-Feng Tsai",
+        "Chen-Shen Shih",
+        "Yu-Fan Chen",
+        "Yu-Chang Chu",
+        "Chieh-Ming Yu",
+        "Wen-Teng Yao",
+        "Ya-Shu Chan",
+        "Chia-Meng Yu",
+        "Shu-Tien Huang",
+        "Liong-Rung Liu",
+        "Lang-Hua Chiu",
+        "Yueh-Hung Lin",
+        "Chin-Yi Yang",
+        "Kung-Chen Ho",
+        "Wen-Chen Huang",
+        "Kwang-Yi Tung",
+        "Fei-Hung Hung",
+        "Hung-Wen Chiu"
+      ],
+      "abstract": "",
+      "date": "2026-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1186/s12911-026-03477-2",
+      "doi": "10.1186/S12911-026-03477-2",
+      "categories": [],
+      "tags": [],
+      "venue": "BMC Medical Informatics Decis. Mak."
+    },
+    {
+      "id": "10.1177/1088467X251333230",
+      "title": "ICL: In-loop continual learning framework for language model pre-training for E-commerce",
+      "authors": [
+        "Nan Lu",
+        "Chi-Man Wong",
+        "Yan Liu",
+        "Sanpeng Wang",
+        "Danyang Zhu",
+        "Chi-Man Vong",
+        "Rui Lin",
+        "Shaoyi Xu"
+      ],
+      "abstract": "",
+      "date": "2026-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1177/1088467x251333230",
+      "doi": "10.1177/1088467X251333230",
+      "categories": [],
+      "tags": [],
+      "venue": "Intell. Data Anal."
+    },
+    {
+      "id": "10.1109/TETCI.2026.3668535",
+      "title": "De-Identification Neural Network for Privacy Protection in Fingerprinting Localization",
+      "authors": [
+        "Canyang Guo",
+        "Feng-Jang Hwang",
+        "Chi-Hua Chen 0002",
+        "Ching-Chun Chang",
+        "Chin-Chen Chang 0001"
+      ],
+      "abstract": "",
+      "date": "2026-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1109/TETCI.2026.3668535",
+      "doi": "10.1109/TETCI.2026.3668535",
+      "categories": [],
+      "tags": [],
+      "venue": "IEEE Trans. Emerg. Top. Comput. Intell."
+    },
+    {
+      "id": "10.1109/FG67764.2026.11557020",
+      "title": "StyleDiT: A Unified Framework for Diverse Child and Partner Faces Synthesis with Style Latent Diffusion Transformer",
+      "authors": [
+        "Pin-Yen Chiu",
+        "Dai-Jie Wu",
+        "Po-Hsun Chu",
+        "Chia-Hsuan Hsu",
+        "Hsiang-Chen Chiu",
+        "Chih-Yu Wang",
+        "Jun-Cheng Chen"
+      ],
+      "abstract": "",
+      "date": "2026-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1109/FG67764.2026.11557020",
+      "doi": "10.1109/FG67764.2026.11557020",
+      "categories": [],
+      "tags": [],
+      "venue": "FG"
+    },
+    {
+      "id": "10.1109/ISBI61048.2026.11515557",
+      "title": "AMIE : Affine-Attentive Matching and Interpretive Imprint Evaluation for Partial Fingerprint Verification",
+      "authors": [
+        "Tsai-Chieh Chien",
+        "Ching-Te Chiu",
+        "Ned Lin",
+        "Ang Yu",
+        "Paul Lai",
+        "Daniel Chen",
+        "Chia-Yi Lin"
+      ],
+      "abstract": "",
+      "date": "2026-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1109/ISBI61048.2026.11515557",
+      "doi": "10.1109/ISBI61048.2026.11515557",
+      "categories": [],
+      "tags": [],
+      "venue": "ISBI"
+    },
+    {
+      "id": "10.48550/ARXIV.2604.08612",
+      "title": "Post-Quantum Cryptography-Based Bidirectional Authentication Key Exchange Protocol and Industry Applications: A Case Study of Instant Messaging",
+      "authors": [
+        "Abel C. H. Chen",
+        "James W. H. Tung",
+        "Austin B. Y. Lin",
+        "Chin-Ling Chen",
+        "Ching-Chun Chang",
+        "Chin-Chen Chang 0001"
+      ],
+      "abstract": "",
+      "date": "2026-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.48550/arXiv.2604.08612",
+      "doi": "10.48550/ARXIV.2604.08612",
+      "categories": [],
+      "tags": [],
+      "venue": "CoRR"
+    },
+    {
+      "id": "10.48550/ARXIV.2604.24163",
+      "title": "Robust Deepfake Detection, NTIRE 2026 Challenge: Report",
+      "authors": [
+        "Benedikt Hopf",
+        "Radu Timofte",
+        "Chenfan Qu",
+        "Junchi Li",
+        "Fei Wu",
+        "Dagong Lu",
+        "Mufeng Yao",
+        "Xinlei Xu",
+        "Fengjun Guo",
+        "Yongwei Tang",
+        "Zhiqiang Yang",
+        "Zhiqiang Wu",
+        "Jia Wen Seow",
+        "Hong Vin Koay",
+        "Haodong Ren",
+        "Feng Xu",
+        "Shuai Chen",
+        "Minh-Khoa Le-Phan",
+        "Minh-Hoang Le 0001",
+        "Trong-Le Do",
+        "Minh-Triet Tran",
+        "Chih-Yu Jian",
+        "Yi-Fan Wang",
+        "Bang-Kang Chen",
+        "You-Chen Chao",
+        "Chia-Ming Lee",
+        "Fu-En Yang",
+        "Yu-Chiang Frank Wang",
+        "Chih-Chung Hsu",
+        "Aashish Negi",
+        "Hardik Sharma",
+        "Prateek Shaily",
+        "Jayant Kumar",
+        "Sachin Chaudhary",
+        "Akshay Dudhane",
+        "Praful Hambarde",
+        "Amit Shukla 0002",
+        "Jielun Peng",
+        "Yabin Wang 0001",
+        "Yaqi Li",
+        "Jincheng Liu",
+        "Xiaopeng Hong",
+        "Krish Wadhwani",
+        "Liam Fitzpatrick",
+        "Utkarsh Tiwari",
+        "Bilel Benjdira",
+        "Anas M. Ali",
+        "Wadii Boulila",
+        "Cristian Lazo Quispe",
+        "Aishwarya A",
+        "Akshara S",
+        "Ashwathi N",
+        "Jiachen Tu",
+        "Guoyi Xu",
+        "Yaoxin Jiang",
+        "Jiajia Liu 0002",
+        "Yaokun Shi"
+      ],
+      "abstract": "",
+      "date": "2026-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.48550/arXiv.2604.24163",
+      "doi": "10.48550/ARXIV.2604.24163",
+      "categories": [],
+      "tags": [],
+      "venue": "CoRR"
+    },
+    {
+      "id": "10.1016/J.BSPC.2025.108974",
+      "title": "A facial expression-based artificial intelligence model to aid in screening for Parkinson&apos;s disease: Development and validation in a cohort study",
+      "authors": [
+        "Chia-Tung Wu",
+        "Chin-Cheng Hsiao",
+        "Ssu-Ming Wang",
+        "Kai-Zheng Su",
+        "Tsung-Ting Hsieh",
+        "Shih-Wei Huang",
+        "Hsaio-Ting Lee",
+        "Lian-Yin Jhao",
+        "Jean-Christophe Cau",
+        "Hung-Jui Chiu",
+        "Hong-Ming Chen",
+        "Pai-Yi Chiu"
+      ],
+      "abstract": "",
+      "date": "2026-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1016/j.bspc.2025.108974",
+      "doi": "10.1016/J.BSPC.2025.108974",
+      "categories": [],
+      "tags": [],
+      "venue": "Biomed. Signal Process. Control."
+    },
+    {
+      "id": "10.1016/J.COMPAG.2026.111663",
+      "title": "A scalable consensus docking decision-support pipeline for aquaculture bridging foodomics and affordability",
+      "authors": [
+        "Chen-Hsun Liu",
+        "Chiu-Hui Kuo",
+        "William Chih-Wei Chang",
+        "Chih-Hsuan Fan",
+        "Bonien Chen",
+        "Li-Lian Liu",
+        "Fen-Chen Wu",
+        "Pao-Chi Liao",
+        "Kuohsun Chiu"
+      ],
+      "abstract": "",
+      "date": "2026-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1016/j.compag.2026.111663",
+      "doi": "10.1016/J.COMPAG.2026.111663",
+      "categories": [],
+      "tags": [],
+      "venue": "Comput. Electron. Agric."
+    },
+    {
+      "id": "10.1016/J.IJMEDINF.2026.106402",
+      "title": "A visualized nurse-led ePRO system for chemotherapy toxicity: Content design and validation",
+      "authors": [
+        "Chiao-Chi Kuan",
+        "Jhe-Cyuan Guo",
+        "Shan-Hsiang Shen",
+        "Chiun Hsu",
+        "Chi-Ming Chu",
+        "Chi-Kang Lin",
+        "Hsueh-Hsing Pan"
+      ],
+      "abstract": "",
+      "date": "2026-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1016/j.ijmedinf.2026.106402",
+      "doi": "10.1016/J.IJMEDINF.2026.106402",
+      "categories": [],
+      "tags": [],
+      "venue": "Int. J. Medical Informatics"
+    },
+    {
+      "id": "10.1145/3772318.3790779",
+      "title": "InspirationGraph for Progressive Design Space Exploration",
+      "authors": [
+        "Suxiang Ling",
+        "Yi Xiao 0004",
+        "Yang Zhou",
+        "Ruoxuan Ma",
+        "Guangpeng Wei",
+        "Chi-Sing Leung"
+      ],
+      "abstract": "",
+      "date": "2026-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1145/3772318.3790779",
+      "doi": "10.1145/3772318.3790779",
+      "categories": [],
+      "tags": [],
+      "venue": "CHI"
+    },
+    {
+      "id": "10.1145/3772318.3790326",
+      "title": "RPGAgent: Driving Coherent Story-to-Play Generation with an LLM-Based Multi-Agent System",
+      "authors": [
+        "Shunan Zhang",
+        "Yi Xiao 0004",
+        "Ruoxuan Ma",
+        "Chi-Sing Leung"
+      ],
+      "abstract": "",
+      "date": "2026-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1145/3772318.3790326",
+      "doi": "10.1145/3772318.3790326",
+      "categories": [],
+      "tags": [],
+      "venue": "CHI"
+    },
+    {
+      "id": "10.1145/3772318.3791216",
+      "title": "CoNode: Visualizing Workflows for Knowledge Reuse and Recombination in Team-AI Collaborative Design",
+      "authors": [
+        "Yang Zhou",
+        "Yi Xiao 0004",
+        "Guangpeng Wei",
+        "Suxiang Ling",
+        "Ruoxuan Ma",
+        "Chi-Sing Leung"
+      ],
+      "abstract": "",
+      "date": "2026-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1145/3772318.3791216",
+      "doi": "10.1145/3772318.3791216",
+      "categories": [],
+      "tags": [],
+      "venue": "CHI"
+    },
+    {
+      "id": "10.1109/ISSCC49663.2026.11409144",
+      "title": "8.2 A 32Gb/s 12.35Tb/s/mm2 0.36pJ/b UCIe-Like Die-to-Die Interface Featuring Edge-Triggered Transceivers in 3nm with Active LSI Packaging",
+      "authors": [
+        "Wei-Chih Chen",
+        "Mu-Shan Lin",
+        "Chien-Chun Tsai",
+        "Shenggao Li 0002",
+        "Wei-Shuo Lin",
+        "Yu-Jie Huang",
+        "Nai-Chen Cheng 0001",
+        "Yu-Chi Chen",
+        "Wen-Hung Huang",
+        "Chin-Hua Wen",
+        "Hsin-Hung Kuo",
+        "Han-Tzung Ke",
+        "Jie-Ren Huang",
+        "Chang-Yi Li",
+        "Sheng-Tsung Lai",
+        "Shu-Chun Yang",
+        "Kuan-Ting Chou",
+        "Pei-Chen Chiou",
+        "Tsung-Hsien Tsai",
+        "Yi-Ting Chen",
+        "Yen-Ming Chen",
+        "Kenny Cheng-Hsiang Hsieh"
+      ],
+      "abstract": "",
+      "date": "2026-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1109/ISSCC49663.2026.11409144",
+      "doi": "10.1109/ISSCC49663.2026.11409144",
+      "categories": [],
+      "tags": [],
+      "venue": "ISSCC"
+    },
+    {
+      "id": "10.1145/3742413.3789059",
+      "title": "Not the Right Cue for Me: Investigating VR Cue Design and Biofeedback Integration in Drug Psychotherapy",
+      "authors": [
+        "Chuang-Wen You",
+        "Hung-Wen Lin",
+        "Hsin-Ai Chen",
+        "Tina Chien-Wen Yuan",
+        "Nanyi Bi",
+        "Hsiang-Chih Chiu",
+        "Su-Yi Chao",
+        "Ming-Chyi Huang"
+      ],
+      "abstract": "",
+      "date": "2026-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1145/3742413.3789059",
+      "doi": "10.1145/3742413.3789059",
+      "categories": [],
+      "tags": [],
+      "venue": "IUI"
+    },
+    {
+      "id": "10.1145/3800645",
+      "title": "Proceedings of the 2026 Designing Interactive Systems Conference, DIS 2026, Singapore, June 13-17, 2026",
+      "authors": [
+        "Ching Chiuan Yen",
+        "Jung-Joo Lee",
+        "Ellen Yi-Luen Do",
+        "Clement Zheng",
+        "Daisy Yoo",
+        "Tony Tang"
+      ],
+      "abstract": "",
+      "date": "2026-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1145/3800645",
+      "doi": "10.1145/3800645",
+      "categories": [],
+      "tags": [],
+      "venue": "DIS"
+    },
+    {
+      "id": "10.1145/3802974",
+      "title": "Companion Publication of the 2026 ACM Designing Interactive Systems Conference, DIS 2026, Singapore, June 13-17, 2026",
+      "authors": [
+        "Ching Chiuan Yen",
+        "Jung-Joo Lee",
+        "Ellen Yi-Luen Do",
+        "Clement Zheng",
+        "Daisy Yoo",
+        "Tony Tang"
+      ],
+      "abstract": "",
+      "date": "2026-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1145/3802974",
+      "doi": "10.1145/3802974",
+      "categories": [],
+      "tags": [],
+      "venue": "DIS Companion"
+    },
+    {
+      "id": "10.48550/ARXIV.2603.19195",
+      "title": "How Auditory Knowledge in LLM Backbones Shapes Audio Language Models: A Holistic Evaluation",
+      "authors": [
+        "Ke-Han Lu",
+        "Szu-Wei Fu",
+        "Chao-Han Huck Yang",
+        "Zhehuai Chen",
+        "Sung-Feng Huang",
+        "Chih-Kai Yang",
+        "Yi-Cheng Lin",
+        "Chi-Yuan Hsiao",
+        "Wenze Ren",
+        "En-Pei Hu",
+        "Yu-Han Huang",
+        "An-Yu Cheng",
+        "Cheng-Han Chiang",
+        "Yu Tsao 0001",
+        "Yu-Chiang Frank Wang",
+        "Hung-Yi Lee"
+      ],
+      "abstract": "",
+      "date": "2026-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.48550/arXiv.2603.19195",
+      "doi": "10.48550/ARXIV.2603.19195",
+      "categories": [],
+      "tags": [],
+      "venue": "CoRR"
+    },
+    {
+      "id": "10.48550/ARXIV.2606.12958",
+      "title": "YOLO-AMC: An Improved YOLO Architecture with Attention Mechanisms for Building Crack Detection",
+      "authors": [
+        "Ching-Yu Tsai",
+        "Chia-Min Lin",
+        "Chih-Hsiang Yang",
+        "Yung-Che Wang",
+        "Jen-Shiun Chiang"
+      ],
+      "abstract": "",
+      "date": "2026-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.48550/arXiv.2606.12958",
+      "doi": "10.48550/ARXIV.2606.12958",
+      "categories": [],
+      "tags": [],
+      "venue": "CoRR"
+    },
+    {
+      "id": "10.1016/J.BSPC.2025.109271",
+      "title": "System for the automatic segmentation of retinal layers and the quantification of individual layer thicknesses and areas",
+      "authors": [
+        "Jia-Yi Hong",
+        "Chung-Ching Chio",
+        "Ching-Ping Chang",
+        "Jui-Ti Ma",
+        "Chung-Hsin Tseng",
+        "Chi-Chun Chen",
+        "Shu-Chun Kuo"
+      ],
+      "abstract": "",
+      "date": "2026-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1016/j.bspc.2025.109271",
+      "doi": "10.1016/J.BSPC.2025.109271",
+      "categories": [],
+      "tags": [],
+      "venue": "Biomed. Signal Process. Control."
+    },
+    {
+      "id": "10.1016/J.CHB.2025.108898",
+      "title": "Association between school phone restriction policies and adolescents&apos; cyberbullying, gambling, and substance use behaviors",
+      "authors": [
+        "Szu-Chia Chen",
+        "Tzu-Fu Huang",
+        "Kevin Chang 0009",
+        "Fong-Ching Chang",
+        "Shawn C. Chiang",
+        "Chiung-Hui Chiu",
+        "Ping-Hung Chen",
+        "Nae-Fang Miao",
+        "Hung-Yi Chuang"
+      ],
+      "abstract": "",
+      "date": "2026-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1016/j.chb.2025.108898",
+      "doi": "10.1016/J.CHB.2025.108898",
+      "categories": [],
+      "tags": [],
+      "venue": "Comput. Hum. Behav."
+    },
+    {
+      "id": "10.1016/J.DISPLA.2026.103399",
+      "title": "Effects of ambient illumination, character color perceptual brightness, and postures on the reading performance of Chinese characters on optical see-through head-mounted displays",
+      "authors": [
+        "Yun-Chia Chuang",
+        "Chih-Yu Hsiao",
+        "Chien-Chi Chang"
+      ],
+      "abstract": "",
+      "date": "2026-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1016/j.displa.2026.103399",
+      "doi": "10.1016/J.DISPLA.2026.103399",
+      "categories": [],
+      "tags": [],
+      "venue": "Displays"
+    },
+    {
+      "id": "10.1016/J.DISPLA.2025.103184",
+      "title": "Reversible steganography in cipher domain for JPEG images using polynomial homomorphism",
+      "authors": [
+        "Shuying Xu",
+        "Ji-Hwei Horng",
+        "Ching-Chun Chang",
+        "Chin-Chen Chang 0001"
+      ],
+      "abstract": "",
+      "date": "2026-01-01T00:00:00Z",
+      "source": "dblp",
+      "url": "https://doi.org/10.1016/j.displa.2025.103184",
+      "doi": "10.1016/J.DISPLA.2025.103184",
+      "categories": [],
+      "tags": [],
+      "venue": "Displays"
     }
   ]
 }
