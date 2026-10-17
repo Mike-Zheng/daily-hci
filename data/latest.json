@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-16T04:19:29.432Z",
+  "fetchedAt": "2026-10-17T04:11:18.013Z",
   "papers": [
     {
       "id": "2610.20690",
@@ -1097,6 +1097,214 @@
       "tags": [
         "LLM"
       ]
+    },
+    {
+      "id": "10.1016/j.engappai.2026.116468",
+      "title": "A retrospective systematic study on hierarchical sparse query transformer-assisted ultrasound screening for early hepatocellular carcinoma",
+      "authors": [
+        "Chao-Yin She",
+        "Rui-Fang Lu",
+        "Danni He",
+        "Jia-Yi Lv",
+        "Ya-Dan Lin",
+        "Mei‐Qing Cheng",
+        "Hui Huang",
+        "Feng-Yu Ye",
+        "Li‐Da Chen",
+        "Jinan Wang",
+        "Qinghua Huang"
+      ],
+      "abstract": "",
+      "date": "2026-10-15T00:00:00.000Z",
+      "source": "openalex",
+      "url": "https://doi.org/10.1016/j.engappai.2026.116468",
+      "pdfUrl": "https://arxiv.org/pdf/2502.03772",
+      "doi": "https://doi.org/10.1016/j.engappai.2026.116468",
+      "categories": [
+        "Hepatocellular carcinoma",
+        "Computer science",
+        "Medicine",
+        "Internal medicine",
+        "Physics",
+        "Voltage",
+        "Quantum mechanics"
+      ],
+      "tags": [],
+      "citationCount": 0,
+      "venue": "Engineering Applications of Artificial Intelligence"
+    },
+    {
+      "id": "10.3390/s26206544",
+      "title": "Active Visual Perception: Opportunities and Challenges",
+      "authors": [
+        "Yian Li",
+        "Xiaoyu Guo",
+        "Hao Zhang",
+        "Jiayu Chen",
+        "Shuiwang Li",
+        "Xiaowei Dai"
+      ],
+      "abstract": "Active visual perception enables an intelligent system to improve perception by controlling how visual evidence is acquired. However, differences in how studies define active perception and evaluate its benefits make approaches difficult to compare across tasks. This review first clarifies the field’s functional scope by examining whether an action is selected for its expected effect on subsequent visual evidence and whether the resulting observation informs a later decision. This definition distinguishes active observation acquisition from processing fixed inputs and guides the selection of representative literature. Within this scope, this review develops an analytical framework organized around four questions. It begins with what evidence the task requires, examines which actions can obtain that evidence and how a candidate observation should be valued, and considers how the next sensing action should be selected and executed. New observations then update the perceptual state and guide subsequent decisions, forming a closed loop that provides a common basis for comparing methods across applications. To examine how their benefits can be demonstrated, this review assesses whether existing datasets support observation selection, how interactive environments enable controlled comparisons, and what physical platforms reveal about execution feasibility. It further examines how baseline comparisons can establish whether adapting observations is necessary and whether informed selection offers benefits beyond simpler sensing strategies. These considerations underpin an evaluation framework that links improvements in visual evidence to downstream task outcomes while accounting for acquisition costs and risks. Its core value is to help isolate the contribution of sensing decisions and determine whether their benefits justify the resources required. The analysis concludes that predicted observation value does not guarantee that useful evidence can be acquired through feasible actions, while task success alone cannot establish the benefit of active observation selection. Further progress requires reliable value estimation and planning over longer decision sequences under physical and resource constraints. It also requires grounding semantic reasoning in acquired evidence and maintaining effective collaboration under imperfect communication, with these capabilities verified through reproducible evaluation of the complete perception and action loop.",
+      "date": "2026-10-15T00:00:00.000Z",
+      "source": "openalex",
+      "url": "https://doi.org/10.3390/s26206544",
+      "pdfUrl": "https://doi.org/10.3390/s26206544",
+      "doi": "https://doi.org/10.3390/s26206544",
+      "categories": [
+        "Perception",
+        "Computer science",
+        "Human–computer interaction",
+        "Active vision",
+        "Visualization",
+        "Artificial intelligence",
+        "Action (physics)",
+        "Affordance",
+        "Identification (biology)"
+      ],
+      "tags": [
+        "Collaboration"
+      ],
+      "citationCount": 0,
+      "venue": "Sensors"
+    },
+    {
+      "id": "10.1137/25m1825178",
+      "title": "Multiscale Methods for Wave Propagation in Materials with Sign-Changing Coefficients",
+      "authors": [
+        "Eric T. Chung",
+        "Patrick Ciarlet",
+        "Xingguang Jin",
+        "Changqing Ye"
+      ],
+      "abstract": "Abstract. From a mathematical perspective, the extraordinary properties of metamaterials are often reflected in the coefficients of the governing partial differential equations. These coefficients may fall outside the assumptions of classical theory, particularly when the effective dielectric permittivity and/or magnetic permeability are negative. This situation can transform a coercive operator into a noncoercive one, potentially leading to ill-posedness. In this paper, we utilize the constraint energy minimizing generalized multiscale finite element method (CEM-GMsFEM), specifically designed for time-harmonic electromagnetic wave problems, where the construction of auxiliary spaces in the original CEM-GMsFEM is tailored to accommodate the sign-changing setting. Based on the framework of T-coercivity theory and resolution conditions, we establish the inf-sup stability and provide an a priori error estimate for the proposed method. The numerical results demonstrate the effectiveness and robustness of our approach in handling such sophisticated coefficient profiles.",
+      "date": "2026-10-15T00:00:00.000Z",
+      "source": "openalex",
+      "url": "https://doi.org/10.1137/25m1825178",
+      "pdfUrl": "https://arxiv.org/pdf/2511.20103",
+      "doi": "https://doi.org/10.1137/25m1825178",
+      "categories": [
+        "A priori and a posteriori",
+        "Finite element method",
+        "Wave propagation",
+        "Mathematical analysis",
+        "Partial differential equation",
+        "Mathematics",
+        "Stability (learning theory)",
+        "Applied mathematics",
+        "Metamaterial",
+        "Electromagnetic radiation",
+        "Electromagnetic theory",
+        "Electromagnetics",
+        "Wave equation",
+        "Algorithm",
+        "Maxwell's equations",
+        "Computer science",
+        "Constraint (computer-aided design)",
+        "Differential equation",
+        "Conservation of energy",
+        "Differential operator",
+        "Dielectric",
+        "Spurious relationship",
+        "Dissipation",
+        "Numerical analysis",
+        "Electromagnetic field",
+        "Physics",
+        "Propagation of uncertainty",
+        "Minification",
+        "Work (physics)"
+      ],
+      "tags": [],
+      "citationCount": 0,
+      "venue": "Multiscale Modeling and Simulation"
+    },
+    {
+      "id": "10.1021/acs.jcim.6c01373",
+      "title": "Subpocket-Aware Fragment-Based Docking Pipeline for Kinase Ligand Design: Methodology and a PKA Case Study",
+      "authors": [
+        "Katharina Buchthal",
+        "Paula Linh Kramer",
+        "Dominik Hubach",
+        "Gina Bach",
+        "N. Wagner",
+        "Johannes Krieger",
+        "Moritz Klöpper",
+        "Michael Daude",
+        "Wibke E. Diederich",
+        "Andrea Volkamer"
+      ],
+      "abstract": "Abstract Protein kinases regulate signal transduction through phosphorylation, and their dysregulation drives diseases like cancer, autoimmune disorders, and Alzheimer’s, making them key drug targets. Fragment-based drug design offers a powerful route to kinase inhibitors but often neglects kinase-specific structural insights. While KinFragLib, a library consisting of 7486 fragments derived from kinase-ligand complexes, provides a rich resource, exhaustive recombination of its fragments is computationally demanding. Here, we present an efficient exploration strategy that integrates subpocket-guided fragment growing with template docking to navigate this vast chemical space. Our automated pipeline prioritizes kinase-specific structural information, enabling targeted generation of chemically diverse ligands. Applied to the PKA kinase, the approach produced 33758 candidate molecules with promising docking scores, of which 15 were synthesized. Seven molecules reduced kinase activity by more than 50% at an inhibitor concentration of 100 μM, and five of these compounds also showed promising efficacy at a concentration of 10 μM. The IC50 determination ultimately revealed that five of the molecules were effective in the two- to three-digit nanomolar range. Crystallographic validation confirmed the predicted binding mode of the most potent compound. This methodology demonstrates how structure-informed guidance can transform fragment-based design into a scalable route for discovering novel kinase inhibitors.",
+      "date": "2026-10-15T00:00:00.000Z",
+      "source": "openalex",
+      "url": "https://doi.org/10.1021/acs.jcim.6c01373",
+      "pdfUrl": "https://doi.org/10.1021/acs.jcim.6c01373",
+      "doi": "https://doi.org/10.1021/acs.jcim.6c01373",
+      "categories": [
+        "Docking (animal)",
+        "Computational biology",
+        "Chemistry",
+        "Kinase",
+        "Drug discovery",
+        "Combinatorial chemistry",
+        "Small molecule",
+        "Biochemistry",
+        "Pipeline (software)",
+        "Enzyme",
+        "Computer science",
+        "Molecule",
+        "Signal transduction",
+        "Stereochemistry",
+        "Rational design",
+        "Protein structure",
+        "Binding site",
+        "Plasma protein binding",
+        "Drug design"
+      ],
+      "tags": [],
+      "citationCount": 1,
+      "venue": "Journal of Chemical Information and Modeling"
+    },
+    {
+      "id": "10.1145/3858625",
+      "title": "Model Context Protocol (MCP) Tool Descriptions Are Smelly! Towards Improving AI Agent Efficiency with Augmented MCP Tool Descriptions,",
+      "authors": [
+        "Mohammed Mehedi Hasan",
+        "Hao Li",
+        "Gopi Krishnan Rajbahadur",
+        "Bram Adams",
+        "Ahmed E. Hassan"
+      ],
+      "abstract": "The Model Context Protocol (MCP) introduces a standard specification that defines how Foundation Model (FM)-based agents should interact with external systems by invoking tools. However, to understand a tool’s purpose and features, FMs rely on natural-language tool descriptions, making these descriptions a critical component in guiding FMs to select the optimal tool for a given (sub)task and to pass the right arguments to the tool. While defects or smells in these descriptions can misguide FM-based agents, their prevalence and consequences in the MCP ecosystem remain unclear. Hence, we examine 856 tools spread across 103 MCP servers empirically, assess their description quality, and their impact on agent performance. We identify six components of tool descriptions from the literature, develop a scoring rubric utilizing these components, and then formalize tool description smells based on this rubric. By operationalizing this rubric through an FM-based scanner, we find that 97.1% of the analyzed tool descriptions contain at least one smell, with 56% failing to state their purpose clearly. While augmenting these descriptions for all components improves task success rates by a median of 5.85 percentage points and improves partial goal completion by 15.12%, it also increases the number of execution steps by 67.46% and regresses performance in 16.67% of cases. These results indicate that achieving performance gains is not straightforward; while execution cost can act as a trade-off, execution context can also impact. Furthermore, component ablations show that compact variants of different component combinations often preserve behavioral reliability while reducing unnecessary token overhead, enabling more efficient use of the FM context window and lower execution costs.",
+      "date": "2026-10-15T00:00:00.000Z",
+      "source": "openalex",
+      "url": "https://doi.org/10.1145/3858625",
+      "pdfUrl": "https://arxiv.org/pdf/2602.14878",
+      "doi": "https://doi.org/10.1145/3858625",
+      "categories": [
+        "Computer science",
+        "Component (thermodynamics)",
+        "Context (archaeology)",
+        "Rubric",
+        "Task (project management)",
+        "Security token",
+        "Software engineering",
+        "Operationalization",
+        "Model checking",
+        "Heuristics",
+        "GRASP",
+        "Artificial intelligence",
+        "Server",
+        "Table (database)",
+        "Distributed computing",
+        "Formal specification",
+        "Machine learning",
+        "Metadata",
+        "Formal verification",
+        "State (computer science)",
+        "Data mining"
+      ],
+      "tags": [],
+      "citationCount": 0,
+      "venue": "ACM Transactions on Software Engineering and Methodology"
     },
     {
       "id": "2610.20584v1",
@@ -3727,329 +3935,6 @@
       "tags": [
         "Education",
         "Mobile"
-      ]
-    },
-    {
-      "id": "2610.15001v1",
-      "title": "Design and Evaluation of a Collaborative Teleoperation Interface for Multi-Operator Multi-Robot Systems in Challenging Environments",
-      "authors": [
-        "Alperen Kenan",
-        "Juan José García Cárdenas",
-        "Adriana Tapus",
-        "Paul Bremner",
-        "Manuel Giuliani"
-      ],
-      "abstract": "Multi-robot systems that combine the complementary capabilities of specialised platforms are critical for complex missions in challenging, inaccessible environments. Current deployments assign an operator or operator team to each robot, with collaboration relying on operator-to-operator communication to manually coordinate heterogeneous platforms with incompatible interfaces. This operator-dependent approach increases cognitive load and limits scalability across robots from different manufacturers. This study designs and evaluates a shared-visualisation collaborative teleoperation interface to improve operator coordination, situational awareness, and the task performance in multi-operator, multi-robot systems. A comparative user study with 16 participants compared three teleoperation conditions: co-located operators with a shared interface, remote operators with a shared interface, and co-located operators with individual interfaces. Participants controlled two simulated robots in a nuclear power plant digital twin to complete disaster response tasks. Performance metrics, physiological data, and behavioural measures were recorded to assess task performance, cognitive load, and operator awareness across conditions. The co-located shared-interface condition achieved the fastest mission completion (292.8 s), outperforming remote operation (351.6 s) and individual interfaces (385.1 s), with the fewest collisions (0.9 per trial) and highest situational awareness accuracy (91.1 %). Physical co-presence was associated with reduced cognitive load, with NASA-TLX scores increasing from 38.2 in co-located to 57.7 in remote operation, supported by consistent physiological indicators. These results demonstrate that co-presence and shared interfaces provide complementary benefits, supporting workload regulation and mutual awareness respectively in multi-operator, multi-robot teleoperation.",
-      "date": "2026-10-10T15:32:36.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2610.15001v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.15001v1",
-      "arxivId": "2610.15001v1",
-      "categories": [
-        "cs.RO",
-        "cs.HC"
-      ],
-      "tags": [
-        "Visualization",
-        "Robotics",
-        "Collaboration"
-      ]
-    },
-    {
-      "id": "2610.14772v2",
-      "title": "How Should a Camera-First AI Agent Work?",
-      "authors": [
-        "Xiaofan Wu",
-        "Xi Zeng",
-        "Miaoxia Chen",
-        "Peishan Chen",
-        "Shuyan Li",
-        "Chen Wang",
-        "Xiaohan Wang",
-        "Wanling Xu",
-        "Jiyun Yao",
-        "Hanyong Zhong",
-        "Jiahao Zhu"
-      ],
-      "abstract": "Camera-first agents must act on the visual world as it unfolds. We argue that the central obstacle for future camera-first agents is not recognition ability - multimodal models (vision-language and live/streaming alike) generalize well through language and remain the right tool for semantic reasoning - but time. Many visual targets are ephemeral: they appear, are query-relevant, and leave within a short window. Binding memory to the same end-to-end path as reasoning means that by the time a monolithic pipeline completes, the evidence is gone. We formalize this as Ephemeral-Target Interaction (ETI) and a Perceptual Deadline Contract separating a hard memory deadline from a soft reasoning deadline, grounded in the bounded, passive nature of sensory and working memory. We propose a two-deadline architecture: an always-on, bounded, non-semantic fast path; an active remembering mechanism that commits a moment to durable memory before it is overwritten (event-driven in v1); and a deferred deliberation layer (multimodal model + tools). We instantiate the contract on real MOT17 track windows, a consistency check, and calibrate the single-path baseline from measured frontier-model latency: even a short answer takes 1.2-9.3 s, and an agentic identify-and-search longer. Answers can be late; evidence cannot be missed.",
-      "date": "2026-10-10T09:53:25.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2610.14772v2",
-      "pdfUrl": "https://arxiv.org/pdf/2610.14772v2",
-      "arxivId": "2610.14772v2",
-      "categories": [
-        "cs.AI",
-        "cs.HC",
-        "cs.LO"
-      ],
-      "tags": []
-    },
-    {
-      "id": "2610.14757v1",
-      "title": "Rethinking Opinion Measurement Interfaces for Human-in-the-Loop Optimization",
-      "authors": [
-        "Changkun Ou",
-        "Sven Mayer",
-        "Daniel Buschek",
-        "Andreas Butz"
-      ],
-      "abstract": "Human-in-the-loop optimization refers to systems that present choices to a human decision-maker and query their judgment to optimize system parameters iteratively. The user interface typically provides either an absolute rating scale or asks for a preferred option. However, these approaches can potentially suffer from calibration problems, inconsistencies, and completeness violations of user preferences in such a sequential evaluation. This paper revisits the design space of opinion measurement interfaces for human-in-the-loop optimization. We conducted a study (N=360) using text summarization and image color enhancement tasks to evaluate human sequential feedback in six representative opinion measurement interfaces. Based on our analysis, we recommend using a listwise approach to support sequential opinion measurement, which counterweighs individual rating and preferential choice limitations and conveys more information for subsequent use. We further discuss the trade-offs in different user interface designs and provide guidelines to inform future research.",
-      "date": "2026-10-10T09:25:03.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2610.14757v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.14757v1",
-      "arxivId": "2610.14757v1",
-      "categories": [
-        "cs.HC",
-        "cs.LG"
-      ],
-      "tags": [
-        "Design Tools"
-      ]
-    },
-    {
-      "id": "2610.14738v2",
-      "title": "sGLP: Simulating People with Stochastic Agents",
-      "authors": [
-        "Ehud Shapiro"
-      ],
-      "abstract": "Grassroots platforms are designed to be owned, operated and governed by their participants, and thus are constituted from person-to-person smartphone apps that are run by the participants. A grassroots app is specified using a grassroots social contract, which is compiled through an abstraction cascade into a volition-guarded Grassroots Logic Program (vGLP), a multiagent concurrent logic programming language. A vGLP program in turn specifies a smartphone UI via which people express their volitions and thus control the app. Prudence dictates large-scale evaluation and testing of grassroots platforms prior to deployment, but using the many people needed to do that is a contradiction in terms. Hence another solution is needed. Here, we present stochastic GLP (sGLP), designed to allow grassroots platforms to be simulated at scale from the vGLP programs that deploy them, with stochastic agents in place of people. sGLP is GLP with a rate extension for specifying stochastic behaviour. A stochastic agent is an sGLP program replacing both the vGLP UI and the person behind it. It is typed by the dual of the interactive type of the UI and specifies a stochastic profile of a person's behaviour. We demonstrate sGLP on the grassroots social graph, with a population of men and women drawn from four stochastic profiles --- homophile or indifferent, wary or sociable --- and on grassroots currencies, with four profiles --- spenders or savers, cautious or generous --- and report what the mix of profiles does to the social graph that forms and to the currencies that circulate. We prove that every run of a vGLP program in which sGLP agents replace the UI and the people behind it is a vGLP run. We implemented sGLP in GLP by Gillespie's method, and ran reproducible simulations with it.",
-      "date": "2026-10-10T08:58:21.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2610.14738v2",
-      "pdfUrl": "https://arxiv.org/pdf/2610.14738v2",
-      "arxivId": "2610.14738v2",
-      "categories": [
-        "cs.MA",
-        "cs.DC",
-        "cs.HC",
-        "cs.PL"
-      ],
-      "tags": []
-    },
-    {
-      "id": "2610.14738v1",
-      "title": "sGLP: Specifying Stochastic Agents that Simulate People",
-      "authors": [
-        "Ehud Shapiro"
-      ],
-      "abstract": "Grassroots platforms are designed to be owned, operated and governed by their participants, and thus are constituted from person-to-person smartphone apps that run on participants' smartphones. A grassroots app is specified using a grassroots social contract, which is compiled through an abstraction cascade into a volition-guarded Grassroots Logic Program (vGLP), a multiagent concurrent logic programming language. A vGLP program in turn specifies a smartphone UI via which people express their volitions and thus control the app. Prudence dictates large-scale evaluation and testing of grassroots platforms prior to deployment, but using the many people needed to do that is a contradiction in terms. Hence another solution is needed. Here, we present stochastic GLP (sGLP), designed to allow grassroots platforms to be simulated at scale from the vGLP programs that deploy them, with stochastic agents in place of people. sGLP is GLP with a rate extension for specifying stochastic behaviour. A stochastic agent is an sGLP program replacing both the vGLP UI and the person behind it. It is typed by the dual of the interactive type of the UI and specifies a stochastic profile of a person's behaviour. We demonstrate sGLP on the grassroots social graph, with a population of men and women drawn from four stochastic profiles --- homophile or indifferent, wary or sociable --- and on grassroots currencies, with four profiles --- spenders or savers, cautious or generous --- and report what the mix of profiles does to the social graph that forms and to the currencies that circulate. We prove that every run of a vGLP program in which sGLP agents replace the UI and the people behind it is a vGLP run. We implemented sGLP in GLP by Gillespie's method, and ran reproducible simulations with it.",
-      "date": "2026-10-10T08:58:21.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2610.14738v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.14738v1",
-      "arxivId": "2610.14738v1",
-      "categories": [
-        "cs.MA",
-        "cs.DC",
-        "cs.HC",
-        "cs.PL"
-      ],
-      "tags": []
-    },
-    {
-      "id": "2610.14660v1",
-      "title": "Impact of Expertise and Trust on AI-assisted Work",
-      "authors": [
-        "Qianou Ma",
-        "Pranav Khape",
-        "Rock Pang",
-        "Ken Koedinger",
-        "Tongshuang Wu",
-        "Siddarth Suri",
-        "Shamsi Iqbal"
-      ],
-      "abstract": "Artificial intelligence (AI) agents promise to extend what users can accomplish beyond their existing expertise, but they also raise the risk of producing plausible-looking work that users may struggle to evaluate. We ask how task-relevant expertise and trust in AI shape agent-assisted work. To isolate these factors, we conduct a think-aloud study in which 20 professionals with varying data-science expertise use the same agentic tool to complete the same data-science hiring assessment, used at a major U.S. company. We find that surface productivity can come at the expense of understanding: participants who delegated more completed more of the task, but were also more likely to produce invalid solutions. Experts more often resisted this tradeoff, sacrificing completion to decompose the task and scrutinize agent outputs. Our findings call for evaluating agentic assistance not only by how much it accomplishes, but by whether users remain able to evaluate the work they produce.",
-      "date": "2026-10-10T07:19:35.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2610.14660v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.14660v1",
-      "arxivId": "2610.14660v1",
-      "categories": [
-        "cs.HC"
-      ],
-      "tags": [
-        "Trust"
-      ]
-    },
-    {
-      "id": "10.1017/s1740022826100722",
-      "title": "The Right to Communicate: UNESCO and the politics of global communication, 1969–1987",
-      "authors": [
-        "S. Huxtable"
-      ],
-      "abstract": "Abstract The Right to Communicate (RtC) is the idea that individuals possess not only the freedom to ‘seek, receive and impart information’, as laid down in Article 19 of the Universal Declaration of Human Rights (UDHR), but also the right to communicate horizontally with their peers, using technologies new and old. The brainchild of Jean d’Arcy, a French broadcaster and official who argued in 1969 that Article 19 should be updated to reflect the new technological possibilities, the concept inspired an international effort to write the RtC into human rights law. This article examines the United Nations Educational, Scientific and Cultural Organization’s (UNESCO) campaign to define this new human right, showing how initial enthusiasm was undermined by a widespread conviction that collective rights were a threat to individual rights; the difficulty of squaring the Global South’s state-led vision of communication with d’Arcy’s anti-statist ideals; and the vocal opposition of Western governments and NGOs, who increasingly saw the concept as a threat to freedom of information.",
-      "date": "2026-10-10T00:00:00.000Z",
-      "source": "openalex",
-      "url": "https://doi.org/10.1017/s1740022826100722",
-      "pdfUrl": "https://doi.org/10.1017/s1740022826100722",
-      "doi": "https://doi.org/10.1017/s1740022826100722",
-      "categories": [
-        "Enthusiasm",
-        "Human rights",
-        "Politics",
-        "Political science",
-        "Conviction",
-        "Law",
-        "Sociology",
-        "Emerging technologies",
-        "Political economy",
-        "Media studies",
-        "Law and economics"
-      ],
-      "tags": [
-        "Education"
-      ],
-      "citationCount": 0,
-      "venue": "Journal of Global History"
-    },
-    {
-      "id": "10.23960/jpp.v16i4.pp1993-2008",
-      "title": "Constructing an Adaptive Learning Framework Integrating STEAM–Gamification for Numeracy and Computational Thinking in Remote Indonesian Elementary Schools",
-      "authors": [
-        "Masnur Masnur",
-        "Nadar Nadar",
-        "Saleha Saleha"
-      ],
-      "abstract": "This study aimed to construct and validate the design of an adaptive learning framework that integrates STEAM–gamification principles with Zone of Proximal Development (ZPD)–Item Response Theory (IRT) to simultaneously develop numeracy literacy and computational thinking among elementary school students in Indonesia’s 3T (remote, frontier, underdeveloped) regions. A mixed-methods sequential exploratory design integrated with Design-Based Research (DBR) was applied over eight months in Pinrang Regency, South Sulawesi, across 10 schools in the qualitative phase and 20 schools in the quantitative phase. Qualitative data were drawn from interviews and focus group discussions with 30 teachers, 10 principals, 30 students, and 20 stakeholders, alongside 30 classroom observations; quantitative data were collected from 300 Grade IV–V students and 60 teachers using structured surveys, IRT-calibrated diagnostic tests (3PL; α = .83), and an ICT infrastructure audit. The framework synthesized qualitative and quantitative findings into four integrated layers: Pedagogical (STEAM), Motivational (gamification), Adaptive (ZPD–IRT), and Assessment (computational thinking + numeracy). Expert design validation employed LORI, Aiken’s V, and Fleiss’ Kappa with eight domain specialists. The needs analysis showed that 85% of teachers relied exclusively on conventional instruction, 78% identified a strong need for interactive learning media, and only 30% of schools had adequate ICT infrastructure. The composite numeracy mean was 50.1/100 and the computational thinking mean was 48.3/100, with geometry the weakest numeracy domain (34.7). Economic feasibility yielded a benefit-cost ratio of 1.42, a positive NPV, and an internal rate of return of 18.3%. Expert design validation yielded a LORI mean of 4.38/5, a Fleiss’ Kappa of 0.74, and an Aiken’s V of 0.79, all exceeding acceptability thresholds. The four-layer adaptive framework, among the first to integrate STEAM, gamification, ZPD–IRT adaptive learning, and computational thinking as a coherent system for Indonesia’s 3T elementary schools, provides a replicable theoretical model and an expert-validated design basis for subsequent product development and efficacy trials Keywords: adaptive learning framework, STEAM–gamification, numeracy literacy, computational thinking, 3T elementary schools.",
-      "date": "2026-10-10T00:00:00.000Z",
-      "source": "openalex",
-      "url": "https://doi.org/10.23960/jpp.v16i4.pp1993-2008",
-      "pdfUrl": "https://jpp.fkip.unila.ac.id/index.php/jpp/article/download/1762/859",
-      "doi": "https://doi.org/10.23960/jpp.v16i4.pp1993-2008",
-      "categories": [
-        "Mathematics education",
-        "Computational thinking",
-        "Indonesian",
-        "Construct (python library)",
-        "Computer science",
-        "Domain (mathematical analysis)",
-        "Focus group",
-        "Literacy",
-        "Qualitative research",
-        "Qualitative property",
-        "Multimethodology",
-        "Exploratory research",
-        "Critical thinking",
-        "Psychology",
-        "Research design",
-        "Adaptive learning",
-        "Information and Communications Technology",
-        "Qualitative reasoning",
-        "Inquiry-based learning",
-        "Pedagogy",
-        "Quantitative research",
-        "Educational technology"
-      ],
-      "tags": [
-        "Gaming",
-        "Education"
-      ],
-      "citationCount": 0,
-      "venue": "Jurnal Pendidikan Progresif"
-    },
-    {
-      "id": "2610.14306v1",
-      "title": "Plottery: A Code-Integrated GUI for Matplotlib",
-      "authors": [
-        "Brian Hempel",
-        "Ruanqianqian Huang",
-        "Devamardeep Hayatpur",
-        "Sorin Lerner",
-        "Haijun Xia"
-      ],
-      "abstract": "Scientists have many tools to author plots: graphical direct manipulation apps like a spreadsheet's chart builder, text-based programming tools like Matplotlib and ggplot2, or AI chat interfaces. Textual code is the most capable of these, but writing code, even with AI assistance, is a potentially poor fit for graphical chart design. We present Plottery, a Jupyter notebook extension that leverages API type annotations to add graphical direct manipulation to the popular Matplotlib plotting library. User interactions in Plottery's in-situ graphical interface are immediately reified in the user's code, so they may seamlessly mix-and-match between GUI, code, and AI interactions. In a user study, participants seamlessly alternated modalities, with the GUI used for straightforward visual changes, code for quick edits or duplicating code, and the AI for broad support. Plottery showcases graphical interaction that retains code's benefits.",
-      "date": "2026-10-09T20:32:04.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2610.14306v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.14306v1",
-      "arxivId": "2610.14306v1",
-      "categories": [
-        "cs.HC"
-      ],
-      "tags": []
-    },
-    {
-      "id": "2610.14231v1",
-      "title": "Defective, Amplified, Contested: Folk Conceptualizations of AI Slop",
-      "authors": [
-        "Zhixin Li",
-        "Jaime Banks"
-      ],
-      "abstract": "AI slop has flooded social media feeds with overprocessed and derivative content--Jesus fusing with a shrimp, a humanoid orange chubby cat shoplifting, and a \"hero\" dog rescuing a human child after a plane crash. This might be no laughing matter, as waves of media coverage have taken a distinctly negative bent, emphasizing its low quality, ethical concerns, and threats to human creativity. Despite extensive attention from politicians and technologists, the perspectives of everyday users--the very audience most exposed to this phenomenon--remain largely unexplored. This descriptive work explored how Reddit users experience, conceptualize and contest AI slop. Inductive thematic analysis of posts and comments across six slop-related subreddits identified four themes covering constitutional defects, algorithmic overreach, user resistance, and entertainment outcomes--ranging from anxieties about eroding agency, moral norms, creativity, and existential questions to defensive distinctions between quality AI content and slop. We derive a user-driven definition: AI slop is audience-contested AI-generated content characterized by constitutional defects and enabled by platform logics. We operationalize slop through a facet-theoretical framework to inform future research into this fuzzy category.",
-      "date": "2026-10-09T18:48:17.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2610.14231v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.14231v1",
-      "arxivId": "2610.14231v1",
-      "categories": [
-        "cs.CY",
-        "cs.HC"
-      ],
-      "tags": []
-    },
-    {
-      "id": "2610.14229v1",
-      "title": "Who Guides Whom? Negotiating Care, Religious Authority, and Technology in Bangladeshi Muslim Families",
-      "authors": [
-        "Susmita Biswas",
-        "Saiful Islam Tuhin",
-        "Faria Soroni",
-        "Sharifa Sultana",
-        "Jannatun Noor"
-      ],
-      "abstract": "Digital technologies are reshaping how families negotiate care, authority, and responsibility, yet these dynamics remain understudied in religiously situated family life. Through interviews with 38 adult members of Bangladeshi Muslim families, we examine how family members guide one another across religious, digital, and AI-mediated contexts. We find that authority did not simply follow age or family hierarchy: older members often remained sources of religious and familial guidance, while younger members increasingly provided expertise around digital risks, information credibility, and AI. Families also actively shaped digital environments and negotiated the role AI could occupy in everyday relationships. We develop the concepts of household epistemic governance, counter-curation, and domain-dependent authority to explain these shifting relations of knowledge and responsibility. Our findings suggest opportunities for family technologies that support negotiated boundaries, credible information practices, and culturally situated forms of care.",
-      "date": "2026-10-09T18:45:56.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2610.14229v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.14229v1",
-      "arxivId": "2610.14229v1",
-      "categories": [
-        "cs.HC",
-        "cs.CY"
-      ],
-      "tags": []
-    },
-    {
-      "id": "2610.14228v1",
-      "title": "Latent World Action Model for GUI Agents",
-      "authors": [
-        "Seungjun Yu",
-        "Hojun Choi",
-        "Seojeong Park",
-        "Jaeyo Shin",
-        "Hyunjung Shim"
-      ],
-      "abstract": "Pixel-space world models have recently emerged as a promising approach for GUI agents, predicting future screens prior to execution and subsequently re-perceiving them for action selection. However, this two-stage paradigm faces two key challenges in GUI environments: (L1) the high computational cost of pixel reconstruction and (L2) the need to reconstruct large and diverse appearance-level details beyond what is required for action selection. In practice, this screen-generation objective can induce an identity shortcut problem, where future-state prediction largely preserves the current state rather than capturing action-induced changes. In this work, we reformulate GUI world modeling by shifting the prediction target from full-screen reconstruction to action-induced future information in latent space. Concretely, we leverage a large multimodal model as the latent world model, whose shared representations support two dedicated heads for both action selection and predictive transition modeling. The action head directly translates these latent representations into action selection, while the transition head captures action-conditioned future information. To mitigate the identity shortcut, we further introduce an action-aware contrastive objective that encourages the transition representations to capture discriminative action-induced changes. Extensive experiments across offline and online GUI settings show that our method achieves up to 31.9% and 40.6% relative gains in success rate over pixel-space world models, respectively, while substantially reducing inference latency by up to 98.9%. Our code is available at https://github.com/sjyu001/latent2world.",
-      "date": "2026-10-09T18:45:11.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2610.14228v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.14228v1",
-      "arxivId": "2610.14228v1",
-      "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.HC"
-      ],
-      "tags": []
-    },
-    {
-      "id": "2610.13894v1",
-      "title": "Nimbus Studio reproduces reference BCI decoding pipelines: a validation study on public benchmarks across protocols and paradigms",
-      "authors": [
-        "Sergey Musienko"
-      ],
-      "abstract": "Nimbus Studio is a visual pipeline platform for brain-computer interface (BCI) experiments: researchers assemble preprocessing, feature extraction, decoding, and evaluation over public benchmark datasets or their own recordings, with cross-validated evaluation protocols (including leave-one-subject-out), BIDS export, and bring-your-own Python model classes. Whether its numbers can be trusted is a fair question for any such platform. We answer it with a parity study: six standard BCI decoding pipelines (CSP+LDA, Riemannian MDM, tangent-space logistic regression through the platform's bring-your-own-code node, P300 xDAWN+LDA, and the deep ShallowConvNet and EEGNet) were evaluated on three public datasets (motor-imagery BNCI-2014-001/004; P300 BNCI-2014-009) under two protocols (per-subject session holdout and pooled leave-one-subject-out cross-validation via the platform's planned-CV driver), once through Nimbus Studio's execution engine and once through independent, hand-written reference implementations built directly on MNE-Python, scikit-learn, pyriemann, and braindecode. Every deterministic pipeline matched the reference exactly (0.00 points maximum difference across all 54 session-holdout subject-runs and all CSP/MDM grouped-CV folds), including pipelines through the bring-your-own-code node and the CV orchestration; the remaining grouped-CV cells agree to floating-point precision (worst case 0.06 points, about one trial per fold). The stochastic deep models agreed within seed-to-seed training variability, estimated with multi-seed reruns on each side. The platform's execution engine therefore computes the same science as the reference stack across protocols, paradigms, and extensibility surfaces. The platform is available at https://studio.nimbusbci.com/, and the complete harness and per-subject results accompany this paper for independent verification.",
-      "date": "2026-10-09T17:39:55.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2610.13894v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.13894v1",
-      "arxivId": "2610.13894v1",
-      "categories": [
-        "cs.HC"
-      ],
-      "tags": [
-        "Education"
       ]
     }
   ]
