@@ -1,6 +1,53 @@
 {
-  "fetchedAt": "2026-10-24T04:24:38.364Z",
+  "fetchedAt": "2026-10-25T04:28:21.955Z",
   "papers": [
+    {
+      "id": "10.5281/zenodo.23588349",
+      "title": "Gesture Control Virtual Mouse using Opencv and Mediapipe",
+      "authors": [
+        "Kajal Wavare"
+      ],
+      "abstract": "This paper proposes a virtual mouse system based on Human c-computer interaction (HCI) using computer vision and hand gestures. Techniques for establishing the process of human-computer interaction (HCI) have evolved since the invention of computer technology. The mouse is its extensive innovation in HCI (Human-Computer Interaction) technology. Wireless or Bluetooth mouse technology is still in development, but the technology is not yet completely device-free. The Bluetooth mouse requires battery power and a connection dongle. The presence of additional devices in the mouse makes it difficult to use. The proposed mouse system solves these limitations. We have written a program for Controlling the mouse movement using Python and OpenCV with a real-time camera that detects hand patterns, tracks hand gesture patterns that replaces the work of a traditional physical mouse. Gestures captured with an integrated camera or webcam are processed with recognition technology. Basically, this system lets you use your computer completely hands-free. All you need is your normal laptop camera or a regular webcam to track your hand movements live. The software cleans up the video frames so it can track your hand smoothly. Then, when you make different movements like moving your hand up or down or changing your fingers—the system instantly figures out what you want to do. It maps those gestures to real mouse actions, allowing you to move the pointer, left-click, right-click, or double-click without ever touching a physical mouse. This new mouse system removes the need for physical hardware entirely, showing how human-computer interaction (HCI) technology is evolving to make devices easier to use.",
+      "date": "2026-10-25T00:00:00.000Z",
+      "source": "openalex",
+      "url": "https://doi.org/10.5281/zenodo.23588349",
+      "pdfUrl": "https://doi.org/10.5281/zenodo.23588349",
+      "doi": "https://doi.org/10.5281/zenodo.23588349",
+      "categories": [
+        "Laptop",
+        "Computer science",
+        "Gesture",
+        "Computer vision",
+        "Artificial intelligence",
+        "Process (computing)",
+        "Software",
+        "Python (programming language)",
+        "Computer graphics (images)",
+        "Wireless",
+        "Pointing device",
+        "Input device",
+        "Computer mouse",
+        "Embedded system",
+        "Computer hardware",
+        "Android (operating system)",
+        "Computer technology",
+        "Human–computer interaction",
+        "Track (disk drive)",
+        "Wearable computer",
+        "Mobile device",
+        "Control system",
+        "Personal computer",
+        "Remote control",
+        "Video camera",
+        "Tracking (education)",
+        "Thread (computing)"
+      ],
+      "tags": [
+        "Gesture"
+      ],
+      "citationCount": 0,
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)"
+    },
     {
       "id": "10.31838/ece/03.02.08",
       "title": "Neuromorphic Computing Architectures for Low-Power Edge Inference in IoT Applications",
@@ -4293,239 +4340,6 @@
       ],
       "tags": [
         "Education"
-      ]
-    },
-    {
-      "id": "2610.25343v1",
-      "title": "UnexpectedParrots: Iterating Behavioral Experiment Design with In-Silico Simulations",
-      "authors": [
-        "Sanchaita Hazra",
-        "Bodhisattwa Prasad Majumder",
-        "Pao Siangliulue",
-        "Peter Clark",
-        "Amy X. Zhang",
-        "Joseph Chang"
-      ],
-      "abstract": "Running behavioral experiments is expensive, slow, and prone to design flaws, often detectable after collecting data. We introduce UnexpectedParrots to iteratively refine behavioral study designs before a researcher recruits costly human participants. UnexpectedParrots relies on reasoning traces in addition to responses from LLM participants to uncover diagnostic critiques of structural errors and missed opportunities in existing study designs. When evaluated against a human-pilot or a no-simulation design-only baseline, UnexpectedParrots adds most value, producing unique, high-quality critiques. In a moderated user study with 12 proficient researchers, we find UnexpectedParrots useful, time-saving, and thought-provoking. Critiques provided by UnexpectedParrots often converge on issues researchers identify only during independent human pilots or additional formative interviews, even when the fidelity of the simulated populations remains questionable. Our users deem UnexpectedParrots useful not only as a tool to conduct early pilot studies and identify errors but also as an ideation tool to expand one's research horizon.",
-      "date": "2026-10-18T15:39:48.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2610.25343v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.25343v1",
-      "arxivId": "2610.25343v1",
-      "categories": [
-        "cs.HC"
-      ],
-      "tags": [
-        "LLM"
-      ]
-    },
-    {
-      "id": "2610.25244v1",
-      "title": "It's Complicated: Factors Influencing the Effectiveness of LLM-Generated Feedback in a Live Programming Course",
-      "authors": [
-        "Tsvetomila Mihaylova",
-        "Arto Hellas",
-        "Bita Akram",
-        "Narges Norouzi",
-        "Peter Brusilovsky",
-        "Juho Leinonen"
-      ],
-      "abstract": "We report on three iterations of an LLM-generated feedback system deployed in a live web development course, spanning three underlying models and three feedback formats. We ask how feedback presence and its characteristics (length, complexity, format) relate to student performance, whether prior feedback exposure is associated with final-project performance, and how performance changes after first exposure. Feedback was associated with more favorable immediate outcomes in several comparisons, but the pattern varied by outcome and period. In pooled models, longer feedback was associated with lower next-submission correctness, more remaining attempts, and longer resubmission time. Prior same-part feedback was associated with lower final-project solve probability. Student-level comparisons found differences on final-project steps begun before exposure, while within-student changes across steps were uncertain. These comparisons do not identify the causal effect of feedback. Changes on standard exercises were more favorable among exposed students, but the groups' different course-stage splits limit causal interpretation. Bounded message length and student choice of format are directions for experimental evaluation. Our final-project analysis captures follow-up performance rather than directly measuring learning or understanding.",
-      "date": "2026-10-18T13:04:23.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2610.25244v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.25244v1",
-      "arxivId": "2610.25244v1",
-      "categories": [
-        "cs.HC"
-      ],
-      "tags": [
-        "LLM",
-        "Education"
-      ]
-    },
-    {
-      "id": "10.1007/s11263-026-03083-9",
-      "title": "LLM-Powered Query Expansion for Enhancing Boundary Prediction in Language-Driven Action Localization",
-      "authors": [
-        "Zirui Shang",
-        "Xinxiao Wu",
-        "Shuo Yang"
-      ],
-      "abstract": "",
-      "date": "2026-10-18T00:00:00.000Z",
-      "source": "openalex",
-      "url": "https://doi.org/10.1007/s11263-026-03083-9",
-      "pdfUrl": "https://arxiv.org/pdf/2505.24282",
-      "doi": "https://doi.org/10.1007/s11263-026-03083-9",
-      "categories": [
-        "Boundary (topology)",
-        "Computer science",
-        "Action (physics)",
-        "Artificial intelligence",
-        "Stability (learning theory)",
-        "Frame (networking)",
-        "Process (computing)",
-        "Query expansion",
-        "Annotation",
-        "Natural language processing",
-        "Semantics (computer science)",
-        "Term (time)",
-        "Data mining",
-        "Information retrieval",
-        "Language model",
-        "Machine learning",
-        "Query language",
-        "Pattern recognition (psychology)"
-      ],
-      "tags": [
-        "LLM"
-      ],
-      "citationCount": 0,
-      "venue": "International Journal of Computer Vision"
-    },
-    {
-      "id": "10.47006/pendalas.v6i3.899",
-      "title": "PENINGKATAN KESADARAN PELAJAR TERHADAP PENGGUNAAN SMARTPHONE, MEDIA SOSIAL, DAN KEAMANAN DIGITAL",
-      "authors": [
-        "Bintang Fajar Ruslita Putra",
-        "Rahma Nadila",
-        "Delfi Apriansyah",
-        "Amal Fathullah Al Arsy",
-        "Muhammad Irwansyah"
-      ],
-      "abstract": "Perkembangan teknologi digital menjadikan smartphone dan media sosial sebagai bagian penting dalam kehidupan pelajar, tetapi penggunaannya juga menghadirkan berbagai risiko, seperti pelanggaran privasi, cyberbullying, phishing, penyebaran informasi yang tidak benar, dan penggunaan secara berlebihan. Kegiatan pengabdian kepada masyarakat ini bertujuan memperkuat kesadaran pelajar mengenai penggunaan smartphone dan media sosial secara aman, sehat, etis, dan bertanggung jawab. Kegiatan dilaksanakan kepada 175 pelajar kelas XII, terdiri atas 120 pelajar SMA Negeri 1 Aek Kuasan dan 55 pelajar SMK YASPENDA Pulau Rakyat. Metode yang digunakan adalah pendekatan deskriptif kualitatif melalui penyampaian materi secara langsung menggunakan presentasi, interaksi dan pertanyaan sederhana, observasi respons peserta, dokumentasi, serta evaluasi internal. Materi meliputi manfaat smartphone dan media sosial, ancaman digital, perlindungan data pribadi, cyberbullying, phishing, penipuan daring, verifikasi informasi, etika bermedia sosial, privasi, jejak digital, dan penggunaan smartphone secara bijak. Hasil kegiatan menunjukkan bahwa pelajar mengikuti kegiatan dengan antusias, aktif merespons materi dan pertanyaan, serta menunjukkan pemahaman berdasarkan pengamatan selama kegiatan. Namun, karena tidak dilakukan pre-test dan post-test, perubahan tingkat kesadaran digital belum dapat diukur secara statistik. Kegiatan ini menunjukkan pentingnya edukasi digital yang dilakukan secara berkelanjutan di lingkungan sekolah.",
-      "date": "2026-10-18T00:00:00.000Z",
-      "source": "openalex",
-      "url": "https://journal.yaspim.org/index.php/pendalas/article/view/899",
-      "pdfUrl": "https://journal.yaspim.org/index.php/pendalas/article/download/899/549",
-      "doi": "https://doi.org/10.47006/pendalas.v6i3.899",
-      "categories": [
-        "Computer science",
-        "Psychology",
-        "Business",
-        "Humanities",
-        "Advertising",
-        "Internet privacy",
-        "Sociology",
-        "Political science",
-        "Digital media",
-        "Multimedia"
-      ],
-      "tags": [],
-      "citationCount": 0,
-      "venue": "PENDALAS Jurnal Penelitian Tindakan Kelas dan Pengabdian Masyarakat"
-    },
-    {
-      "id": "10.63822/mne93z18",
-      "title": "Cyberculture dan Engagement Komunitas Virtual: Studi Netnografi pada Pemain Valorant Indonesia di Media Sosial Instagram",
-      "authors": [
-        "Karina Amanda",
-        "Andy Setiawan"
-      ],
-      "abstract": "The advancement of digital technology has fostered the emergence of virtual communities that utilize social media as a space for interaction and the shaping of digital culture. One such active community is the Indonesian Valorant player community on Instagram. This study aims to analyze the formation of cyberculture within the Indonesian Valorant player community on Instagram, identify the characteristics of the virtual community—including participatory culture, digital identity, and engagement—and explain the interrelationships among these concepts. The study employs a qualitative approach using the netnography method, drawing on the framework of Robert V. Kozinets. Data were collected through non-participant observation of posts and comment sections on the Instagram accounts @valorant and @valorantid, digital documentation, and in-depth interviews with informants selected via purposive sampling. Data analysis involved data reduction, data presentation, interpretation, and conclusion drawing. The findings indicate that cyberculture within the Indonesian Valorant player community is formed through active interaction on Instagram, such as the use of game-specific terminology, discussions regarding game updates, content creation, and member participation in various digital activities.",
-      "date": "2026-10-18T00:00:00.000Z",
-      "source": "openalex",
-      "url": "https://indojurnal.com/index.php/jejakdigital/article/view/5243",
-      "pdfUrl": "https://indojurnal.com/index.php/jejakdigital/article/download/5243/4571",
-      "doi": "https://doi.org/10.63822/mne93z18",
-      "categories": [
-        "Indonesian",
-        "Sociology",
-        "Ethnography",
-        "Digital culture",
-        "Social media",
-        "Participatory culture",
-        "Citizen journalism",
-        "Participant observation",
-        "Media studies",
-        "Information and Communications Technology",
-        "Digital media",
-        "Qualitative research",
-        "Content analysis",
-        "Online community",
-        "The Internet",
-        "Empowerment",
-        "Data collection",
-        "Virtual space",
-        "Space (punctuation)",
-        "Humanities"
-      ],
-      "tags": [
-        "Gaming"
-      ],
-      "citationCount": 0,
-      "venue": "Jejak digital Jurnal Ilmiah Multidisiplin"
-    },
-    {
-      "id": "2610.24903v1",
-      "title": "Leveraging Mental Models for Human-Centered Explanations: A Systematic Design Approach Illustrated by Explainable Fake Review Identification",
-      "authors": [
-        "Sidra Naveed",
-        "Md Shajalal",
-        "Gunnar Stevens",
-        "Alexander Boden"
-      ],
-      "abstract": "Explainable AI (XAI) often prioritizes model fidelity over user intelligibility, yielding explanations that satisfy technical transparency yet fail to support human sense-making. We propose a human-centered approach, MIND-X (Mental-model INtegrated Design for eXplainability), which aligns explanations with users' mental models, commonsense concepts, and judgment heuristics. Using fake review detection as a case study, we contribute: (1) a qualitative study (n=10) that elicits how people assess review credibility and produces an actionable, design-guiding taxonomy of perceptual cues; (2) a set of design principles that link those cues to explanation strategies and prompt LLMs to generate adaptive, language-based explanations; and (3) a quantitative evaluation (n=166) showing that these explanations offer distinct advantages over token-level transparency methods widely used in explainable text classification in terms of understandability, satisfaction, perceived trust, persuasiveness, and decision-making support. Rather than claiming general superiority, our evaluation illustrates how grounding explanations in users' everyday reasoning practices can produce more intelligible and context-sensitive accounts. Our findings advance human-centered explanation design beyond a mere \"gloss of transparency,\" demonstrating that a mental-model-aligned design process can improve intelligibility and support accountability across user-centered explanation tasks.",
-      "date": "2026-10-17T22:56:43.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2610.24903v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.24903v1",
-      "arxivId": "2610.24903v1",
-      "categories": [
-        "cs.HC",
-        "cs.AI"
-      ],
-      "tags": [
-        "Trust"
-      ]
-    },
-    {
-      "id": "2610.24898v1",
-      "title": "Predicting Individual Differences in Lipreading From Eye-Tracking and Pupillometry During Silent Visual Speech",
-      "authors": [
-        "Puneet Kumar",
-        "Satyarth Malik",
-        "Gao Zheng",
-        "Guoying Zhao",
-        "Xiaobai Li"
-      ],
-      "abstract": "Lipreading ability varies widely, including among people who are hard of hearing. Although mouth-directed attention is linked to speechreading outcomes, it remains unclear how much lipreading skill can be inferred from viewing behavior and which signals carry this information. We examine whether individual differences in lipreading ability are reflected in viewing behavior during silent speech and quantify the contributions of gaze dynamics, pupil-linked signals, and spatial viewing allocation. We introduce the Lipreading Perception Study (LiPS) dataset and a tracker-independent preprocessing pipeline that synchronizes SR Research EyeLink gaze and pupil recordings with the stimuli. Twenty-four adults (age 32 $\\pm$ 10 years) completed a four-alternative forced-choice silent lipreading task. An extreme-groups protocol yielded 18 participants labeled as stronger or weaker lipreaders. Each participant-trial included four aligned views: lip-region images, frame-level gaze, pupil summaries, and spatial viewing proportions. A four-branch neural network with cross-modal attention predicted labels using participant-disjoint splits and systematic ablations. The full model reached accuracy 0.680 $\\pm$ 0.040 across five folds, outperforming naive fusion baselines in accuracy. The pupil and viewing-summary branch was most informative: removing it caused the largest degradation (0.618 accuracy, 0.623 AUC), while it alone achieved 0.675 accuracy. The lip-image stream contributed little to participant-level discrimination. Individual differences in lipreading are reflected in pupil-linked and frame-level gaze signals rather than in how much time a viewer spends looking at the mouth. Synchronized gaze and pupillary measures may provide objective markers of visual speech perception, warranting investigation in larger, clinically diverse populations. LiPS provides a resource for extending this work.",
-      "date": "2026-10-17T22:39:10.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2610.24898v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.24898v1",
-      "arxivId": "2610.24898v1",
-      "categories": [
-        "cs.CV",
-        "cs.HC"
-      ],
-      "tags": [
-        "Eye Tracking",
-        "Health"
-      ]
-    },
-    {
-      "id": "2610.24802v1",
-      "title": "Is User Calibration Still Necessary for Continuous Myoelectric Control? A Closed-Loop Comparison of Calibration-Free Controllers",
-      "authors": [
-        "Amir Reza Hariri",
-        "Kevin B. Englehart",
-        "Erik Scheme"
-      ],
-      "abstract": "The need for user-specific calibration remains an often-cited barrier to widespread adoption of myoelectric control. Cross-user models trained on large multi-user datasets can now recognize gestures from unseen users without calibration, but they have been evaluated almost exclusively offline, leaving open whether calibration is still needed in closed-loop control. This study compared six calibration-free controllers, trained on 306 users of the EMG-EPN-612 dataset and used without any calibration data from the test participant, against three calibrated controllers in a closed-loop Fitts' law target-acquisition task with sixteen participants. The calibrated controllers achieved higher offline balanced accuracy (90.6% against 73.1% for the best controller of each paradigm), but completion rates did not differ significantly between paradigms, and the highest completion rate was achieved by a calibration-free controller. Calibrated controllers moved faster on successful acquisitions, partly because of their individually fitted speed mappings, though not significantly after correction for multiple comparisons. However, every calibration-free controller produced more direct and stable trajectories than every calibrated controller, even after adjusting for cursor speed. Offline accuracy did not predict completion rate across controllers or within participants, and across paradigms higher offline accuracy was associated with poorer trajectory quality in 15 of 16 participants. Without any calibration data from the end user, a model trained across a large population matched calibrated control in completion rate and exceeded it in trajectory quality. The offline accuracy gained through calibration should therefore not be taken as evidence of a closed-loop benefit.",
-      "date": "2026-10-17T18:09:41.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2610.24802v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.24802v1",
-      "arxivId": "2610.24802v1",
-      "categories": [
-        "eess.SP",
-        "cs.HC",
-        "cs.LG"
-      ],
-      "tags": [
-        "Gesture"
       ]
     }
   ]
