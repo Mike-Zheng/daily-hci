@@ -1,6 +1,563 @@
 {
-  "fetchedAt": "2026-10-31T05:21:20.408Z",
+  "fetchedAt": "2026-11-01T05:49:11.400Z",
   "papers": [
+    {
+      "id": "W7168064881",
+      "title": "Multi-dimensional hierarchical temporal alignment for improved temporal commonsense reasoning in large language models",
+      "authors": [
+        "Ge Yan",
+        "Hai-Tao Yu",
+        "Lei Chao",
+        "30751052",
+        "Lei Chao"
+      ],
+      "abstract": "Benefiting from recent advances in generative AI and large language models (LLMs), current LLM-driven AI systems are rapidly reshaping how we reason, plan, and make decisions. Yet endowing these systems with human-like temporal intelligence (e.g., understanding and comparing events across time) remains largely unresolved. To address this gap, we introduce a novel Multi-dimensional Hierarchical Temporal Alignment framework (denoted as MHTA), of which the core idea is to effectively ground the temporal alignment of an LLM in both event-specific and cross-event real-world temporal commonsense knowledge. Specifically, we first frame the temporal space as a multi-dimensional hierarchical space, where each dimension comprises its own set of temporal units. Building on this formulation, we curate an initial burn-in dataset in which annotations are constructed to reflect real-world human temporal commonsense in accordance with our defined temporal space. Based on the initial burn-in dataset, we propose two complementary fine-tuning objectives: (i) Grounding the temporal alignment in event-specific temporal commonsense knowledge, which is achieved through a novel hierarchy-preserving Wasserstein loss, and (ii) Grounding the temporal alignment in cross-event temporal commonsense knowledge, which is achieved via a margin-adaptive triplet loss. To evaluate the effectiveness of MHTA, we conduct extensive experiments on three representative benchmarks (MCTACO, DurationQA, and TimeDial). For example, on the MCTACO dataset, MHTA improves Mistral-7B by 6.0% in accuracy and 10.3% in exact match, and improves DeepSeek-LLM-7B by 5.4% in accuracy and 9.8% in exact match. Combined with different backbones, MHTA surpasses nearly all baselines across the three benchmarks and exceeds the performance of advanced models such as GPT-4o on MCTACO and DurationQA. These results demonstrate that MHTA provides consistent gains in temporal commonsense reasoning across diverse LLM backbones.",
+      "date": "2026-11-01T00:00:00.000Z",
+      "source": "openalex",
+      "url": "https://tsukuba.repo.nii.ac.jp/records/2024994",
+      "pdfUrl": "https://tsukuba.repo.nii.ac.jp/record/2024994/files/IPM_63(7)_104875.pdf",
+      "categories": [
+        "Computer science",
+        "Artificial intelligence",
+        "Natural language processing",
+        "Commonsense reasoning",
+        "Language model",
+        "Action (physics)",
+        "Temporal logic",
+        "Natural language",
+        "Language understanding",
+        "Feature (linguistics)"
+      ],
+      "tags": [
+        "LLM",
+        "GPT"
+      ],
+      "citationCount": 0,
+      "venue": "Institutional Repositories DataBase (IRDB)"
+    },
+    {
+      "id": "W7216638460",
+      "title": "Designing an Artificial Intelligence–Based Cognitive Empowerment Package to Enhance Entrepreneurial Skills in Gifted and Creative Adolescents",
+      "authors": [
+        "Soroush Javidnia",
+        "Saeed Rezaei"
+      ],
+      "abstract": "Purpose: This study aimed to design an artificial intelligence–based cognitive empowerment package for enhancing entrepreneurial skills in gifted and creative adolescents through the qualitative identification and integration of relevant cognitive, psychological, motivational, interpersonal, and technological components. Methods and Materials: The study employed a qualitative exploratory-developmental design. Data were obtained through an analytical review of relevant literature, examination of previous student entrepreneurship workshop experiences, and semi-structured interviews with students, mentors, workshop facilitators, and accelerator managers selected through purposive sampling. Data collection continued until conceptual saturation was achieved. Interview transcripts, field observations, documentary evidence, and analytical notes were examined using thematic analysis. Findings: The qualitative analysis indicated that sustained entrepreneurial action among gifted and creative adolescents depends on a multidimensional configuration of entrepreneurial intention and identity, self-efficacy, opportunity recognition and problem identification, executive functioning, tolerance of ambiguity, applied creativity, fear of failure and perfectionism, intrinsic motivation and psychological ownership, teamwork and psychological safety, proactive agency, resilience, future orientation, and reflective readiness to use artificial intelligence. The findings further suggested that entrepreneurial difficulties differ across adolescents and therefore require profile-based rather than uniform intervention. Integration of the themes resulted in a six-session package encompassing profile awareness and goal setting, problem identification and value creation, conversion of ideas into action plans, presentation and feedback utilization, teamwork and agency, and final presentation with a continuation plan. Conclusion: The findings suggest that entrepreneurial empowerment in gifted and creative adolescents should extend beyond creativity and business knowledge by strengthening the cognitive and psychological capacities required to transform ideas into sustained action, while using artificial intelligence as a supervised reflective and personalized learning support rather than as a substitute for adolescent judgment and agency.",
+      "date": "2026-11-01T00:00:00.000Z",
+      "source": "openalex",
+      "url": "https://journalecs.com/index.php/ecs/article/view/452",
+      "pdfUrl": "https://journalecs.com/index.php/ecs/article/download/452/415",
+      "categories": [
+        "Psychology",
+        "Teamwork",
+        "Creativity",
+        "Empowerment",
+        "Entrepreneurship",
+        "Applied psychology",
+        "Action (physics)",
+        "Cognition",
+        "Qualitative research",
+        "Qualitative property",
+        "Identification (biology)",
+        "Data collection",
+        "Action research",
+        "Emotional intelligence",
+        "Value (mathematics)",
+        "Pedagogy",
+        "Presentation (obstetrics)",
+        "Gifted education",
+        "Social psychology",
+        "Field (mathematics)",
+        "Single-subject design",
+        "Knowledge management"
+      ],
+      "tags": [
+        "Education"
+      ],
+      "citationCount": 0,
+      "venue": "International Journal of Education and Cognitive Sciences"
+    },
+    {
+      "id": "W7217302868",
+      "title": "Molecular Analysis of Exons 10, 11 Mutations in BRCA2 Gene In Tehran City Patients with Breast Cancer",
+      "authors": [
+        "Seyedeh Kimia Kiarad",
+        "Ali Reza Ahmadi",
+        "Lobat Geranpayeh",
+        "Shahram Sharafi"
+      ],
+      "abstract": "Purpose: This study aimed to investigate genetic alterations in exons 1–5 of the RAD51 gene and to examine their potential association with hereditary breast cancer among women diagnosed with breast cancer in Tehran, Iran. Methods and Materials: In this molecular study, blood samples were collected from 56 women with invasive or in situ breast cancer in Tehran. Participants were 31–75 years old, with a mean age of 53 years, while controls were selected from a comparable age range with a mean age of 49 years. Genomic DNA was extracted using the saturated-salt method. Target exons were amplified by polymerase chain reaction (PCR) using exon-specific primers, and PCR products were subsequently sequenced by Microsynth, Switzerland. Sequence data were extracted in FASTA format using Chromas Lite and compared with reference sequences using NCBI BLAST. Protein-level analyses were conducted using ExPASy and EBI resources, and predicted secondary and three-dimensional protein structures were evaluated using Phyre2. Findings: Comparative sequence analysis demonstrated approximately 99% similarity between nucleotide sequences of exon 10 of BRCA2 and reference sequences reported from the United States and the United Kingdom. Exon 11 of BRCA2 showed approximately 97%–99% similarity with sequences reported from Hong Kong, whereas exon 1 of RAD51 demonstrated approximately 98%–99% similarity with reference sequences from the United States. Among the investigated genetic regions, alterations in exon 11 of BRCA2 showed the greatest observed frequency. Phylogenetic comparisons of BRCA2 exons 10 and 11 and RAD51 exon 1 indicated high genetic similarity between the studied Tehran breast-cancer samples and corresponding reference sequences from the United States, United Kingdom, and Hong Kong. Conclusion: The findings indicate detectable genetic alterations in breast cancer-associated genes among women with breast cancer in Tehran, with particularly notable variation in BRCA2 exon 11. Molecular techniques incorporating PCR and DNA sequencing may contribute to identifying clinically relevant genetic changes and could support earlier molecular assessment of individuals at increased risk of hereditary breast cancer.",
+      "date": "2026-11-01T00:00:00.000Z",
+      "source": "openalex",
+      "url": "https://journalecs.com/index.php/ecs/article/view/437",
+      "pdfUrl": "https://journalecs.com/index.php/ecs/article/download/437/417",
+      "categories": [
+        "Genetics",
+        "Biology",
+        "Gene",
+        "Cancer",
+        "Sequence (biology)",
+        "Molecular biology",
+        "Bioinformatics",
+        "Medicine",
+        "Oncology"
+      ],
+      "tags": [
+        "Health"
+      ],
+      "citationCount": 0,
+      "venue": "International Journal of Education and Cognitive Sciences"
+    },
+    {
+      "id": "W7217882599",
+      "title": "Design and Evaluation of an Artificial Intelligence–Based Model for Predicting Twelfth-Grade Students’ Mathematics Performance Based on Individual, Educational, and Learning Technology Factors",
+      "authors": [
+        "Najmeh Yosefi",
+        "Mahdi Azhini",
+        "Hamidreza Kashefi",
+        "Nourooz Hashemi"
+      ],
+      "abstract": "Purpose: This study aimed to design and evaluate an artificial intelligence–based model for predicting the mathematics performance of twelfth-grade experimental sciences students based on individual, educational, and learning technology factors. Methods and Materials: This applied, quantitative, cross-sectional, and predictive study was conducted among twelfth-grade experimental sciences students in Isfahan, Iran. A total of 187 questionnaires were distributed, and after removing incomplete, inconsistent, and invalid records, data from 84 students were retained for analysis. Data were collected using a structured questionnaire assessing individual factors, educational conditions, and learning technology variables, together with students’ recorded mathematics scores. The dataset was divided into training and testing subsets, and repeated five-fold cross-validation was used for internal model development. Multiple linear regression, ridge regression, lasso regression, elastic net regression, decision tree regression, random forest regression, gradient boosting regression, and support vector regression were compared. Model performance was evaluated using mean absolute error, root mean squared error, and the coefficient of determination. Findings: Previous mathematics achievement had the strongest positive correlation with current mathematics performance, followed by mathematics self-efficacy, study regularity, academic motivation, teacher feedback, instructional quality, and educational use of learning technologies. Test anxiety and digital distraction were negatively associated with mathematics performance. Among the evaluated algorithms, gradient boosting regression achieved the best predictive performance, with a test-set mean absolute error of 0.93, root mean squared error of 1.26, and coefficient of determination of .72. Previous mathematics achievement, mathematics self-efficacy, study regularity, teacher feedback, educational use of learning technologies, test anxiety, and instructional quality were the most influential predictors. Adding educational factors increased explained variance from .54 to .65, while including learning technology factors further increased it to .72. Conclusion: The findings indicate that mathematics performance can be predicted with acceptable accuracy by integrating students’ prior achievement, psychological and behavioral characteristics, instructional experiences, and learning technology use within an interpretable artificial intelligence model.",
+      "date": "2026-11-01T00:00:00.000Z",
+      "source": "openalex",
+      "url": "https://journalecs.com/index.php/ecs/article/view/428",
+      "pdfUrl": "https://journalecs.com/index.php/ecs/article/download/428/419",
+      "categories": [
+        "Mean squared error",
+        "Decision tree",
+        "Mathematics",
+        "Machine learning",
+        "Mathematics education",
+        "Random forest",
+        "Regression analysis",
+        "Linear regression",
+        "Test (biology)",
+        "Computer science",
+        "Pearson product-moment correlation coefficient",
+        "Statistics",
+        "Correlation coefficient",
+        "Artificial intelligence",
+        "Predictive modelling",
+        "Boosting (machine learning)",
+        "Coefficient of determination",
+        "Lasso (programming language)",
+        "Linear model",
+        "Multilevel model",
+        "Test data",
+        "Regression",
+        "Mean squared prediction error",
+        "Educational data mining"
+      ],
+      "tags": [
+        "Education"
+      ],
+      "citationCount": 0,
+      "venue": "International Journal of Education and Cognitive Sciences"
+    },
+    {
+      "id": "W7217884258",
+      "title": "The Effect of Artificial Intelligence–Induced Stress on Employees’ Individual Creativity: Examining the Roles of Stress-Coping Strategies and Management Commitment",
+      "authors": [
+        "Hamideh Shekari",
+        "SaeidReza Kamanchi"
+      ],
+      "abstract": "Objective: The present study aimed to investigate the effect of artificial intelligence–induced stress on employees’ individual creativity, considering the mediating role of stress-coping strategies and the moderating role of management commitment. Methods and Materials: In terms of purpose, this was an applied study, and methodologically, it employed a descriptive survey design. The statistical population comprised all permanent employees of the Yazd City Gas Company between September 2025 and March 2026. Based on Cochran’s formula, 125 employees were selected through simple random sampling. Data were collected using the standardized questionnaire developed by Tong et al. (2025), which assessed artificial intelligence–induced stress, stress-coping strategies, individual creativity, and management commitment. The validity of the instrument was confirmed through confirmatory factor analysis, average variance extracted, and the Fornell–Larcker criterion, while its reliability was verified using Cronbach’s alpha and composite reliability. The data were analyzed using SPSS version 26 and structural equation modeling in SmartPLS version 4. Findings: The results indicated that artificial intelligence–induced stress had a direct and significant effect on stress-coping strategies, which, in turn, significantly enhanced employees’ individual creativity. The indirect effect of artificial intelligence–induced stress on individual creativity through the mediating variable of stress-coping strategies was also confirmed. However, the direct effect of artificial intelligence–induced stress on individual creativity was not statistically significant. Furthermore, the moderating role of management commitment in the relationship between artificial intelligence–induced stress and stress-coping strategies was not confirmed. Conclusion: The findings demonstrated that artificial intelligence–induced stress does not necessarily lead directly to a reduction in employee creativity; rather, the manner in which employees manage and cope with this stress determines its creative outcomes. The use of adaptive coping strategies can transform technology-related pressures into opportunities for learning, intrinsic motivation, and creative ideation.",
+      "date": "2026-11-01T00:00:00.000Z",
+      "source": "openalex",
+      "url": "https://journals.kmanpub.com/index.php/ijimob/article/view/5815",
+      "pdfUrl": "https://journals.kmanpub.com/index.php/ijimob/article/download/5815/11245",
+      "categories": [
+        "Psychology",
+        "Structural equation modeling",
+        "Variance (accounting)",
+        "Creativity",
+        "Stress (linguistics)",
+        "Applied psychology",
+        "Stress management",
+        "Population",
+        "Social psychology",
+        "Variables",
+        "Moderation",
+        "Descriptive statistics",
+        "Sample (material)",
+        "Variable (mathematics)",
+        "Statistical analysis",
+        "Survey methodology",
+        "Occupational stress",
+        "Clinical psychology",
+        "Statistics",
+        "Developmental psychology",
+        "Statistical hypothesis testing"
+      ],
+      "tags": [
+        "Education"
+      ],
+      "citationCount": 0,
+      "venue": "International Journal of Innovation Management and Organizational Behavior (IJIMOB)"
+    },
+    {
+      "id": "W7218146293",
+      "title": "Designing a Model for Enhancing the Skills of Primary School Principals with an Emphasis on STEAM Education",
+      "authors": [
+        "Neda Yarandi",
+        "Hamid Shafizadeh",
+        "Fakhreddin Ahmadi"
+      ],
+      "abstract": "Objective: This study aimed to design a comprehensive model for enhancing the professional and managerial skills of primary school principals with an emphasis on the implementation of Science, Technology, Engineering, Arts, and Mathematics (STEAM) education. Methods and Materials: This qualitative study employed a thematic analysis design. The study population consisted of primary school principals, experts in school management and STEAM education, university faculty members, educational administrators, and specialists working in the 22 education districts of Tehran, Iran. Fifteen participants were selected through purposive sampling, and recruitment continued until theoretical data saturation was achieved. Data were collected through in-depth, semi-structured interviews designed to explore participants’ experiences, perceptions, and recommendations regarding the competencies required by primary school principals for the successful implementation of STEAM education. The interview data were transcribed, coded, categorized, and analyzed using thematic network analysis. The credibility and consistency of the findings were supported through systematic coding, continuous comparison of the extracted concepts, expert review, and revision of the thematic structure. Findings: The thematic network analysis identified 155 initial codes, which were classified into 28 organizing themes and six global themes. The six principal dimensions of the proposed model were strategic and transformational leadership of primary school principals in implementing STEAM education; development of the professional and managerial competencies of school human resources; establishment of a participatory, innovative, and learning-oriented organizational culture; management of resources, processes, and the quality of STEAM program implementation; enhancement of managerial communication, collaboration, and networking skills; and sustainability, alignment, institutionalization, and inclusive implementation of STEAM programs in primary schools. These interconnected dimensions constituted the main structural components of the proposed skill-enhancement model. Conclusion: The proposed model indicates that successful STEAM implementation requires primary school principals to possess integrated leadership, professional, communicative, organizational, and resource-management competencies.",
+      "date": "2026-11-01T00:00:00.000Z",
+      "source": "openalex",
+      "url": "https://journals.kmanpub.com/index.php/ijimob/article/view/5820",
+      "pdfUrl": "https://journals.kmanpub.com/index.php/ijimob/article/download/5820/11240",
+      "categories": [
+        "Credibility",
+        "Transformational leadership",
+        "Medical education",
+        "Population",
+        "Qualitative research",
+        "Consistency (knowledge bases)",
+        "Pedagogy",
+        "Psychology",
+        "Focus group",
+        "Competence (human resources)",
+        "Qualitative property",
+        "Professional development",
+        "Quality (philosophy)",
+        "Mathematics education",
+        "Educational leadership",
+        "Engineering",
+        "Principal (computer security)",
+        "Primary education",
+        "Program evaluation",
+        "Documentation",
+        "Knowledge management"
+      ],
+      "tags": [
+        "Collaboration",
+        "Education"
+      ],
+      "citationCount": 0,
+      "venue": "International Journal of Innovation Management and Organizational Behavior (IJIMOB)"
+    },
+    {
+      "id": "W7218295598",
+      "title": "An Investigation of Management Practices in Raw Material Cost Accounting: Evidence from Iraqi Industrial Companies",
+      "authors": [
+        "Ali Awadh Atshan",
+        "Javad Rezazadeh",
+        "Sahar Sepasi"
+      ],
+      "abstract": "This study aimed to investigate management practices in raw material cost accounting and their effects on cost control and optimization in Iraqi industrial companies. In terms of purpose, the study was applied, and in terms of nature, it employed a descriptive-correlational survey design. The statistical population consisted of financial managers, cost accountants, and cost-control specialists working in Iraqi industrial companies. Using Cochran’s formula, the sample size was determined to be 384 participants, who were selected through stratified random sampling. Data were collected using a researcher-developed questionnaire comprising 25 items rated on a five-point Likert scale. Descriptive statistics, Spearman’s rank-order correlation test, and multiple linear regression analysis were performed using SPSS software. The results showed that raw material cost-management challenges had the highest mean score of 4.10 out of 5, whereas raw material inventory and consumption management had the lowest mean score of 3.25. The most important challenges were severe fluctuations in raw material prices and supply chain disruptions. The hypothesis-testing results also indicated that cost-management practices (β = 0.34) and inventory management (β = 0.29) had positive and statistically significant effects on cost control, whereas cost-management challenges (β = −0.22) had a negative and statistically significant effect. The regression model explained 52.4% of the variance in the dependent variable. Iraqi industrial companies face serious challenges in managing raw material costs, primarily arising from external factors, including price fluctuations and supply chain disruptions, as well as internal weaknesses, such as inadequate information systems and traditional inventory-management practices. Strengthening cost-management practices and improving inventory management can contribute substantially to reducing costs and increasing the profitability of these companies.",
+      "date": "2026-11-01T00:00:00.000Z",
+      "source": "openalex",
+      "url": "https://journalfwdmj.com/index.php/fwdmj/article/view/320",
+      "pdfUrl": "https://journalfwdmj.com/index.php/fwdmj/article/download/320/329",
+      "categories": [
+        "Raw material",
+        "Business",
+        "Descriptive statistics",
+        "Regression analysis",
+        "Sample (material)",
+        "Operations management",
+        "Population",
+        "Variance (accounting)",
+        "Likert scale",
+        "Raw data",
+        "Linear regression",
+        "Sample size determination",
+        "Supply chain",
+        "Control (management)",
+        "Stratified sampling",
+        "Environmental economics",
+        "Inventory control",
+        "Cost accounting",
+        "Financial management",
+        "Agricultural science",
+        "Materials management",
+        "Total cost",
+        "Statistics"
+      ],
+      "tags": [],
+      "citationCount": 0,
+      "venue": "Future of Work and Digital Management Journal"
+    },
+    {
+      "id": "W7220252188",
+      "title": "Challenges of E-Government in Enhancing the Efficiency of Public Administration and Safeguarding Citizens’ Public Rights: A Comparative Study of Iran and the United Kingdom",
+      "authors": [
+        "Mehrdad Jamal Arvanaghi",
+        "Ahmad Ranjbar",
+        "Alireza Saybani",
+        "Mohammad Bahadori Jahromi"
+      ],
+      "abstract": "The digital transformation of public administration has altered the delivery of public services, the exercise of administrative authority, and the relationship between governments and citizens. Although e-government can reduce bureaucratic procedures, accelerate service delivery, improve institutional coordination, and facilitate access to administrative information, it may also generate legal, institutional, managerial, and technological risks that undermine both administrative efficiency and citizens’ public rights. This article comparatively examines these challenges in Iran and the United Kingdom through a qualitative, descriptive-analytical, and comparative legal method. The analysis focuses on institutional fragmentation, weak interoperability, digital reproduction of traditional bureaucracy, unequal organisational capacity, cybersecurity threats, infrastructure failure, poor data quality, digital exclusion, privacy risks, concentration of governmental information, algorithmic discrimination, limited transparency, unclear administrative responsibility, inadequate human assistance, and barriers to effective complaint and remedy. The findings indicate that Iran’s principal difficulties arise from fragmented digital systems, uneven institutional capacity, incomplete data-governance safeguards, insufficient interoperability, and uncertainty regarding responsibility for digital administrative errors. The United Kingdom benefits from comparatively stronger coordination, service-design standards, data-protection mechanisms, accessibility requirements, and administrative-review structures; nevertheless, it continues to face serious concerns relating to digital exclusion, automated welfare administration, outsourcing, algorithmic opacity, cybersecurity, and the concentration of informational power. The article argues that e-government does not automatically produce efficient or rights-compatible administration. Its legitimacy and effectiveness depend on the establishment of a rights-based digital-governance framework grounded in legality, equality, accessibility, transparency, accountability, privacy, data security, proportionality, human review, and effective remedies. The study concludes that administrative efficiency and the protection of citizens’ rights should be treated as mutually reinforcing objectives. Sustainable digital-government reform therefore requires coordinated legal regulation, institutional integration, administrative-process redesign, inclusive service delivery, resilient infrastructure, and enforceable mechanisms for reviewing and correcting digital administrative decisions.",
+      "date": "2026-11-01T00:00:00.000Z",
+      "source": "openalex",
+      "url": "https://www.journalisslp.com/index.php/isslp/article/view/523",
+      "pdfUrl": "https://www.journalisslp.com/index.php/isslp/article/download/523/1057",
+      "categories": [
+        "Safeguarding",
+        "Public administration",
+        "Business",
+        "Principal (computer security)",
+        "Public service",
+        "Digital transformation",
+        "Government (linguistics)",
+        "Information technology",
+        "Administrative law",
+        "Political science",
+        "Agency (philosophy)",
+        "Public relations",
+        "Administrative services organization",
+        "Complaint",
+        "Data Protection Act 1998",
+        "Service (business)",
+        "Human rights",
+        "Welfare",
+        "Administration (probate law)"
+      ],
+      "tags": [
+        "Accessibility",
+        "Privacy"
+      ],
+      "citationCount": 0,
+      "venue": "Interdisciplinary Studies in Society, Law, and Politics"
+    },
+    {
+      "id": "W7222774629",
+      "title": "Environmental accounting curriculum construction: a study from environmentally challenging site",
+      "authors": [
+        "Fidelis Arastyo Andono",
+        "Ach Maulidi",
+        "Jantje. E Lekatompessy"
+      ],
+      "abstract": "The demand for the business to engage more into sustainability issues contributes to the increasing challenge in accounting profession to adapt to it. Yet, previous studies that deeply investigate the effort to close the accounting graduates competencies gap through relevant curriculum are limited, especially in the context of environmentally fragile regions. The purpose of this study is to deeply investigate how environmental awareness is constructed and enacted within accounting curriculum development in this context. This research design is grounded in Schatzki’s theory of practice and site ontology to guide data analysis process. North Maluku as the jurisdiction of LLDIKTI XII was selected in accordance to the research gap, and semi-structured interviews were conducted with nine accounting academics from six universities under within the area to discover how sustainability values are internalised and translated into pedagogical and institutional practices. The findings suggest that curriculum development operates as a living practice of collective reflection, professional dialogue, and moral engagement where educators integrate environmental awareness across ethics, management, and locally contextual modules. Moreover, professional networks emerge as dialogic practice sites where academic and professional logics converge to co-construct curriculum legitimacy. Theoretically, the study extends Schatzki’s notion of social sites by conceptualising curriculum as an evolving ecology of moral practice linking sustainability, ethics, and professional identity. Practically, it calls for institutional frameworks that promote reflective curriculum forums, collaborative networks, and sustainability-driven pedagogical rewards. Through this integration, accounting education becomes a site for developing moral agency and ecological accountability in regions facing acute environmental challenges.",
+      "date": "2026-11-01T00:00:00.000Z",
+      "source": "openalex",
+      "url": "http://repository.ubaya.ac.id/51368/",
+      "pdfUrl": "https://repository.ubaya.ac.id/51368/3/1111-4507-2-PB%20lengkap.pdf",
+      "categories": [
+        "Curriculum",
+        "Agency (philosophy)",
+        "Sociology",
+        "Context (archaeology)",
+        "Sustainability",
+        "Environmental accounting",
+        "Environmental education",
+        "Engineering ethics",
+        "Pedagogy",
+        "Dialogic",
+        "Accountability",
+        "Professional development",
+        "Structure and agency",
+        "Public relations",
+        "Sustainable development",
+        "Political science",
+        "Accounting research",
+        "Practice theory",
+        "Accounting",
+        "Environmental studies",
+        "Situated",
+        "Qualitative research",
+        "Moral agency",
+        "Professional conduct",
+        "Moral development",
+        "Corporate social responsibility",
+        "Reflective practice",
+        "Participant observation"
+      ],
+      "tags": [
+        "Collaboration",
+        "Education"
+      ],
+      "citationCount": 0,
+      "venue": "Ubaya Repository (University of Surabaya)"
+    },
+    {
+      "id": "W7162900437",
+      "title": "REFLECTIONS FROM UPRISING: THE ROLE OF YOUTH AND SOCIAL MEDIA IN POLITICAL MOVEMENTS IN NEPAL AND INDONESIA",
+      "authors": [
+        "M. (Md. Yeasir) Arafat",
+        "M. (Md. Sobuj) Mia",
+        "M. (Md. Ismail Hossen) Imran",
+        "M. (MD. Rafiul) Islam"
+      ],
+      "abstract": "While youth-led digital activism is increasingly visible across the globe, scholarly understanding of how these dynamics shape political outcomes in South and Southeast Asia remains limited. Addressing this gap, this study investigates how Generation Z in Nepal and Indonesia employs social media to mobilize political action and influence institutional change. Specifically, the research compares the mechanisms through which online platforms facilitate coordination, amplify grievances, and construct collective identity among young activists in both countries. Using a qualitative comparative approach that integrates media content analysis with secondary data from reports and news archives, the study analyzes two key cases: the 2025 social-media-ban protests in Nepal and the digitally driven mass demonstrations in Indonesia. The findings show that digital activism not only accelerates the transition from online engagement to offline mobilization but also generates cross-border ripple effects, where successful youth movements inspire similar actions in neighboring states. This study contributes to a deeper understanding of youth political agency in the digital era and offers insights into the evolving patterns of civic engagement shaped by social media.",
+      "date": "2026-11-01T00:00:00.000Z",
+      "source": "openalex",
+      "url": "https://www.neliti.com/publications/731947/reflections-from-uprising-the-role-of-youth-and-social-media-in-political-moveme",
+      "pdfUrl": "https://media.neliti.com/media/publications/731947-reflections-from-uprising-the-role-of-yo-495cc603.pdf",
+      "categories": [
+        "Social media",
+        "Agency (philosophy)",
+        "Politics",
+        "Political science",
+        "Construct (python library)",
+        "Digital media",
+        "Identity (music)",
+        "Sociology",
+        "Public relations",
+        "Youth participation",
+        "Action (physics)",
+        "Online and offline",
+        "Gender studies",
+        "Social dynamics",
+        "Key (lock)",
+        "Content analysis",
+        "Media studies",
+        "Mass media",
+        "Political economy",
+        "Face (sociological concept)",
+        "Qualitative research",
+        "Sociotechnical system",
+        "Dynamics (music)",
+        "Social change",
+        "Youth engagement",
+        "Ethnography",
+        "Social engagement",
+        "Participant observation"
+      ],
+      "tags": [],
+      "citationCount": 0,
+      "venue": "Neliti"
+    },
+    {
+      "id": "10.1016/j.burns.2026.108106",
+      "title": "A burning issue: Methamphetamine intoxication is associated with graft loss.",
+      "authors": [
+        "Parisa Oviedo",
+        "Marjan Moghaddam",
+        "John R. Austin",
+        "Laura N Haines",
+        "Jeanne G. Lee",
+        "Jarrett E. Santorelli"
+      ],
+      "abstract": "INTRODUCTION: Methamphetamine intoxication can lead to medical complications in burn patients, including longer intensive care unit (ICU) stays, sepsis, and more burn debridement procedures. However, its impact on graft durability remains unexplored. We hypothesize that methamphetamine-positive burn patients have higher rates of graft loss. METHODS: A single center retrospective cohort study of patients admitted to the burn service from 2021 to 2024 was performed at an American Burn Association (ABA)-verified burn center. Patients were age 18 years or over, had toxicology screening, and were excluded if not screened for methamphetamine. The primary outcome measured was graft loss requiring return to operating room for re-graft or flap repair. Patient demographics, burn etiology, and use of autograft, along with ICU days, ventilator days, and length of stay were recorded. RESULTS: 746 patients were included in this study with median age 48 years and median total burn surface area burned for the full cohort of 8.35%. 112 patients were methamphetamine-positive. Methamphetamine users had higher rates of autograft loss (p < 0.001), even on logistic regression analysis. Methamphetamine users had increased TBSA (p = 0.01), longer hospital stays (p = 0.03), and increased likelihood of undergoing endotracheal intubation (p = 0.01). Methamphetamine-positive patients presented primarily with flame burns (p < 0.001), while non-users presented primarily with scald burns (p < 0.001). CONCLUSIONS: Methamphetamine-positive burn patients were more likely to sustain flame burns, undergo autografting, and experience graft loss as a complication. Methamphetamine is a unique risk factor for burn patients that increases risk of failing graft management. Routine toxicology testing can promptly identify these patients and notify providers earlier to plan for more intensive burn management.",
+      "date": "2026-11-01T00:00:00.000Z",
+      "source": "openalex",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42296615",
+      "doi": "https://doi.org/10.1016/j.burns.2026.108106",
+      "categories": [
+        "Medicine",
+        "Intensive care unit",
+        "Total body surface area",
+        "Anesthesia",
+        "Cohort",
+        "Surgery",
+        "Retrospective cohort study",
+        "Burn injury",
+        "Intubation",
+        "Emergency medicine",
+        "Cohort study",
+        "Risk factor",
+        "Poison control",
+        "Logistic regression",
+        "Debridement (dental)",
+        "Single Center"
+      ],
+      "tags": [
+        "Health"
+      ],
+      "citationCount": 0,
+      "venue": "PubMed"
+    },
+    {
+      "id": "W7223255546",
+      "title": "When Embodied AI Infers Too Much",
+      "authors": [
+        "Chengxu Zhou"
+      ],
+      "abstract": "As embodied AI systems enter homes, hospitals, and public spaces, they introduce a new class of privacy risks—not by recording more, but by inferring more. Drawing on modalities such as thermal imaging, radio-frequency sensing, chemical analysis, and pressure mapping, these systems can construct rich behavioural and physiological models of individuals, often without explicit user awareness or consent. While each signal may appear innocuous in isolation, sensor fusion can enable powerful inferences about health, habits, and emotional states. This article examines how current legal frameworks only partially address this shift from observation to inference, and explores how sensor design, regulatory oversight, and user-facing transparency can mitigate the risks. We argue that safeguarding privacy in the age of embodied AI requires recognising inference itself as a site of regulation and design—before silent insights become structural intrusions.",
+      "date": "2026-11-01T00:00:00.000Z",
+      "source": "openalex",
+      "url": "https://discovery.ucl.ac.uk/id/eprint/10232214/",
+      "pdfUrl": "https://discovery.ucl.ac.uk/id/eprint/10232214/1/When%20Embodied%20AI%20Infers%20Too%20Much.pdf",
+      "categories": [
+        "Embodied cognition",
+        "Transparency (behavior)",
+        "Computer science",
+        "Construct (python library)",
+        "Inference",
+        "Modalities",
+        "Human–computer interaction",
+        "Cognitive science",
+        "Class (philosophy)",
+        "Artificial intelligence",
+        "Data science",
+        "Sensor fusion",
+        "Negotiation",
+        "Internet privacy",
+        "Information privacy",
+        "Safeguarding",
+        "Computer security",
+        "SIGNAL (programming language)",
+        "Psychology"
+      ],
+      "tags": [
+        "Privacy",
+        "Health",
+        "Emotion"
+      ],
+      "citationCount": 0,
+      "venue": "UCL Discovery (University College London)"
+    },
+    {
+      "id": "10.34382/0002007652",
+      "title": "ライブコマースにおけるアルゴリズム的儀礼 ： 情動エネルギーの生成と価値転換メカニズム",
+      "authors": [
+        "Kaiyi Hu"
+      ],
+      "abstract": "",
+      "date": "2026-11-01T00:00:00.000Z",
+      "source": "openalex",
+      "url": "https://ritsumei.repo.nii.ac.jp/records/2007652",
+      "pdfUrl": "https://ritsumei.repo.nii.ac.jp/record/2007652/files/ba_65_4_hu_kaiyi.pdf",
+      "doi": "https://doi.org/10.34382/0002007652",
+      "categories": [],
+      "tags": [],
+      "citationCount": 0,
+      "venue": "Institutional Repositories DataBase (IRDB)"
+    },
+    {
+      "id": "W7223518331",
+      "title": "Smoke and Mirrors:Systematic OT Malware Elicitation",
+      "authors": [
+        "Edward Chapman",
+        "Matthew Rodda",
+        "Timothy Hobson",
+        "James Bishop",
+        "Vasilios Mavroudis"
+      ],
+      "abstract": "Operational Technology (OT) malware analysis remains an open problem as existing sandboxes lack the network simulation required to trigger exploitation-stage behaviour, and physical testbeds are costly and brittle across heterogeneous deployments. We present Smoke and Mirrors (SaM), a dynamic analysis system that reframes OT malware triage as a network-response exploration problem. Through dynamic binary instrumentation, SaM constructs a Network-Event Tree by systematically varying network reachability and protocol responses via coverage-guided fuzzing, eliciting targeted endpoints, protocol usage, and issued commands without physical devices or emulators. To keep exploration tractable, SaM decomposes multi-byte comparison guards into per-byte coverage feedback, linearising an exponential fuzzing task. We evaluate SaM against three real-world OT malware families (FrostyGoop, Triton, and Industroyer2) and show that conventional sandboxes and whole-system analysis fail to elicit any application-layer OT traffic. SaM recovers full attack sequences for FrostyGoop and Industroyer2, and navigates deep response-gated branches of Triton’s proprietary TriStation protocol seeded from a single packet capture, revealing previously undocumented functionality missed by prior expert analysis. Our results suggest that systematic, protocol-aware elicitation offers a practical path toward scalable OT malware triage.",
+      "date": "2026-11-01T00:00:00.000Z",
+      "source": "openalex",
+      "url": "https://kclpure.kcl.ac.uk/portal/en/publications/fbb2d2c7-9a8c-42b4-8d37-ee3001311bac",
+      "pdfUrl": "https://kclpure.kcl.ac.uk/portal/en/publications/fbb2d2c7-9a8c-42b4-8d37-ee3001311bac",
+      "categories": [
+        "Malware",
+        "Computer science",
+        "Reachability",
+        "Computer security",
+        "Scalability",
+        "Computer network",
+        "Network packet",
+        "Triage",
+        "Communications protocol",
+        "Adversary",
+        "Tree (set theory)",
+        "Network security",
+        "Server",
+        "Artificial intelligence",
+        "Reboot",
+        "Path (computing)",
+        "Bridge (graph theory)",
+        "Data mining",
+        "Protocol analysis",
+        "Threat model"
+      ],
+      "tags": [],
+      "citationCount": 0,
+      "venue": "Research Portal (King's College London)"
+    },
     {
       "id": "10.5281/zenodo.23415979",
       "title": "The Voice of AI: Consumer Psychology and the Strategic Use of AI-Generated Voices in Marketing",
@@ -3190,253 +3747,6 @@
         "cs.HC"
       ],
       "tags": []
-    },
-    {
-      "id": "2610.34317v1",
-      "title": "Developer Task Delegation to LLMs and the Trust Factor: A Mixed Methods Study",
-      "authors": [
-        "Samuel Ferino",
-        "Rashina Hoda",
-        "John Grundy",
-        "Christoph Treude",
-        "Hashini Gunatilake"
-      ],
-      "abstract": "With the rise of Large Language Models (LLMs), software developers are presented with a powerful new approach: delegating software development tasks to LLMs. Existing studies have explored task delegation for a subset of tasks and factors. Critically, what tasks developers delegate to LLMs, to what extent, and why they delegate them, is not yet well understood. We explore these questions through 22 interviews and a survey with 160 software practitioners. Developers reported employing four modes of task delegation to LLMs: full delegation, partial delegation, self-delegation, and task avoidance. Drawing on our qualitative findings, we discuss the rationales behind these choices and explore how task difficulty, task risk, developer motivation, and trust appear to be associated with software development task delegation to LLMs. Our statistical analysis reveals that trust is a significant factor associated with task delegation to LLMs. Finally, we share actionable implications for human-AI collaboration in software research, and for software practitioners to make the most of their newly found powers of delegation.",
-      "date": "2026-10-25T14:28:10.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2610.34317v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.34317v1",
-      "arxivId": "2610.34317v1",
-      "categories": [
-        "cs.SE",
-        "cs.AI",
-        "cs.HC"
-      ],
-      "tags": [
-        "LLM",
-        "Collaboration",
-        "Trust"
-      ]
-    },
-    {
-      "id": "2610.34107v1",
-      "title": "Can LLMs Trust Appropriately? Evaluating Calibrated Reliance on Imperfect Partners",
-      "authors": [
-        "Mengdi Chu",
-        "Jintao Huang"
-      ],
-      "abstract": "Large language models increasingly collaborate with humans and peer AI agents whose contributions may be incomplete, inconsistent, or incorrect. Effective collaboration requires calibrated trust, whereby decisions to rely on, verify, or assist a partner adapt rationally as empirical evidence accumulates. We investigate whether models translate partner evidence into appropriate reliance policies. We introduce a benchmark of 324 scenarios across 23 collaboration categories. Each scenario involves three sequential decisions with explicit transition dynamics, feedback emissions, and cost schedules, permitting exact analytical evaluation of choices against their expected consequences over the remaining interaction. Evaluating seven models alongside 36 controlled-history probes, we dissociate evidence sensitivity from normatively appropriate action. While the strongest frontier model approaches near-optimal decisions, other models exhibit recurring pathologies: procuring excessive safeguards, purchasing verification tests with zero expected value of information, prioritizing immediate savings over cooperative learning, and misallocating assistance to suboptimal channels. Supplying explicit posterior distributions resolves certain errors while introducing new failure modes. Calibrated trust in autonomous agents critically demands coupling empirical evidence with forward-looking decision utility.",
-      "date": "2026-10-25T07:06:31.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2610.34107v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.34107v1",
-      "arxivId": "2610.34107v1",
-      "categories": [
-        "cs.AI",
-        "cs.CL",
-        "cs.HC"
-      ],
-      "tags": [
-        "LLM",
-        "Collaboration",
-        "Education",
-        "Trust"
-      ]
-    },
-    {
-      "id": "2610.33997v1",
-      "title": "Detecting and Understanding Ambiguity in Visualizations with Role-Playing Vision Language Model Interpretations",
-      "authors": [
-        "Garrick Chan",
-        "Yun-Hsin Kuo",
-        "Sam Yu-Te Lee",
-        "Yinuo Tang",
-        "Kwan-Liu Ma"
-      ],
-      "abstract": "Communicative visualizations can support multiple chart-grounded takeaways, including divergent or conflicting ones; we refer to this variation as interpretive ambiguity. Such ambiguity can undermine a visualization's communicative goal when the supported takeaways diverge from its intended message. Evaluating visualizations with target audiences can surface this variation, but such evaluations can be costly and difficult to scale. In this work, we explore persona-conditioned Vision Language Models (VLMs) as a complementary evaluation tool for interpretive ambiguity. For a given visualization, our pipeline uses topic-relevant personas to elicit candidate contextual takeaways supported by interpretations of perceived visual patterns, such as trends and clusters. We derive a Target--Pattern--Scope framework for comparing these interpretations, use LLM judges to assign Compatible, Disjoint, or Opposing ambiguity labels to statement pairs, and summarize their distribution in an ambiguity profile. To improve chart grounding, we benchmark candidate VLMs on chart comprehension and select the highest-performing model for each chart type. We evaluate statement-pair labeling against human-authored annotations and apply the approach to real-world, public-facing visualizations curated from established datasets. Through case studies, we examine how perceived visual patterns relate to contextual takeaways and how a visualization redesign changes the sampled interpretations. Our findings show how persona-conditioned VLMs can complement human feedback by generating candidate contextual takeaways and surfacing potential ambiguity for further inspection.",
-      "date": "2026-10-25T02:16:54.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2610.33997v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.33997v1",
-      "arxivId": "2610.33997v1",
-      "categories": [
-        "cs.HC"
-      ],
-      "tags": [
-        "LLM",
-        "Visualization"
-      ]
-    },
-    {
-      "id": "2610.33979v1",
-      "title": "A spinal-inspired spiking neural network for continuous finger-joint kinematics estimation from high-density surface EMG",
-      "authors": [
-        "Cristian David Guerrero-Mendez",
-        "Leonardo Abdala Elias"
-      ],
-      "abstract": "Decoding simultaneous and proportional finger kinematics from high-density surface electromyography (HD sEMG) remains challenging. Although data-driven methods have shown promising performance for finger movement decoding, their limited physiological interpretability remains a relevant limitation. This study proposes and evaluates a spiking neural network (SNN) that incorporates spinal-inspired structures and mechanisms to predict multi-joint finger kinematics from HD sEMG signals. The spinal-inspired SNN includes a spike-encoding computational model with input-noise variability, a phenomenological representation of Henneman's size principle, and excitation/inhibition (E/I) balance. HD sEMG and kinematic data were collected from 23 healthy participants performing grasping tasks under different elbow and wrist postures. Performance was assessed using six prediction metrics and compared against six baseline machine learning and deep learning methods. The proposed method showed a large and significant ($p<0.05$, rank-biserial correlation $r_{rb}>0.7$) improvement over all baseline methods across all accuracy metrics. Performance improved significantly with increasing spike encoder firing rates up to approximately 128 Hz, and with more regular input spike trains compared with a Poisson-like encoder. In contrast, the E/I balance did not significantly affect the decoding performance of the algorithm. The firing rate and inter-spike interval statistics of the SNN differed significantly across motor tasks. These results demonstrate that incorporating neurophysiological principles into SNNs improves prediction performance while providing additional physiological interpretability for simultaneous and proportional finger-kinematics decoding. This approach represents a promising step toward physiology-informed neural networks, with potential applications in motor rehabilitation.",
-      "date": "2026-10-25T01:34:42.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2610.33979v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.33979v1",
-      "arxivId": "2610.33979v1",
-      "categories": [
-        "cs.HC"
-      ],
-      "tags": [
-        "Education",
-        "Health",
-        "Emotion"
-      ]
-    },
-    {
-      "id": "2610.33966v1",
-      "title": "InteractiveWorld: A Verifiable Human-Centric Environment for Building Better Interactive MLLM Assistants",
-      "authors": [
-        "Qinsi Wang",
-        "Wei Wen",
-        "Chong Zhou",
-        "Saksham Suri",
-        "Zechun Liu",
-        "Lemeng Wu",
-        "Hai Helen Li",
-        "Yiran Chen",
-        "Raghuraman Krishnamoorthi",
-        "Qi Qian"
-      ],
-      "abstract": "People have long dreamed of an assistant that is always there to guide them and remind what they forget, from new dishes to lost keys. Powered by multimodal large language models (MLLMs), egocentric AI assistants on wearable devices are bringing this dream within reach: they see what the user sees and give instructions for user's physical work when necessary. However, testing such assistance is challenging and usually requires real people. The expensive and rare real interaction data leaves a key question unanswered: Can today's MLLMs truly help people in physical world? To answer this question, we propose InteractiveWorld, the first verifiable environment for closed-loop interaction between human and AI assistant. Unlike existing robot-centric simulators, InteractiveWorld lets the assistant guide a human agent who observes the scene, understands instructions, and acts independently. It thus realistically simulates how AI assistant collaborates with human: the assistant instructs, the human acts, and the environment executes actions and updates what they see next. Building on it, we introduce InteractiveBench, the first dynamic benchmark for egocentric AI assistants, with 120 multi-turn tasks across six categories. In each task, the assistant guides the human in real time, and every instruction shapes the outcome, which is scored by verifiable, state-based rewards. Experiments with 12 frontier MLLMs show they are still far from reliable assistants. Even the strongest model, Claude Fable 5.1, achieves at most 20% and 25% on long-horizon Guidance and Planning tasks, respectively. Overall, our work offers a verifiable platform and a rigorous evaluation set, laying a solid foundation for research on interactive MLLM assistants that truly help people in the physical world.",
-      "date": "2026-10-25T00:44:29.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2610.33966v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.33966v1",
-      "arxivId": "2610.33966v1",
-      "categories": [
-        "cs.HC",
-        "cs.CV"
-      ],
-      "tags": [
-        "LLM",
-        "Robotics",
-        "Collaboration",
-        "Wearable"
-      ]
-    },
-    {
-      "id": "10.5281/zenodo.23588349",
-      "title": "Gesture Control Virtual Mouse using Opencv and Mediapipe",
-      "authors": [
-        "Kajal Wavare"
-      ],
-      "abstract": "This paper proposes a virtual mouse system based on Human c-computer interaction (HCI) using computer vision and hand gestures. Techniques for establishing the process of human-computer interaction (HCI) have evolved since the invention of computer technology. The mouse is its extensive innovation in HCI (Human-Computer Interaction) technology. Wireless or Bluetooth mouse technology is still in development, but the technology is not yet completely device-free. The Bluetooth mouse requires battery power and a connection dongle. The presence of additional devices in the mouse makes it difficult to use. The proposed mouse system solves these limitations. We have written a program for Controlling the mouse movement using Python and OpenCV with a real-time camera that detects hand patterns, tracks hand gesture patterns that replaces the work of a traditional physical mouse. Gestures captured with an integrated camera or webcam are processed with recognition technology. Basically, this system lets you use your computer completely hands-free. All you need is your normal laptop camera or a regular webcam to track your hand movements live. The software cleans up the video frames so it can track your hand smoothly. Then, when you make different movements like moving your hand up or down or changing your fingers—the system instantly figures out what you want to do. It maps those gestures to real mouse actions, allowing you to move the pointer, left-click, right-click, or double-click without ever touching a physical mouse. This new mouse system removes the need for physical hardware entirely, showing how human-computer interaction (HCI) technology is evolving to make devices easier to use.",
-      "date": "2026-10-25T00:00:00.000Z",
-      "source": "openalex",
-      "url": "https://doi.org/10.5281/zenodo.23588349",
-      "pdfUrl": "https://doi.org/10.5281/zenodo.23588349",
-      "doi": "https://doi.org/10.5281/zenodo.23588349",
-      "categories": [
-        "Laptop",
-        "Computer science",
-        "Gesture",
-        "Computer vision",
-        "Artificial intelligence",
-        "Process (computing)",
-        "Software",
-        "Python (programming language)",
-        "Computer graphics (images)",
-        "Wireless",
-        "Pointing device",
-        "Input device",
-        "Computer mouse",
-        "Embedded system",
-        "Computer hardware",
-        "Android (operating system)",
-        "Computer technology",
-        "Human–computer interaction",
-        "Track (disk drive)",
-        "Wearable computer",
-        "Mobile device",
-        "Control system",
-        "Personal computer",
-        "Remote control",
-        "Video camera",
-        "Tracking (education)",
-        "Thread (computing)"
-      ],
-      "tags": [
-        "Gesture"
-      ],
-      "citationCount": 0,
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)"
-    },
-    {
-      "id": "2610.33915v1",
-      "title": "Human-Aware Agentic Driving: Rethinking Driver State, Trust, and Intervention",
-      "authors": [
-        "Lu Feng"
-      ],
-      "abstract": "Agentic driving brings goal-directed reasoning, memory, tools, and adaptive interaction into automated vehicles. A vehicle can clarify a request, explain a maneuver, or prepare a driver to take control, then adapt its next action to the response. These capabilities make the vehicle an active participant in shaping the human behavior it observes. We examine how agentic interaction affects driver-state inference, trust and reliance, and human intervention in conditional automation. Established findings on attention, takeover prediction, trust-aware planning, and adaptive warnings provide useful foundations, but their applicability depends on how observations are elicited and how assistance changes the driving task. We distinguish what remains applicable, what changes under flexible interaction, and what remains unresolved across these three areas. The analysis identifies three research priorities: establishing the effects of interventions, jointly designing interaction and driving policies, and maintaining useful adaptation across repeated use and system changes. Progress should be measured through driver comprehension, appropriate reliance, and the ability to perform the required driving action in time.",
-      "date": "2026-10-24T21:03:32.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2610.33915v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.33915v1",
-      "arxivId": "2610.33915v1",
-      "categories": [
-        "cs.HC"
-      ],
-      "tags": [
-        "Emotion",
-        "Trust"
-      ]
-    },
-    {
-      "id": "2610.33876v1",
-      "title": "FlashScript: Compiling Recurring Agent Workflows into Reusable Neuro-Symbolic Programs",
-      "authors": [
-        "Sadra Sabouri",
-        "Hosein Hasanbeig",
-        "Adam Sage",
-        "Shreya Sinha",
-        "Cale Darling",
-        "Ashish Tiwari",
-        "Katie Garms",
-        "Souti Chattopadhyay",
-        "Sumit Gulwani"
-      ],
-      "abstract": "Many agent tasks recur with new data or small changes, yet agents regenerate their reasoning and actions on each run, producing different results. Distilling a prior run into a skill helps the agent avoid earlier mistakes, but it still re-runs the full process each time, so runs can vary and incur that cost. We compile a successful agent run into a reusable neuro-symbolic program (NSP) with a set of guidelines we call FlashScript. Actions and data transformations become code, instance-specific values become parameters, and decisions that need model judgment become LLM calls. We identify three layers where these calls belong and three techniques that replace most of them with code. The compilation does not remove nondeterminism; it localizes it, so the deterministic program and its neural calls can be reviewed and tested separately. Across 120 WorkBench analytics tasks with Claude Haiku 4.5, the NSPs were correct and made identical tool calls on every run, using about 70 times fewer input tokens and a third of the runtime of a skill-guided agent whose runs were inconsistent. In a composite version of the tasks, the skill-guided agent's accuracy fell to 23%, and its output inconsistency increased, while the NSPs remained correct and identical across all runs. The NSPs successfully generalized to all 108 unseen instances of the same templates. Our findings suggest that NSPs from agent trajectories can be considered cumulative software assets for end-users to test, maintain, and reuse in their recurring workflows.",
-      "date": "2026-10-24T19:32:30.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2610.33876v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.33876v1",
-      "arxivId": "2610.33876v1",
-      "categories": [
-        "cs.HC",
-        "cs.AI",
-        "cs.SE"
-      ],
-      "tags": [
-        "LLM"
-      ]
-    },
-    {
-      "id": "2610.33832v1",
-      "title": "EEGBiFormer: Real-Time EEG Attention Classification via Hybrid CNN-Transformer with EEG-Informed Auditory Protocol Validation",
-      "authors": [
-        "Isabella Guan"
-      ],
-      "abstract": "Sustained attention is critical for academic performance, yet existing auditory support tools are static and not grounded in real-time neural evidence. This paper presents EEGBiFormer, a hybrid CNN-Transformer model for realtime binary classification of attention states, focus versus nonfocus, from 16-channel EEG signals. A custom analog front-end acquisition board was designed and built to collect a task-based EEG dataset. Before model training, spectral and connectivity analysis, using Power Spectral Density and Phase Locking Value, confirmed distinct neural signatures between attention states, providing physiological grounding for the classification approach. EEGBiFormer achieved 91.3 percent window-level validation accuracy with an F1 score of 94.5 percent, and 88.2 percent recording-level accuracy across 17 independent sessions. End-to-end system latency was measured below 100 ms, supporting real-time responsiveness. The trained model was further used to objectively rank auditory stimuli by focus-state confidence, yielding EEG-informed audio protocols. In a paired within-subject behavioral study with 37 participants, these protocols produced a statistically significant 20 percent improvement in composite attention scores over silent controls, with a medium-to-large effect size. This work demonstrates a complete pipeline from custom EEG hardware through neural signal analysis, deep learning classification, and evidence-based auditory protocol design.",
-      "date": "2026-10-24T18:10:46.000Z",
-      "source": "arxiv",
-      "url": "https://arxiv.org/abs/2610.33832v1",
-      "pdfUrl": "https://arxiv.org/pdf/2610.33832v1",
-      "arxivId": "2610.33832v1",
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "cs.HC"
-      ],
-      "tags": [
-        "Education"
-      ]
     }
   ]
 }
